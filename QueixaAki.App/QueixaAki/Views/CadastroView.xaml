@@ -1,0 +1,665 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:components="clr-namespace:QueixaAki.Components;assembly=QueixaAki"
+             x:Class="QueixaAki.Views.CadastroView"
+             Title="Cadastro"
+             BackgroundColor="{StaticResource PrimaryColor}">
+    <Grid Padding="25">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <ScrollView HorizontalScrollBarVisibility="Default">
+            <StackLayout Spacing="3">
+                <TableView Intent="Form">
+                    <TableRoot>
+                        <TableSection Title="Login">
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="Email:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding Email}" 
+                                                          FontSize="Medium" 
+                                                          Keyboard="Email"
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="Senha:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding Senha}" 
+                                                          FontSize="Medium" 
+                                                          IsPassword="True"
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="Confirmar Senha:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding ConfirmarSenha}" 
+                                                          FontSize="Medium" 
+                                                          IsPassword="True"
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                        </TableSection>
+
+                        <TableSection Title="Dados Pessoais">
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="Nome:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding Nome}" 
+                                                          FontSize="Medium" 
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="RG:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding RG}" 
+                                                          Keyboard="Numeric"
+                                                          FontSize="Medium" 
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="CPF:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding CPF}" 
+                                                          Keyboard="Numeric"
+                                                          FontSize="Medium" 
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="Data de Nascimento:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <DatePicker Grid.Row="0" 
+                                                Grid.Column="1" 
+                                                Date="{Binding DataNascimento}" 
+                                                Format="dd/MM/yyy" 
+                                                FontSize="Medium"
+                                                TextColor="White"
+                                                Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+
+                            </ViewCell>
+                        </TableSection>
+
+                        <TableSection Title="Contato">
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="DDD:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding DDD1}" 
+                                                          Keyboard="Telephone"
+                                                          FontSize="Medium" 
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="Telefone:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding Telefone1}" 
+                                                          Keyboard="Telephone"
+                                                          FontSize="Medium" 
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="DDD:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding DDD2}" 
+                                                          Keyboard="Telephone"
+                                                          FontSize="Medium" 
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="Telefone:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding Telefone2}" 
+                                                          Keyboard="Telephone"
+                                                          FontSize="Medium" 
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                        </TableSection>
+
+                        <TableSection Title="Endereço">
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="Cep:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding Cep}" 
+                                                          Keyboard="Numeric"
+                                                          FontSize="Medium" 
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="Endereço:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding Endereco}" 
+                                                          FontSize="Medium" 
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="Número:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding Numero}" 
+                                                          Keyboard="Numeric"
+                                                          FontSize="Medium" 
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="Complemento:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding Complemento}" 
+                                                          FontSize="Medium" 
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="Bairro:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding Bairro}" 
+                                                          FontSize="Medium" 
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="Cidade:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding Cidade}" 
+                                                          FontSize="Medium" 
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" 
+                                           Grid.Column="0"
+                                           Text="Estado:" 
+                                           VerticalOptions="Center" 
+                                           FontSize="Medium"
+                                           Margin="12,0,0,-15"/>
+
+                                    <components:BaseEntry Grid.Row="0" 
+                                                          Grid.Column="1"
+                                                          Text="{Binding Estado}" 
+                                                          FontSize="Medium" 
+                                                          TextColor="White"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Margin="0,0,0,-15"/>
+
+                                    <BoxView Grid.Row="1"
+                                             Grid.Column="1"
+                                             HeightRequest="1" 
+                                             HorizontalOptions="FillAndExpand" 
+                                             BackgroundColor="{StaticResource TertiaryColor}"/>
+                                </Grid>
+                            </ViewCell>
+                        </TableSection>
+                    </TableRoot>
+                </TableView>
+            </StackLayout>
+        </ScrollView>
+
+        <Button Grid.Row="1" 
+                x:Name="btnSalvar" 
+                Text="SALVAR"
+                Command="{Binding SalvarCommand}"
+                HorizontalOptions="FillAndExpand"
+                Margin="0,10,0,0"/>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:QueixaAki.Views"
+       Title="QueixaAki"
+       x:Class="QueixaAki.AppShell">
+
+    <!--
+        The overall app visual hierarchy is defined here, along with navigation.
+    
+        https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/
+    -->
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource SecondaryColor}" />
+                <Setter Property="Shell.ForegroundColor" Value="{StaticResource TertiaryColor}" />
+                <Setter Property="Shell.TitleColor" Value="{StaticResource TertiaryColor}" />
+                <Setter Property="Shell.DisabledColor" Value="DimGray" />
+                <Setter Property="Shell.UnselectedColor" Value="DimGray" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource TertiaryColor}" />
+                <Setter Property="Shell.TabBarForegroundColor" Value="{StaticResource TertiaryColor}"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="DimGray"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="{StaticResource SecondaryColor}"/>
+            </Style>
+            <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
+            <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <TabBar>
+        <ShellContent Title="Início" Icon="home.png" Route="InicioView" ContentTemplate="{DataTemplate local:InicioView}" />
+        <ShellContent Title="Queixas" Icon="list.png" Route="QueixasView" ContentTemplate="{DataTemplate local:QueixasView}" />
+        <ShellContent Title="Configurações" Icon="settings.png" ContentTemplate="{DataTemplate local:ConfiguracoesView}" />
+    </TabBar>
+
+</Shell>
