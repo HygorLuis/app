@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Text.RegularExpressions;
+using QueixaAki.ViewModels.Base;
 
 namespace QueixaAki.Models
 {
-    public class Usuario
+    public class Usuario : BaseViewModel
     {
+        public long Id { get; set; }
+
         private string _nome;
         public string Nome
         {
@@ -27,9 +30,7 @@ namespace QueixaAki.Models
 
         #region TELEFONES
 
-        public string DDD1 { get; set; }
         public string Telefone1 { get; set; }
-        public string DDD2 { get; set; }
         public string Telefone2 { get; set; }
 
         #endregion
@@ -45,11 +46,15 @@ namespace QueixaAki.Models
             set => _cep = value;
         }
 
-        private string _endereco;
-        public string Endereco
+        private string _rua;
+        public string Rua
         {
-            get => _endereco?.ToUpper();
-            set => _endereco = value;
+            get => _rua?.ToUpper();
+            set
+            {
+                _rua = value;
+                OnPropertyChanged();
+            }
         }
 
         private string _numero;
@@ -70,21 +75,35 @@ namespace QueixaAki.Models
         public string Bairro
         {
             get => _bairro?.ToUpper();
-            set => _bairro = value;
+            set
+            {
+                _bairro = value;
+                OnPropertyChanged();
+            }
         }
 
         private string _cidade;
         public string Cidade
         {
             get => _cidade?.ToUpper();
-            set => _cidade = value;
+            set
+            {
+                _cidade = value;
+                DB = $"{value}_";
+                OnPropertyChanged();
+            }
         }
 
         private string _estado;
         public string Estado
         {
             get => _estado?.ToUpper().Trim();
-            set => _estado = value;
+            set
+            {
+                _estado = value;
+                DB += value;
+                OnPropertyChanged();
+            }
         }
 
         #endregion
@@ -92,5 +111,12 @@ namespace QueixaAki.Models
         public DateTime DataCriacao { get; set; }
 
         public bool Excluido { get; set; }
+
+        private string _db;
+        public string DB
+        {
+            get => _db?.ToUpper();
+            set => _db = value;
+        }
     }
 }

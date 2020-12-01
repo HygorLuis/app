@@ -30,14 +30,14 @@
 
                                     <Label Grid.Row="0" 
                                            Grid.Column="0"
-                                           Text="Email:" 
+                                           Text="E-Mail:" 
                                            VerticalOptions="Center" 
                                            FontSize="Medium"
                                            Margin="12,0,0,-15"/>
 
                                     <components:BaseEntry Grid.Row="0" 
                                                           Grid.Column="1"
-                                                          Text="{Binding Email}" 
+                                                          Text="{Binding Usuario.Email}" 
                                                           FontSize="Medium" 
                                                           Keyboard="Email"
                                                           TextColor="White"
@@ -72,7 +72,7 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                           Grid.Column="1"
-                                                          Text="{Binding Senha}" 
+                                                          Text="{Binding Usuario.Senha}" 
                                                           FontSize="Medium" 
                                                           IsPassword="True"
                                                           TextColor="White"
@@ -145,7 +145,7 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                           Grid.Column="1"
-                                                          Text="{Binding Nome}" 
+                                                          Text="{Binding Usuario.Nome}" 
                                                           FontSize="Medium" 
                                                           TextColor="White"
                                                           HorizontalOptions="FillAndExpand"
@@ -167,7 +167,7 @@
                                     </Grid.RowDefinitions>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="Auto"/>
-                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
                                     </Grid.ColumnDefinitions>
 
                                     <Label Grid.Row="0" 
@@ -179,11 +179,13 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                           Grid.Column="1"
-                                                          Text="{Binding RG}" 
+                                                          Text="{Binding Usuario.RG}" 
                                                           Keyboard="Numeric"
                                                           FontSize="Medium" 
                                                           TextColor="White"
                                                           HorizontalOptions="FillAndExpand"
+                                                          Placeholder="00.000.000-0"
+                                                          PlaceholderColor="Gray"
                                                           Margin="0,0,0,-15"/>
 
                                     <BoxView Grid.Row="1"
@@ -202,7 +204,7 @@
                                     </Grid.RowDefinitions>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="Auto"/>
-                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
                                     </Grid.ColumnDefinitions>
 
                                     <Label Grid.Row="0" 
@@ -214,12 +216,18 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                           Grid.Column="1"
-                                                          Text="{Binding CPF}" 
+                                                          Text="{Binding Usuario.CPF}" 
                                                           Keyboard="Numeric"
                                                           FontSize="Medium" 
                                                           TextColor="White"
                                                           HorizontalOptions="FillAndExpand"
-                                                          Margin="0,0,0,-15"/>
+                                                          Placeholder="000.000.000-00"
+                                                          PlaceholderColor="Gray"
+                                                          Margin="0,0,0,-15">
+                                        <Entry.Behaviors>
+                                            <components:MaskedBehavior Mask="XXX.XXX.XXX-XX" />
+                                        </Entry.Behaviors>
+                                    </components:BaseEntry>
 
                                     <BoxView Grid.Row="1"
                                              Grid.Column="1"
@@ -249,7 +257,7 @@
 
                                     <DatePicker Grid.Row="0" 
                                                 Grid.Column="1" 
-                                                Date="{Binding DataNascimento}" 
+                                                Date="{Binding Usuario.DataNascimento}" 
                                                 Format="dd/MM/yyy" 
                                                 FontSize="Medium"
                                                 TextColor="White"
@@ -275,24 +283,30 @@
                                     </Grid.RowDefinitions>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="Auto"/>
-                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
                                     </Grid.ColumnDefinitions>
 
                                     <Label Grid.Row="0" 
                                            Grid.Column="0"
-                                           Text="DDD:" 
+                                           Text="Telefone Fixo:" 
                                            VerticalOptions="Center" 
                                            FontSize="Medium"
                                            Margin="12,0,0,-15"/>
 
                                     <components:BaseEntry Grid.Row="0" 
                                                           Grid.Column="1"
-                                                          Text="{Binding DDD1}" 
+                                                          Text="{Binding Usuario.Telefone1}" 
                                                           Keyboard="Telephone"
                                                           FontSize="Medium" 
                                                           TextColor="White"
                                                           HorizontalOptions="FillAndExpand"
-                                                          Margin="0,0,0,-15"/>
+                                                          Margin="0,0,0,-15"
+                                                          Placeholder="(00) 0000-0000"
+                                                          PlaceholderColor="Gray">
+                                        <Entry.Behaviors>
+                                            <components:MaskedBehavior Mask="(XX) XXXX-XXXX" />
+                                        </Entry.Behaviors>
+                                    </components:BaseEntry>
 
                                     <BoxView Grid.Row="1"
                                              Grid.Column="1"
@@ -301,6 +315,7 @@
                                              BackgroundColor="{StaticResource TertiaryColor}"/>
                                 </Grid>
                             </ViewCell>
+
                             <ViewCell>
                                 <Grid>
                                     <Grid.RowDefinitions>
@@ -310,94 +325,30 @@
                                     </Grid.RowDefinitions>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="Auto"/>
-                                        <ColumnDefinition Width="*"/>
-                                    </Grid.ColumnDefinitions>
-
-                                    <Label Grid.Row="0" 
-                                           Grid.Column="0"
-                                           Text="Telefone:" 
-                                           VerticalOptions="Center" 
-                                           FontSize="Medium"
-                                           Margin="12,0,0,-15"/>
-
-                                    <components:BaseEntry Grid.Row="0" 
-                                                          Grid.Column="1"
-                                                          Text="{Binding Telefone1}" 
-                                                          Keyboard="Telephone"
-                                                          FontSize="Medium" 
-                                                          TextColor="White"
-                                                          HorizontalOptions="FillAndExpand"
-                                                          Margin="0,0,0,-15"/>
-
-                                    <BoxView Grid.Row="1"
-                                             Grid.Column="1"
-                                             HeightRequest="1" 
-                                             HorizontalOptions="FillAndExpand" 
-                                             BackgroundColor="{StaticResource TertiaryColor}"/>
-                                </Grid>
-                            </ViewCell>
-                            <ViewCell>
-                                <Grid>
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="Auto" />
-                                        <RowDefinition Height="Auto" />
-                                        <RowDefinition Height="Auto" />
-                                    </Grid.RowDefinitions>
-                                    <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="Auto"/>
-                                        <ColumnDefinition Width="*"/>
                                     </Grid.ColumnDefinitions>
 
                                     <Label Grid.Row="0" 
                                            Grid.Column="0"
-                                           Text="DDD:" 
+                                           Text="Telefone Celular:" 
                                            VerticalOptions="Center" 
                                            FontSize="Medium"
                                            Margin="12,0,0,-15"/>
 
                                     <components:BaseEntry Grid.Row="0" 
                                                           Grid.Column="1"
-                                                          Text="{Binding DDD2}" 
+                                                          Text="{Binding Usuario.Telefone2}" 
                                                           Keyboard="Telephone"
                                                           FontSize="Medium" 
                                                           TextColor="White"
                                                           HorizontalOptions="FillAndExpand"
-                                                          Margin="0,0,0,-15"/>
-
-                                    <BoxView Grid.Row="1"
-                                             Grid.Column="1"
-                                             HeightRequest="1" 
-                                             HorizontalOptions="FillAndExpand" 
-                                             BackgroundColor="{StaticResource TertiaryColor}"/>
-                                </Grid>
-                            </ViewCell>
-                            <ViewCell>
-                                <Grid>
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="Auto" />
-                                        <RowDefinition Height="Auto" />
-                                        <RowDefinition Height="Auto" />
-                                    </Grid.RowDefinitions>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="Auto"/>
-                                        <ColumnDefinition Width="*"/>
-                                    </Grid.ColumnDefinitions>
-
-                                    <Label Grid.Row="0" 
-                                           Grid.Column="0"
-                                           Text="Telefone:" 
-                                           VerticalOptions="Center" 
-                                           FontSize="Medium"
-                                           Margin="12,0,0,-15"/>
-
-                                    <components:BaseEntry Grid.Row="0" 
-                                                          Grid.Column="1"
-                                                          Text="{Binding Telefone2}" 
-                                                          Keyboard="Telephone"
-                                                          FontSize="Medium" 
-                                                          TextColor="White"
-                                                          HorizontalOptions="FillAndExpand"
-                                                          Margin="0,0,0,-15"/>
+                                                          Margin="0,0,0,-15"
+                                                          Placeholder="(00) 00000-0000"
+                                                          PlaceholderColor="Gray">
+                                        <Entry.Behaviors>
+                                            <components:MaskedBehavior Mask="(XX) XXXXX-XXXX" />
+                                        </Entry.Behaviors>
+                                    </components:BaseEntry>
 
                                     <BoxView Grid.Row="1"
                                              Grid.Column="1"
@@ -418,7 +369,7 @@
                                     </Grid.RowDefinitions>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="Auto"/>
-                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
                                     </Grid.ColumnDefinitions>
 
                                     <Label Grid.Row="0" 
@@ -430,12 +381,19 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                           Grid.Column="1"
-                                                          Text="{Binding Cep}" 
+                                                          Text="{Binding Usuario.Cep}" 
                                                           Keyboard="Numeric"
                                                           FontSize="Medium" 
                                                           TextColor="White"
                                                           HorizontalOptions="FillAndExpand"
-                                                          Margin="0,0,0,-15"/>
+                                                          Margin="0,0,0,-15"
+                                                          Placeholder="00000-000"
+                                                          PlaceholderColor="Gray"
+                                                          Unfocused="Cep_OnUnfocused">
+                                        <Entry.Behaviors>
+                                            <components:MaskedBehavior Mask="XXXXX-XXX" />
+                                        </Entry.Behaviors>
+                                    </components:BaseEntry>
 
                                     <BoxView Grid.Row="1"
                                              Grid.Column="1"
@@ -458,14 +416,14 @@
 
                                     <Label Grid.Row="0" 
                                            Grid.Column="0"
-                                           Text="Endereço:" 
+                                           Text="Rua:" 
                                            VerticalOptions="Center" 
                                            FontSize="Medium"
                                            Margin="12,0,0,-15"/>
 
                                     <components:BaseEntry Grid.Row="0" 
                                                           Grid.Column="1"
-                                                          Text="{Binding Endereco}" 
+                                                          Text="{Binding Usuario.Rua, Mode=TwoWay}" 
                                                           FontSize="Medium" 
                                                           TextColor="White"
                                                           HorizontalOptions="FillAndExpand"
@@ -499,7 +457,7 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                           Grid.Column="1"
-                                                          Text="{Binding Numero}" 
+                                                          Text="{Binding Usuario.Numero, Mode=TwoWay}" 
                                                           Keyboard="Numeric"
                                                           FontSize="Medium" 
                                                           TextColor="White"
@@ -534,7 +492,7 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                           Grid.Column="1"
-                                                          Text="{Binding Complemento}" 
+                                                          Text="{Binding Usuario.Complemento}" 
                                                           FontSize="Medium" 
                                                           TextColor="White"
                                                           HorizontalOptions="FillAndExpand"
@@ -568,7 +526,7 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                           Grid.Column="1"
-                                                          Text="{Binding Bairro}" 
+                                                          Text="{Binding Usuario.Bairro, Mode=TwoWay}" 
                                                           FontSize="Medium" 
                                                           TextColor="White"
                                                           HorizontalOptions="FillAndExpand"
@@ -602,7 +560,7 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                           Grid.Column="1"
-                                                          Text="{Binding Cidade}" 
+                                                          Text="{Binding Usuario.Cidade, Mode=TwoWay}" 
                                                           FontSize="Medium" 
                                                           TextColor="White"
                                                           HorizontalOptions="FillAndExpand"
@@ -636,7 +594,7 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                           Grid.Column="1"
-                                                          Text="{Binding Estado}" 
+                                                          Text="{Binding Usuario.Estado, Mode=TwoWay}" 
                                                           FontSize="Medium" 
                                                           TextColor="White"
                                                           HorizontalOptions="FillAndExpand"

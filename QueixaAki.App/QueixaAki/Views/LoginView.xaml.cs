@@ -20,6 +20,11 @@ namespace QueixaAki.Views
             base.OnAppearing();
             MessagingCenter.Subscribe<string>(this, "Entrar", msg =>
             {
+                Navigation.PushAsync(new InicioView());
+            });
+
+            MessagingCenter.Subscribe<string>(this, "Cadastrar", msg =>
+            {
                 Navigation.PushAsync(new CadastroView());
             });
         }
@@ -28,6 +33,7 @@ namespace QueixaAki.Views
         {
             base.OnDisappearing();
             MessagingCenter.Unsubscribe<string>(this, "Entrar");
+            MessagingCenter.Unsubscribe<string>(this, "Cadastrar");
         }
     }
 }
