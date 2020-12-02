@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using QueixaAki.Helpers;
 using QueixaAki.Models;
+using QueixaAki.Services;
 using QueixaAki.ViewModels.Base;
 using Xamarin.Forms;
 
@@ -29,9 +30,16 @@ namespace QueixaAki.ViewModels
         public string ConfirmarSenha { get; set; }
         public string MaskedTelefone { get; set; }
 
+        private UsuarioService _usuarioService;
+
         public CadastroViewModel()
         {
-            Usuario = new Usuario();
+            _usuarioService = new UsuarioService();
+            Usuario = new Usuario
+            {
+                DataNascimento = DateTime.Today,
+                Excluido = false
+            };
 
             SalvarCommand = new Command(Salvar);
         }
@@ -41,8 +49,14 @@ namespace QueixaAki.ViewModels
             if (!Validar()) return;
 
             Usuario.DataCriacao = DateTime.Now;
-            Usuario.Excluido = false;
-            Usuario.DB = "RioClaro_SP";
+
+            var result = _usuarioService.Incluir(Usuario);
+            if (result)
+                MessagingCenter.Send(new Message
+                {
+                    Title = "Sucesso",
+                    MessageText = "Usuário salvo com sucesso!"
+                }, "Message");
         }
 
         private bool Validar()
@@ -51,7 +65,7 @@ namespace QueixaAki.ViewModels
 
             var campos = "";
 
-            #region Login
+            #region LOGIN
 
             if (string.IsNullOrEmpty(Usuario.Email))
                 campos += string.IsNullOrEmpty(campos) ? "E-Mail" : ", E-Mail";
@@ -68,9 +82,6 @@ namespace QueixaAki.ViewModels
 
             if (string.IsNullOrEmpty(Usuario.Nome))
                 campos += string.IsNullOrEmpty(campos) ? "Nome" : ", Nome";
-
-            if (string.IsNullOrEmpty(Usuario.RG))
-                campos += string.IsNullOrEmpty(campos) ? "RG" : ", RG";
 
             if (string.IsNullOrEmpty(Usuario.CPF))
                 campos += string.IsNullOrEmpty(campos) ? "CPF" : ", CPF";
@@ -118,8 +129,33 @@ namespace QueixaAki.ViewModels
                 }, "Message");
                 return false;
             }
-            
+
             #endregion
+
+            #region VALIDAR CAMPOS
+
+            #region LOGIN
+
+            if (!Usuario.Email.ValidarEMail())
+            {
+                MessagingCenter.Send(new Message
+                {
+                    Title = "E-Mail",
+                    MessageText = "E-Mail não é válido!"
+                }, "Message");
+                return false;
+            }
+
+            // VERIFICAR SE E-MAIL JÁ ESTÁ CADASTRADO
+            /*if (!Usuario.CPF.ValidateCPF())
+            {
+                MessagingCenter.Send(new Message
+                {
+                    Title = "CPF",
+                    MessageText = "CPF não é válido!"
+                }, "Message");
+                return false;
+            }*/
 
             if (Usuario.Senha != ConfirmarSenha)
             {
@@ -131,6 +167,46 @@ namespace QueixaAki.ViewModels
                 return false;
             }
 
+            #endregion
+
+            #region DADOS PESSOAIS
+
+            // VERIFICAR SE RG JÁ ESTÁ CADASTRADO
+            /*if (!Usuario.CPF.ValidateCPF())
+            {
+                MessagingCenter.Send(new Message
+                {
+                    Title = "CPF",
+                    MessageText = "CPF não é válido!"
+                }, "Message");
+                return false;
+            }*/
+
+            if (!Usuario.CPF.ValidarCPF())
+            {
+                MessagingCenter.Send(new Message
+                {
+                    Title = "CPF",
+                    MessageText = "CPF não é válido!"
+                }, "Message");
+                return false;
+            }
+
+            // VERIFICAR SE CPF JÁ ESTÁ CADASTRADO
+            /*if (!Usuario.CPF.ValidateCPF())
+            {
+                MessagingCenter.Send(new Message
+                {
+                    Title = "CPF",
+                    MessageText = "CPF não é válido!"
+                }, "Message");
+                return false;
+            }*/
+
+            #endregion
+
+            #endregion
+
             return true;
         }
 
@@ -139,7 +215,7 @@ namespace QueixaAki.ViewModels
             try
             {
                 if (string.IsNullOrEmpty(cep) || string.IsNullOrWhiteSpace(cep)) return;
-                if (!cep.ValidateCep()) return;
+                if (!cep.ValidarCep()) return;
 
                 var request = (HttpWebRequest)WebRequest.Create("https://viacep.com.br/ws/" + cep + "/json/");
                 request.AllowAutoRedirect = false;

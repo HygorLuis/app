@@ -17,7 +17,18 @@ namespace QueixaAki.Models
 
         public string RG { get; set; }
         public string CPF { get; set; }
-        public DateTime? DataNascimento { get; set; }
+
+        private DateTime? _dataNascimento;
+
+        public DateTime? DataNascimento
+        {
+            get => _dataNascimento;
+            set
+            {
+                _dataNascimento = value;
+                OnPropertyChanged();
+            }
+        }
 
         #region CONTATO
 

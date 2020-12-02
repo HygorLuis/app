@@ -1,6 +1,4 @@
-﻿using System;
-using QueixaAki.Components;
-using QueixaAki.Helpers;
+﻿using QueixaAki.Components;
 using QueixaAki.Models;
 using QueixaAki.ViewModels;
 using Xamarin.Forms;

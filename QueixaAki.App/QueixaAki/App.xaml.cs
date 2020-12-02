@@ -6,6 +6,7 @@ namespace QueixaAki
 {
     public partial class App : Application
     {
+        public static string ConnectionString = "Server=10.0.2.2; Initial Catalog=QueixaAki; User ID=queixaaki; Password=3ky09p005";
 
         public App()
         {
