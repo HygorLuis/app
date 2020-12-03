@@ -15,12 +15,19 @@ namespace QueixaAki.Models
             set => _nome = value?.ToUpper();
         }
 
+        private string _sobrenome;
+        public string Sobrenome
+        {
+            get => _sobrenome?.ToUpper();
+            set => _sobrenome = value?.ToUpper();
+        }
+
         public string RG { get; set; }
         public string CPF { get; set; }
 
-        private DateTime? _dataNascimento;
+        private DateTime _dataNascimento;
 
-        public DateTime? DataNascimento
+        public DateTime DataNascimento
         {
             get => _dataNascimento;
             set

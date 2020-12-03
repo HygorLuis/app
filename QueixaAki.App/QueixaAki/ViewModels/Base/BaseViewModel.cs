@@ -12,18 +12,15 @@ namespace QueixaAki.ViewModels.Base
     {
         public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
 
-        bool isBusy = false;
-        public bool IsBusy
+        private bool _carregando = false;
+        public bool Carregando
         {
-            get { return isBusy; }
-            set { SetProperty(ref isBusy, value); }
-        }
-
-        string title = string.Empty;
-        public string Title
-        {
-            get { return title; }
-            set { SetProperty(ref title, value); }
+            get => _carregando;
+            set
+            {
+                _carregando = value;
+                OnPropertyChanged();
+            }
         }
 
         protected bool SetProperty<T>(ref T backingStore, T value,

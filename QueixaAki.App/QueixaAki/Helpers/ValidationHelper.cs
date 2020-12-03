@@ -12,6 +12,16 @@ namespace QueixaAki.Helpers
             return digitsOnly.Replace(sentence, "");
         }
 
+        public static bool ValidarNome(this string nome)
+        {
+            return Regex.Match(nome.Replace(" ", ""), @"^[a-zA-Z]+$").Success;
+        }
+
+        public static bool ValidarSenha(this string senha)
+        {
+            return Regex.Match(senha, @"^[a-zA-Z0-9]+$").Success;
+        }
+
         public static bool ValidarCep(this string postCode)
         {
             return postCode != null && Regex.Match(postCode, @"^[0-9]{2}.?[0-9]{3}-[0-9]{3}$").Success;

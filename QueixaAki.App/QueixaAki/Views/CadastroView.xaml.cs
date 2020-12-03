@@ -22,6 +22,8 @@ namespace QueixaAki.Views
             MessagingCenter.Subscribe<Message>(this, "Message", msg =>
             {
                 DisplayAlert(msg.Title, msg.MessageText, "OK");
+                if (msg.Title == "Sucesso")
+                    Navigation.PushAsync(new LoginView());
             });
         }
 

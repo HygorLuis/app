@@ -17,6 +17,8 @@ namespace QueixaAki.ViewModels
     {
         public ICommand SalvarCommand { get; set; }
 
+        private string _cepAntes;
+
         private Usuario _usuario;
         public Usuario Usuario
         {
@@ -28,7 +30,6 @@ namespace QueixaAki.ViewModels
             }
         }
         public string ConfirmarSenha { get; set; }
-        public string MaskedTelefone { get; set; }
 
         private UsuarioService _usuarioService;
 
@@ -44,22 +45,7 @@ namespace QueixaAki.ViewModels
             SalvarCommand = new Command(Salvar);
         }
 
-        public void Salvar()
-        {
-            if (!Validar()) return;
-
-            Usuario.DataCriacao = DateTime.Now;
-
-            var result = _usuarioService.Incluir(Usuario);
-            if (result)
-                MessagingCenter.Send(new Message
-                {
-                    Title = "Sucesso",
-                    MessageText = "Usuário salvo com sucesso!"
-                }, "Message");
-        }
-
-        private bool Validar()
+        private async Task<bool> Validar()
         {
             #region CAMPOS OBRIGATORIOS
 
@@ -83,11 +69,11 @@ namespace QueixaAki.ViewModels
             if (string.IsNullOrEmpty(Usuario.Nome))
                 campos += string.IsNullOrEmpty(campos) ? "Nome" : ", Nome";
 
+            if (string.IsNullOrEmpty(Usuario.Sobrenome))
+                campos += string.IsNullOrEmpty(campos) ? "Sobrenome" : ", Sobrenome";
+
             if (string.IsNullOrEmpty(Usuario.CPF))
                 campos += string.IsNullOrEmpty(campos) ? "CPF" : ", CPF";
-
-            if (Usuario.DataNascimento == null)
-                campos += string.IsNullOrEmpty(campos) ? "Data de Nascimento" : ", Data de Nascimento";
 
             #endregion
 
@@ -134,6 +120,8 @@ namespace QueixaAki.ViewModels
 
             #region VALIDAR CAMPOS
 
+            var usuarios = await _usuarioService.BuscarTodos();
+
             #region LOGIN
 
             if (!Usuario.Email.ValidarEMail())
@@ -146,16 +134,36 @@ namespace QueixaAki.ViewModels
                 return false;
             }
 
-            // VERIFICAR SE E-MAIL JÁ ESTÁ CADASTRADO
-            /*if (!Usuario.CPF.ValidateCPF())
+            var tt = usuarios.Where(x => x.Email == Usuario.Email).ToList().Count > 1;
+            if (usuarios.Any(x => x.Email == Usuario.Email))
             {
                 MessagingCenter.Send(new Message
                 {
-                    Title = "CPF",
-                    MessageText = "CPF não é válido!"
+                    Title = "E-Mail",
+                    MessageText = "E-Mail já cadastrado!"
                 }, "Message");
                 return false;
-            }*/
+            }
+
+            if (Usuario.Senha.Length < 8)
+            {
+                MessagingCenter.Send(new Message
+                {
+                    Title = "Senha",
+                    MessageText = "Necessário conter no mínimo 8 caracteres!"
+                }, "Message");
+                return false;
+            }
+
+            if (!Usuario.Senha.ValidarSenha())
+            {
+                MessagingCenter.Send(new Message
+                {
+                    Title = "Senha",
+                    MessageText = "Necessário conter apenas números e letras!"
+                }, "Message");
+                return false;
+            }
 
             if (Usuario.Senha != ConfirmarSenha)
             {
@@ -171,16 +179,35 @@ namespace QueixaAki.ViewModels
 
             #region DADOS PESSOAIS
 
-            // VERIFICAR SE RG JÁ ESTÁ CADASTRADO
-            /*if (!Usuario.CPF.ValidateCPF())
+            if (!Usuario.Nome.ValidarNome())
             {
                 MessagingCenter.Send(new Message
                 {
-                    Title = "CPF",
-                    MessageText = "CPF não é válido!"
+                    Title = "Nome",
+                    MessageText = "Necessário conter apenas letras!"
                 }, "Message");
                 return false;
-            }*/
+            }
+
+            if (!Usuario.Sobrenome.ValidarNome())
+            {
+                MessagingCenter.Send(new Message
+                {
+                    Title = "Sobrenome",
+                    MessageText = "Necessário conter apenas letras!"
+                }, "Message");
+                return false;
+            }
+
+            if (!string.IsNullOrEmpty(Usuario.RG) && usuarios.Any(x => x.RG == Usuario.RG))
+            {
+                MessagingCenter.Send(new Message
+                {
+                    Title = "RG",
+                    MessageText = "RG já cadastrado!"
+                }, "Message");
+                return false;
+            }
 
             if (!Usuario.CPF.ValidarCPF())
             {
@@ -192,16 +219,25 @@ namespace QueixaAki.ViewModels
                 return false;
             }
 
-            // VERIFICAR SE CPF JÁ ESTÁ CADASTRADO
-            /*if (!Usuario.CPF.ValidateCPF())
+            if (usuarios.Any(x => x.CPF == Usuario.CPF))
             {
                 MessagingCenter.Send(new Message
                 {
                     Title = "CPF",
-                    MessageText = "CPF não é válido!"
+                    MessageText = "CPF já cadastrado!"
                 }, "Message");
                 return false;
-            }*/
+            }
+
+            if ((DateTime.Now.Year - Usuario.DataNascimento.Year) < 18)
+            {
+                MessagingCenter.Send(new Message
+                {
+                    Title = "Data de Nascimento",
+                    MessageText = "Cadastro apenas para maiores de 18 anos!"
+                }, "Message");
+                return false;
+            }
 
             #endregion
 
@@ -210,16 +246,59 @@ namespace QueixaAki.ViewModels
             return true;
         }
 
+        public async void Salvar()
+        {
+            try
+            {
+                Carregando = true;
+
+                if (!await Validar()) return;
+
+                Usuario.DataCriacao = DateTime.Now;
+
+                var result = await _usuarioService.Incluir(Usuario);
+                if (result)
+                {
+                    MessagingCenter.Send(new Message
+                    {
+                        Title = "Sucesso",
+                        MessageText = "Usuário salvo com sucesso!"
+                    }, "Message");
+                }
+                else
+                {
+                    MessagingCenter.Send(new Message
+                    {
+                        Title = "Erro",
+                        MessageText = "Erro ao salvar usuário.\nTente novamente mais tarde!"
+                    }, "Message");
+                }
+
+            }
+            catch (Exception ex)
+            {
+                // ignored
+            }
+            finally
+            {
+                Carregando = false;
+            }
+        }
+
         public async Task BuscaCep(string cep)
         {
             try
             {
                 if (string.IsNullOrEmpty(cep) || string.IsNullOrWhiteSpace(cep)) return;
                 if (!cep.ValidarCep()) return;
+                if (_cepAntes == cep) return;
+
+                Carregando = true;
+                _cepAntes = cep;
 
                 var request = (HttpWebRequest)WebRequest.Create("https://viacep.com.br/ws/" + cep + "/json/");
                 request.AllowAutoRedirect = false;
-                var checaServidor = (HttpWebResponse)request.GetResponse();
+                var checaServidor = (HttpWebResponse)await request.GetResponseAsync();
 
                 if (checaServidor.StatusCode != HttpStatusCode.OK)
                 {
@@ -243,7 +322,7 @@ namespace QueixaAki.ViewModels
 
                             var substrings = response.Split('\n');
 
-                            if (substrings[1].Split(":".ToCharArray()).Contains("erro"))
+                            if (substrings[1].Contains("erro"))
                             {
                                 MessagingCenter.Send(new Message
                                 {
@@ -264,6 +343,10 @@ namespace QueixaAki.ViewModels
             catch (Exception ex)
             {
                 // ignored
+            }
+            finally
+            {
+                Carregando = false;
             }
         }
     }

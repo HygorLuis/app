@@ -1,5 +1,4 @@
-﻿using System.Threading.Tasks;
-using System.Windows.Input;
+﻿using System.Windows.Input;
 using QueixaAki.ViewModels.Base;
 using QueixaAki.Views;
 using Xamarin.Forms;
