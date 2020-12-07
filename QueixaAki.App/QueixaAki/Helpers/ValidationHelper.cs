@@ -14,7 +14,7 @@ namespace QueixaAki.Helpers
 
         public static bool ValidarNome(this string nome)
         {
-            return Regex.Match(nome.Replace(" ", ""), @"^[a-zA-Z]+$").Success;
+            return Regex.Match(nome, @"^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$").Success;
         }
 
         public static bool ValidarSenha(this string senha)

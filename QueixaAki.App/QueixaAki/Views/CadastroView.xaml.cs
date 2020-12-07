@@ -1,4 +1,5 @@
-﻿using QueixaAki.Components;
+﻿using System;
+using QueixaAki.Components;
 using QueixaAki.Models;
 using QueixaAki.ViewModels;
 using Xamarin.Forms;
@@ -25,12 +26,18 @@ namespace QueixaAki.Views
                 if (msg.Title == "Sucesso")
                     Navigation.PushAsync(new LoginView());
             });
+
+            MessagingCenter.Subscribe<Exception>(this, "Exception", msg =>
+            {
+                DisplayAlert("Erro", msg.Message, "OK");
+            });
         }
 
         protected override void OnDisappearing()
         {
             base.OnDisappearing();
             MessagingCenter.Unsubscribe<Message>(this, "Message");
+            MessagingCenter.Unsubscribe<Message>(this, "Exception");
         }
 
         private async void Cep_OnUnfocused(object sender, FocusEventArgs e)

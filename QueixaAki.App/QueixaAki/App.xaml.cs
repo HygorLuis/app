@@ -22,7 +22,7 @@ namespace QueixaAki
             }
             else
             {
-                MainPage = new NavigationPage(new LoginView()) { BarBackgroundColor = Color.Red };
+                MainPage = new NavigationPage(new LoginView()) { BarBackgroundColor = (Color)Current.Resources["SecondaryColor"] };
             }
         }
 

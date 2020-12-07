@@ -7,9 +7,33 @@
     -->
     <Application.Resources>
         <ResourceDictionary>
-            <Color x:Key="PrimaryColor">DarkRed</Color>
-            <Color x:Key="SecondaryColor">Red</Color>
-            <Color x:Key="TertiaryColor">White</Color>
+            <!-- <Color x:Key="PrimaryColor">DarkRed</Color> -->
+            <!-- <Color x:Key="SecondaryColor">Red</Color> -->
+            <!-- <Color x:Key="TertiaryColor">White</Color> -->
+
+            <Color x:Key="PrimaryColor" x:FactoryMethod="FromHex">
+                <x:Arguments>
+                    <x:String>#8B0000</x:String>
+                </x:Arguments>
+            </Color>
+
+            <Color x:Key="SecondaryColor" x:FactoryMethod="FromHex">
+                <x:Arguments>
+                    <x:String>#FF0000</x:String>
+                </x:Arguments>
+            </Color>
+
+            <Color x:Key="TertiaryColor" x:FactoryMethod="FromHex">
+                <x:Arguments>
+                    <x:String>#FFFFFF</x:String>
+                </x:Arguments>
+            </Color>
+
+            <Color x:Key="AccentColor" x:FactoryMethod="FromHex">
+                <x:Arguments>
+                    <x:String>#FF0000</x:String>
+                </x:Arguments>
+            </Color>
             
             <Style TargetType="Button">
                 <Setter Property="TextColor" Value="{StaticResource TertiaryColor}"/>

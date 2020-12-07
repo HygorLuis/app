@@ -10,7 +10,7 @@ namespace QueixaAki.Services
 {
     public class UsuarioService
     {
-        public async Task<bool> Incluir(Usuario usuario)
+        public async Task<Tuple<bool, string>> Incluir(Usuario usuario)
         {
             return await Task.Run(() =>
             {
@@ -51,16 +51,16 @@ namespace QueixaAki.Services
                         connection.Close();
                     }
 
-                    return true;
+                    return new Tuple<bool, string>(true, "");
                 }
                 catch (Exception ex)
                 {
-                    return false;
+                    return new Tuple<bool, string>(false, ex.Message);
                 }
             });
         }
 
-        public async Task<List<Usuario>> BuscarTodos()
+        public async Task<Tuple<List<Usuario>, string>> BuscarTodos()
         {
             return await Task.Run(() =>
             {
@@ -83,17 +83,17 @@ namespace QueixaAki.Services
                         connection.Close();
                     }
 
-                    return usuarios.AsEnumerable().ToList().Select(x => new Usuario
+                    return new Tuple<List<Usuario>, string>(usuarios.AsEnumerable().ToList().Select(x => new Usuario
                     {
                         Id = x.Field<long>("Id"),
                         RG = x.Field<string>("RG"),
                         CPF = x.Field<string>("CPF"),
                         Email = x.Field<string>("EMail"),
-                    }).ToList();
+                    }).ToList(), "");
                 }
                 catch (Exception ex)
                 {
-                    return new List<Usuario>();
+                    return new Tuple<List<Usuario>, string>(new List<Usuario>(), ex.Message);
                 }
             });
         }

@@ -134,8 +134,7 @@ namespace QueixaAki.ViewModels
                 return false;
             }
 
-            var tt = usuarios.Where(x => x.Email == Usuario.Email).ToList().Count > 1;
-            if (usuarios.Any(x => x.Email == Usuario.Email))
+            if (usuarios.Item1.Any(x => x.Email == Usuario.Email))
             {
                 MessagingCenter.Send(new Message
                 {
@@ -199,7 +198,7 @@ namespace QueixaAki.ViewModels
                 return false;
             }
 
-            if (!string.IsNullOrEmpty(Usuario.RG) && usuarios.Any(x => x.RG == Usuario.RG))
+            if (!string.IsNullOrEmpty(Usuario.RG) && usuarios.Item1.Any(x => x.RG == Usuario.RG))
             {
                 MessagingCenter.Send(new Message
                 {
@@ -219,7 +218,7 @@ namespace QueixaAki.ViewModels
                 return false;
             }
 
-            if (usuarios.Any(x => x.CPF == Usuario.CPF))
+            if (usuarios.Item1.Any(x => x.CPF == Usuario.CPF))
             {
                 MessagingCenter.Send(new Message
                 {
@@ -257,7 +256,7 @@ namespace QueixaAki.ViewModels
                 Usuario.DataCriacao = DateTime.Now;
 
                 var result = await _usuarioService.Incluir(Usuario);
-                if (result)
+                if (result.Item1)
                 {
                     MessagingCenter.Send(new Message
                     {
@@ -270,7 +269,7 @@ namespace QueixaAki.ViewModels
                     MessagingCenter.Send(new Message
                     {
                         Title = "Erro",
-                        MessageText = "Erro ao salvar usuário.\nTente novamente mais tarde!"
+                        MessageText = result.Item2
                     }, "Message");
                 }
 

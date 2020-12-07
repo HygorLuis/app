@@ -50,7 +50,7 @@
                                                               Text="{Binding Usuario.Email}" 
                                                               FontSize="Medium" 
                                                               Keyboard="Email"
-                                                              TextColor="White"
+                                                              TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
                                                               Margin="0,0,0,-15"/>
 
@@ -85,7 +85,7 @@
                                                               Text="{Binding Usuario.Senha}" 
                                                               FontSize="Medium" 
                                                               IsPassword="True"
-                                                              TextColor="White"
+                                                              TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
                                                               Margin="0,0,0,-15"/>
 
@@ -120,7 +120,7 @@
                                                               Text="{Binding ConfirmarSenha}" 
                                                               FontSize="Medium" 
                                                               IsPassword="True"
-                                                              TextColor="White"
+                                                              TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
                                                               Margin="0,0,0,-15"/>
 
@@ -157,7 +157,7 @@
                                                               Grid.Column="1"
                                                               Text="{Binding Usuario.Nome}" 
                                                               FontSize="Medium" 
-                                                              TextColor="White"
+                                                              TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
                                                               Keyboard="Text"
                                                               Margin="0,0,0,-15"/>
@@ -192,7 +192,7 @@
                                                               Grid.Column="1"
                                                               Text="{Binding Usuario.Sobrenome}" 
                                                               FontSize="Medium" 
-                                                              TextColor="White"
+                                                              TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
                                                               Keyboard="Text"
                                                               Margin="0,0,0,-15"/>
@@ -228,7 +228,7 @@
                                                               Text="{Binding Usuario.RG}" 
                                                               Keyboard="Numeric"
                                                               FontSize="Medium" 
-                                                              TextColor="White"
+                                                              TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
                                                               Margin="0,0,0,-15"/>
 
@@ -263,7 +263,7 @@
                                                               Text="{Binding Usuario.CPF}" 
                                                               Keyboard="Numeric"
                                                               FontSize="Medium" 
-                                                              TextColor="White"
+                                                              TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
                                                               Placeholder="000.000.000-00"
                                                               PlaceholderColor="Gray"
@@ -304,8 +304,8 @@
                                                     Date="{Binding Usuario.DataNascimento, Mode=TwoWay}" 
                                                     Format="dd/MM/yyy" 
                                                     FontSize="Medium"
-                                                    TextColor="White"
-                                                    Margin="0,0,0,-15"/>
+                                                    Margin="0,0,0,-15"
+                                                    TextColor="{StaticResource TertiaryColor}"/>
 
                                         <BoxView Grid.Row="1"
                                                  Grid.Column="1"
@@ -342,7 +342,7 @@
                                                               Text="{Binding Usuario.Telefone1}" 
                                                               Keyboard="Telephone"
                                                               FontSize="Medium" 
-                                                              TextColor="White"
+                                                              TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
                                                               Margin="0,0,0,-15"
                                                               Placeholder="(00) 00000-0000"
@@ -383,7 +383,7 @@
                                                               Text="{Binding Usuario.Telefone2}" 
                                                               Keyboard="Telephone"
                                                               FontSize="Medium" 
-                                                              TextColor="White"
+                                                              TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
                                                               Margin="0,0,0,-15"
                                                               Placeholder="(00) 0000-0000"
@@ -427,7 +427,7 @@
                                                               Text="{Binding Usuario.Cep}" 
                                                               Keyboard="Numeric"
                                                               FontSize="Medium" 
-                                                              TextColor="White"
+                                                              TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
                                                               Margin="0,0,0,-15"
                                                               Placeholder="00000-000"
@@ -468,7 +468,7 @@
                                                               Grid.Column="1"
                                                               Text="{Binding Usuario.Rua, Mode=TwoWay}" 
                                                               FontSize="Medium" 
-                                                              TextColor="White"
+                                                              TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
                                                               Margin="0,0,0,-15"/>
 
@@ -503,7 +503,7 @@
                                                               Text="{Binding Usuario.Numero, Mode=TwoWay}" 
                                                               Keyboard="Numeric"
                                                               FontSize="Medium" 
-                                                              TextColor="White"
+                                                              TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
                                                               Margin="0,0,0,-15"/>
 
@@ -537,7 +537,7 @@
                                                               Grid.Column="1"
                                                               Text="{Binding Usuario.Complemento}" 
                                                               FontSize="Medium" 
-                                                              TextColor="White"
+                                                              TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
                                                               Margin="0,0,0,-15"/>
 
@@ -571,7 +571,7 @@
                                                               Grid.Column="1"
                                                               Text="{Binding Usuario.Bairro, Mode=TwoWay}" 
                                                               FontSize="Medium" 
-                                                              TextColor="White"
+                                                              TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
                                                               Margin="0,0,0,-15"/>
 
@@ -605,7 +605,7 @@
                                                               Grid.Column="1"
                                                               Text="{Binding Usuario.Cidade, Mode=TwoWay}" 
                                                               FontSize="Medium" 
-                                                              TextColor="White"
+                                                              TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
                                                               Margin="0,0,0,-15"/>
 
@@ -639,7 +639,7 @@
                                                               Grid.Column="1"
                                                               Text="{Binding Usuario.Estado, Mode=TwoWay}" 
                                                               FontSize="Medium" 
-                                                              TextColor="White"
+                                                              TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
                                                               Margin="0,0,0,-15"/>
 
