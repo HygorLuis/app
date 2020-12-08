@@ -13,6 +13,7 @@
 
   <color name="PrimaryColor">#8B0000</color>
   <color name="SecondaryColor">#FF0000</color>
+  <color name="TertiaryColor">#FFFFFF</color>
   <color name="Accent">@color/SecondaryColor</color>
 
   <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">

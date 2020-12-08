@@ -29,8 +29,8 @@
                                       FontSize="Medium" 
                                       Keyboard="Email"
                                       Placeholder="E-Mail"
-                                      PlaceholderColor="White"
-                                      TextColor="White"/>
+                                      PlaceholderColor="{StaticResource TertiaryColor}"
+                                      TextColor="{StaticResource TertiaryColor}"/>
                 <BoxView Grid.Row="1" 
                          HeightRequest="1" 
                          HorizontalOptions="Fill" 
@@ -46,8 +46,8 @@
                 </Grid.RowDefinitions>
 
                 <components:PasswordBox Grid.Row="0" 
-                                      Text="{Binding Senha}" 
-                                      Placeholder="Senha"/>
+                                        Text="{Binding Senha}" 
+                                        Placeholder="Senha"/>
                 <BoxView Grid.Row="1" 
                          HeightRequest="1" 
                          HorizontalOptions="Fill" 
@@ -75,7 +75,8 @@
                        FontSize="15" 
                        HorizontalOptions="CenterAndExpand">
                     <Label.GestureRecognizers>
-                        <TapGestureRecognizer Command="{Binding RequestAccessCommand}" NumberOfTapsRequired="1" />
+                        <TapGestureRecognizer Command="{Binding RequestAccessCommand}" 
+                                              NumberOfTapsRequired="1" />
                     </Label.GestureRecognizers>
                 </Label>
             </StackLayout>

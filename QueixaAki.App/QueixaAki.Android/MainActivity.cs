@@ -16,7 +16,9 @@ namespace QueixaAki.Droid
             ToolbarResource = Resource.Layout.Toolbar;
             base.OnCreate(savedInstanceState);
 
-            Window.SetStatusBarColor(Color.DarkRed);
+            var hexColor = Resources.GetString(Resource.Color.PrimaryColor);
+            var parsedColor = Color.ParseColor(hexColor);
+            Window.SetStatusBarColor(parsedColor);
             await CrossMedia.Current.Initialize();
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
