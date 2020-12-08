@@ -45,13 +45,9 @@
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
 
-                <components:BaseEntry Grid.Row="0" 
+                <components:PasswordBox Grid.Row="0" 
                                       Text="{Binding Senha}" 
-                                      FontSize="Medium" 
-                                      IsPassword="True" 
-                                      Placeholder="Senha" 
-                                      PlaceholderColor="White"
-                                      TextColor="White"/>
+                                      Placeholder="Senha"/>
                 <BoxView Grid.Row="1" 
                          HeightRequest="1" 
                          HorizontalOptions="Fill" 

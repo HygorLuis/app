@@ -80,14 +80,10 @@
                                                FontSize="Medium"
                                                Margin="12,0,0,-15"/>
 
-                                        <components:BaseEntry Grid.Row="0" 
-                                                              Grid.Column="1"
-                                                              Text="{Binding Usuario.Senha}" 
-                                                              FontSize="Medium" 
-                                                              IsPassword="True"
-                                                              TextColor="{StaticResource TertiaryColor}"
-                                                              HorizontalOptions="FillAndExpand"
-                                                              Margin="0,0,0,-15"/>
+                                        <components:PasswordBox Grid.Row="0" 
+                                                                Grid.Column="1"
+                                                                Text="{Binding Usuario.Senha}"
+                                                                Margin="0,0,5,-15"/>
 
                                         <BoxView Grid.Row="1"
                                                  Grid.Column="1"
@@ -115,14 +111,10 @@
                                                FontSize="Medium"
                                                Margin="12,0,0,-15"/>
 
-                                        <components:BaseEntry Grid.Row="0" 
-                                                              Grid.Column="1"
-                                                              Text="{Binding ConfirmarSenha}" 
-                                                              FontSize="Medium" 
-                                                              IsPassword="True"
-                                                              TextColor="{StaticResource TertiaryColor}"
-                                                              HorizontalOptions="FillAndExpand"
-                                                              Margin="0,0,0,-15"/>
+                                        <components:PasswordBox Grid.Row="0" 
+                                                                Grid.Column="1"
+                                                                Text="{Binding ConfirmarSenha}" 
+                                                                Margin="0,0,5,-15"/>
 
                                         <BoxView Grid.Row="1"
                                                  Grid.Column="1"
