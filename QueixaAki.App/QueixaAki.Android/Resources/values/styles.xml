@@ -5,7 +5,7 @@
     <item name="windowNoTitle">true</item>
     <item name="windowActionBar">false</item>
     <item name="colorPrimary">@color/PrimaryColor</item>
-    <item name="colorPrimaryDark">@color/SecondaryColor</item>
+    <item name="colorPrimaryDark">@color/PrimaryColor</item>
     <item name="colorAccent">@color/Accent</item>
     <item name="windowActionModeOverlay">true</item>
     <item name="android:datePickerDialogTheme">@style/AppCompatDialogStyle</item>

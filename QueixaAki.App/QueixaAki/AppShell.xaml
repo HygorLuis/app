@@ -16,7 +16,7 @@
             <Style x:Key="BaseStyle" TargetType="Element">
                 <Setter Property="Shell.BackgroundColor" Value="{StaticResource SecondaryColor}" />
                 <Setter Property="Shell.ForegroundColor" Value="{StaticResource TertiaryColor}" />
-                <Setter Property="Shell.TitleColor" Value="{StaticResource AccentColor}" />
+                <Setter Property="Shell.TitleColor" Value="{StaticResource TertiaryColor}" />
                 <Setter Property="Shell.DisabledColor" Value="DimGray" />
                 <Setter Property="Shell.UnselectedColor" Value="DimGray" />
                 <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource TertiaryColor}" />
