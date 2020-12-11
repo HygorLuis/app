@@ -16,14 +16,14 @@ namespace QueixaAki.Services
             {
                 try
                 {
-                    using (var connection = new SqlConnection(App.ConnectionString))
+                    using (var connection = new SqlConnection(App.ConnectionQueixaAki))
                     {
                         connection.Open();
                         using (var sqlCommand = connection.CreateCommand())
                         {
                             sqlCommand.Transaction = connection.BeginTransaction();
-                            sqlCommand.CommandText = "INSERT INTO UsuarioApp (Nome,Sobrenome,RG,CPF,DataNascimento,EMail,Senha,Telefone1,Telefone2,Cep,Rua,Numero,Complemento,Bairro,Cidade,Estado,DataCriacao,Excluido) " +
-                                    "VALUES (@Nome,@Sobrenome,@RG,@CPF,@DataNascimento,@EMail,@Senha,@Telefone1,@Telefone2,@Cep,@Rua,@Numero,@Complemento,@Bairro,@Cidade,@Estado,@DataCriacao,@Excluido);";
+                            sqlCommand.CommandText = "INSERT INTO UsuarioApp (Nome,Sobrenome,RG,CPF,DataNascimento,EMail,Senha,Telefone1,Telefone2,Cep,Rua,Numero,Complemento,Bairro,Cidade,Estado,IdConexao,DataCriacao,Excluido) " +
+                                    "VALUES (@Nome,@Sobrenome,@RG,@CPF,@DataNascimento,@EMail,@Senha,@Telefone1,@Telefone2,@Cep,@Rua,@Numero,@Complemento,@Bairro,@Cidade,@Estado,@IdConexao,@DataCriacao,@Excluido);";
 
                             sqlCommand.Parameters.AddWithValue("@Nome", usuario.Nome);
                             sqlCommand.Parameters.AddWithValue("@Sobrenome", usuario.Sobrenome);
@@ -41,6 +41,7 @@ namespace QueixaAki.Services
                             sqlCommand.Parameters.AddWithValue("@Bairro", usuario.Bairro);
                             sqlCommand.Parameters.AddWithValue("@Cidade", usuario.Cidade);
                             sqlCommand.Parameters.AddWithValue("@Estado", usuario.Estado);
+                            sqlCommand.Parameters.AddWithValue("@IdConexao", usuario.Conexao.Id);
                             sqlCommand.Parameters.AddWithValue("@DataCriacao", $"{usuario.DataCriacao:yyyy/MM/dd HH:mm:ss}");
                             sqlCommand.Parameters.AddWithValue("@Excluido", usuario.Excluido);
 
@@ -68,7 +69,7 @@ namespace QueixaAki.Services
                 {
                     var usuarios = new DataTable();
 
-                    using (var connection = new SqlConnection(App.ConnectionString))
+                    using (var connection = new SqlConnection(App.ConnectionQueixaAki))
                     {
                         connection.Open();
                         using (var sqlCommand = connection.CreateCommand())

@@ -82,8 +82,9 @@
 
                                         <components:PasswordBox Grid.Row="0" 
                                                                 Grid.Column="1"
-                                                                Text="{Binding Usuario.Senha}"
-                                                                Margin="0,0,5,-15"/>
+                                                                x:Name="SenhaBox"
+                                                                Margin="0,0,5,-15"
+                                                                OnTextChanged="SenhaBox_OnOnTextChanged"/>
 
                                         <BoxView Grid.Row="1"
                                                  Grid.Column="1"
@@ -113,8 +114,9 @@
 
                                         <components:PasswordBox Grid.Row="0" 
                                                                 Grid.Column="1"
-                                                                Text="{Binding ConfirmarSenha}" 
-                                                                Margin="0,0,5,-15"/>
+                                                                x:Name="ConfirmarSenhaBox"
+                                                                Margin="0,0,5,-15"
+                                                                OnTextChanged="ConfirmarSenhaBox_OnOnTextChanged"/>
 
                                         <BoxView Grid.Row="1"
                                                  Grid.Column="1"
@@ -617,7 +619,7 @@
                                         </Grid.RowDefinitions>
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="Auto"/>
-                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="Auto"/>
                                         </Grid.ColumnDefinitions>
 
                                         <Label Grid.Row="0" 
@@ -630,10 +632,17 @@
                                         <components:BaseEntry Grid.Row="0" 
                                                               Grid.Column="1"
                                                               Text="{Binding Usuario.Estado, Mode=TwoWay}" 
+                                                              Keyboard="Text"
                                                               FontSize="Medium" 
                                                               TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
-                                                              Margin="0,0,0,-15"/>
+                                                              Margin="0,0,0,-15"
+                                                              Placeholder="XX"
+                                                              PlaceholderColor="Gray">
+                                            <Entry.Behaviors>
+                                                <components:MaskedBehavior Mask="XX" />
+                                            </Entry.Behaviors>
+                                        </components:BaseEntry>
 
                                         <BoxView Grid.Row="1"
                                                  Grid.Column="1"

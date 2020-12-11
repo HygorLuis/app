@@ -5,11 +5,28 @@ namespace QueixaAki.Helpers
 {
     public static class ValidationHelper
     {
-        public static string OnlyNumber(this string sentence)
+        public static string ApenasNumeros(this string sentence)
         {
             if (sentence == null) return null;
             var digitsOnly = new Regex(@"[^\d]");
             return digitsOnly.Replace(sentence, "");
+        }
+
+        public static string ApenasLetras(this string sentence)
+        {
+            return sentence == null ? null : Regex.Replace(sentence.RemoverAcentos(), @"[^a-zA-Z]", "");
+        }
+
+        public static string RemoverAcentos(this string texto)
+        {
+            var comAcentos = "ÄÅÁÂÀÃäáâàãÉÊËÈéêëèÍÎÏÌíîïìÖÓÔÒÕöóôòõÜÚÛüúûùÇç";
+            var semAcentos = "AAAAAAaaaaaEEEEeeeeIIIIiiiiOOOOOoooooUUUuuuuCc";
+
+            for (var i = 0; i < comAcentos.Length; i++)
+            {
+                texto = texto.Replace(comAcentos[i].ToString(), semAcentos[i].ToString());
+            }
+            return texto;
         }
 
         public static bool ValidarNome(this string nome)

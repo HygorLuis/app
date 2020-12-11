@@ -7,26 +7,12 @@ namespace QueixaAki.Models
     public class Usuario : BaseViewModel
     {
         public long Id { get; set; }
-
-        private string _nome;
-        public string Nome
-        {
-            get => _nome?.ToUpper();
-            set => _nome = value?.ToUpper();
-        }
-
-        private string _sobrenome;
-        public string Sobrenome
-        {
-            get => _sobrenome?.ToUpper();
-            set => _sobrenome = value?.ToUpper();
-        }
-
+        public string Nome { get; set; }
+        public string Sobrenome { get; set; }
         public string RG { get; set; }
         public string CPF { get; set; }
 
         private DateTime _dataNascimento;
-
         public DateTime DataNascimento
         {
             get => _dataNascimento;
@@ -107,7 +93,6 @@ namespace QueixaAki.Models
             set
             {
                 _cidade = value;
-                DB = $"{value}_";
                 OnPropertyChanged();
             }
         }
@@ -115,26 +100,18 @@ namespace QueixaAki.Models
         private string _estado;
         public string Estado
         {
-            get => _estado?.ToUpper().Trim();
+            get => _estado?.ToUpper();
             set
             {
                 _estado = value;
-                DB += value;
                 OnPropertyChanged();
             }
         }
 
         #endregion
 
+        public Conexao Conexao { get; set; }
         public DateTime DataCriacao { get; set; }
-
         public bool Excluido { get; set; }
-
-        private string _db;
-        public string DB
-        {
-            get => _db?.ToUpper();
-            set => _db = value;
-        }
     }
 }

@@ -1,4 +1,5 @@
-﻿using QueixaAki.ViewModels;
+﻿using System;
+using QueixaAki.ViewModels;
 using Xamarin.Forms;
 
 namespace QueixaAki.Views
@@ -34,6 +35,13 @@ namespace QueixaAki.Views
             base.OnDisappearing();
             MessagingCenter.Unsubscribe<string>(this, "Entrar");
             MessagingCenter.Unsubscribe<string>(this, "Cadastrar");
+        }
+
+        private void SenhaBox_OnOnTextChanged(object sender, EventArgs e)
+        {
+            var box = (Entry)sender;
+            if (box == null) return;
+            _viewModel.Senha = box.Text;
         }
     }
 }

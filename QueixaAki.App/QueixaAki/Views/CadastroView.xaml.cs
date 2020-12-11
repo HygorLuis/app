@@ -47,5 +47,19 @@ namespace QueixaAki.Views
             var entry = (BaseEntry)sender;
             await _viewModel.BuscaCep(entry.Text);
         }
+
+        private void SenhaBox_OnOnTextChanged(object sender, EventArgs e)
+        {
+            var box = (Entry)sender;
+            if (box == null) return;
+            _viewModel.Usuario.Senha = box.Text;
+        }
+
+        private void ConfirmarSenhaBox_OnOnTextChanged(object sender, EventArgs e)
+        {
+            var box = (Entry) sender;
+            if (box == null) return;
+            _viewModel.ConfirmarSenha = box.Text;
+        }
     }
 }

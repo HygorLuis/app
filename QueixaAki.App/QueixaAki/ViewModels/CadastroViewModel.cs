@@ -29,13 +29,26 @@ namespace QueixaAki.ViewModels
                 OnPropertyChanged();
             }
         }
-        public string ConfirmarSenha { get; set; }
+
+        private string _confirmarSenha;
+        public string ConfirmarSenha
+        {
+            get => _confirmarSenha;
+            set
+            {
+                _confirmarSenha = value;
+                OnPropertyChanged();
+            }
+        }
 
         private UsuarioService _usuarioService;
+        private ConexaoService _conexaoService;
 
         public CadastroViewModel()
         {
             _usuarioService = new UsuarioService();
+            _conexaoService = new ConexaoService();
+
             Usuario = new Usuario
             {
                 DataNascimento = DateTime.Today,
@@ -240,6 +253,22 @@ namespace QueixaAki.ViewModels
 
             #endregion
 
+            var conexao = await _conexaoService.BuscarConexao(Usuario.Cidade, Usuario.Estado);
+
+            if (conexao.Item1 != null && conexao.Item1.Id > 0)
+            {
+                Usuario.Conexao = conexao.Item1;
+            }
+            else
+            {
+                MessagingCenter.Send(new Message
+                {
+                    Title = "Erro",
+                    MessageText = "O aplicativo ainda não está disponível para sua cidade!"
+                }, "Message");
+                return false;
+            }
+
             #endregion
 
             return true;
@@ -331,10 +360,10 @@ namespace QueixaAki.ViewModels
                                 return;
                             }
 
-                            Usuario.Rua = substrings[2].Split(":".ToCharArray())[1];
-                            Usuario.Bairro = substrings[4].Split(":".ToCharArray())[1];
-                            Usuario.Cidade = substrings[5].Split(":".ToCharArray())[1];
-                            Usuario.Estado = substrings[6].Split(":".ToCharArray())[1];
+                            Usuario.Rua = substrings[2].Replace(": ", "*").Split("*".ToCharArray())[1];
+                            Usuario.Bairro = substrings[4].Replace(": ", "*").Split("*".ToCharArray())[1];
+                            Usuario.Cidade = substrings[5].Replace(": ", "*").Split("*".ToCharArray())[1];
+                            Usuario.Estado = substrings[6].Replace(": ", "*").Split("*".ToCharArray())[1];
                         }
                     }
                 }

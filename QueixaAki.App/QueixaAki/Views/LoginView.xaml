@@ -46,8 +46,9 @@
                 </Grid.RowDefinitions>
 
                 <components:PasswordBox Grid.Row="0" 
-                                        Text="{Binding Senha}" 
-                                        Placeholder="Senha"/>
+                                        x:Name="SenhaBox"
+                                        Placeholder="Senha"
+                                        OnTextChanged="SenhaBox_OnOnTextChanged"/>
                 <BoxView Grid.Row="1" 
                          HeightRequest="1" 
                          HorizontalOptions="Fill" 
