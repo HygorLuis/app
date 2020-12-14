@@ -98,5 +98,56 @@ namespace QueixaAki.Services
                 }
             });
         }
+
+        public async Task<Tuple<Usuario, string>> BuscarUsuario(string email, string senha)
+        {
+            return await Task.Run(() =>
+            {
+                try
+                {
+                    var usuarios = new DataTable();
+
+                    using (var connection = new SqlConnection(App.ConnectionQueixaAki))
+                    {
+                        connection.Open();
+                        using (var sqlCommand = connection.CreateCommand())
+                        {
+                            sqlCommand.CommandText = "SELECT u.Id AS IdUsuario, u.EMail, u.Senha, c.* FROM UsuarioApp u INNER JOIN Conexao c ON u.IdConexao = c.Id WHERE u.Excluido = 0 AND c.Excluido = 0;";
+                            using (var dataAdapter = new SqlDataAdapter())
+                            {
+                                dataAdapter.SelectCommand = sqlCommand;
+                                dataAdapter.Fill(usuarios);
+                            }
+                        }
+                        connection.Close();
+                    }
+
+                    return new Tuple<Usuario, string>(usuarios.AsEnumerable().ToList()
+                        .Where(x => x.Field<string>("Email") == email && x.Field<string>("Senha") == senha).Select(x =>
+                            new Usuario
+                            {
+                                Id = x.Field<long>("IdUsuario"),
+                                Email = x.Field<string>("Email"),
+                                Senha = x.Field<string>("Senha"),
+                                Conexao = new Conexao
+                                {
+                                    Id = x.Field<long>("Id"),
+                                    Cidade = x.Field<string>("Cidade"),
+                                    Estado = x.Field<string>("Estado"),
+                                    Servidor = x.Field<string>("Servidor"),
+                                    Banco = x.Field<string>("Banco"),
+                                    Usuario = x.Field<string>("Usuario"),
+                                    Senha = x.Field<string>("Senha"),
+                                    DataCriacao = x.Field<DateTime>("DataCriacao"),
+                                    Excluido = x.Field<bool>("Excluido")
+                                }
+                            }).FirstOrDefault(), "");
+                }
+                catch (Exception ex)
+                {
+                    return new Tuple<Usuario, string>(new Usuario(), ex.Message);
+                }
+            });
+        }
     }
 }

@@ -2,9 +2,11 @@
 using System.Runtime.CompilerServices;
 using QueixaAki.ViewModels.Components;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace QueixaAki.Components
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PasswordBox
     {
         private PasswordBoxViewModel _viewModel;

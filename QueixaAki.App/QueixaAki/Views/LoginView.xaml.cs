@@ -1,4 +1,5 @@
 ﻿using System;
+using QueixaAki.Models;
 using QueixaAki.ViewModels;
 using Xamarin.Forms;
 
@@ -28,6 +29,13 @@ namespace QueixaAki.Views
             {
                 Navigation.PushAsync(new CadastroView());
             });
+
+            MessagingCenter.Subscribe<Message>(this, "Message", msg =>
+            {
+                DisplayAlert(msg.Title, msg.MessageText, "OK");
+                if (msg.Title == "Sucesso")
+                    Navigation.PushAsync(new LoginView());
+            });
         }
 
         protected override void OnDisappearing()
@@ -35,6 +43,7 @@ namespace QueixaAki.Views
             base.OnDisappearing();
             MessagingCenter.Unsubscribe<string>(this, "Entrar");
             MessagingCenter.Unsubscribe<string>(this, "Cadastrar");
+            MessagingCenter.Unsubscribe<Message>(this, "Message");
         }
 
         private void SenhaBox_OnOnTextChanged(object sender, EventArgs e)

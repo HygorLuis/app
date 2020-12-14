@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using QueixaAki.Helpers;
+using Xamarin.Forms;
 using QueixaAki.Services;
 using QueixaAki.Views;
 
@@ -16,9 +17,10 @@ namespace QueixaAki
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            var isLoogged = Xamarin.Essentials.SecureStorage.GetAsync("isLogged").Result;
-            if (isLoogged == "1")
+            //DependencyService.Register<MockDataStore>();
+            //var isLoogged = Xamarin.Essentials.SecureStorage.GetAsync("isLogged").Result;
+            //if (isLoogged == "1")
+            if (!string.IsNullOrEmpty(Settings.IdUsuario))
             {
                 MainPage = new AppShell();
             }
