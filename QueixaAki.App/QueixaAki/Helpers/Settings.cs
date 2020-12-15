@@ -56,7 +56,7 @@ namespace QueixaAki.Helpers
             set => AppSettings.AddOrUpdateValue(SenhaToken, value);
         }
 
-        public static void Clear()
+        public static void LimparRegistro()
         {
             IdUsuario = "";
             Servidor = "";

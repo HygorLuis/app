@@ -34,6 +34,11 @@
                     <x:String>#FF0000</x:String>
                 </x:Arguments>
             </Color>
+
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{StaticResource SecondaryColor}" />
+                <Setter Property="BarTextColor" Value="{StaticResource TertiaryColor}" />
+            </Style>
             
             <Style TargetType="Button">
                 <Setter Property="TextColor" Value="{StaticResource TertiaryColor}"/>

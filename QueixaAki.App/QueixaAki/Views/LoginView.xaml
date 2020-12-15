@@ -26,76 +26,77 @@
                 </Grid.RowDefinitions>
 
                 <Grid Grid.Row="0"
-                  Margin="10,25,10,10">
+                      Margin="10,25,10,10">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
 
-                    <components:BaseEntry Grid.Row="0" 
-                                      Text="{Binding Email}" 
-                                      FontSize="Medium" 
-                                      Keyboard="Email"
-                                      Placeholder="E-Mail"
-                                      PlaceholderColor="{StaticResource TertiaryColor}"
-                                      TextColor="{StaticResource TertiaryColor}"/>
-                    <BoxView Grid.Row="1" 
-                         HeightRequest="1" 
-                         HorizontalOptions="Fill" 
-                         BackgroundColor="{StaticResource SecondaryColor}" 
-                         VerticalOptions="End"/>
+                    <components:BaseEntry Grid.Row="0"
+                                          Text="{Binding Email}"
+                                          FontSize="Medium"
+                                          Keyboard="Email"
+                                          Placeholder="E-Mail"
+                                          PlaceholderColor="{StaticResource TertiaryColor}"
+                                          TextColor="{StaticResource TertiaryColor}"/>
+                    <BoxView Grid.Row="1"
+                             HeightRequest="1"
+                             HorizontalOptions="Fill"
+                             BackgroundColor="{StaticResource SecondaryColor}"
+                             VerticalOptions="End"/>
                 </Grid>
 
                 <Grid Grid.Row="1"
-                  Margin="10,0,10,10">
+                      Margin="10,0,10,10">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
 
-                    <components:PasswordBox Grid.Row="0" 
-                                        x:Name="SenhaBox"
-                                        Placeholder="Senha"
-                                        OnTextChanged="SenhaBox_OnOnTextChanged"/>
-                    <BoxView Grid.Row="1" 
-                         HeightRequest="1" 
-                         HorizontalOptions="Fill" 
-                         BackgroundColor="{StaticResource SecondaryColor}" 
-                         VerticalOptions="End"/>
+                    <components:PasswordBox Grid.Row="0"
+                                            x:Name="SenhaBox"
+                                            Placeholder="Senha"
+                                            OnTextChanged="SenhaBox_OnOnTextChanged"/>
+                    <BoxView Grid.Row="1"
+                             HeightRequest="1"
+                             HorizontalOptions="Fill"
+                             BackgroundColor="{StaticResource SecondaryColor}"
+                             VerticalOptions="End"/>
                 </Grid>
 
-                <StackLayout Grid.Row="2" 
-                         Margin="25,5,25,5"
-                         Spacing="12" 
-                         HorizontalOptions="Fill">
-                    <Button x:Name="btnEntrar" 
-                        Text="ENTRAR" 
-                        Command="{Binding EntrarCommand}"
-                        HorizontalOptions="FillAndExpand"/>
+                <StackLayout Grid.Row="2"
+                             Margin="25,5,25,5"
+                             Spacing="12"
+                             HorizontalOptions="Fill">
+                    <Button x:Name="btnEntrar"
+                            Text="ENTRAR"
+                            Command="{Binding EntrarCommand}"
+                            HorizontalOptions="FillAndExpand"/>
 
-                    <Label Text="Esqueceu a senha?" 
-                       FontSize="15" 
-                       HorizontalOptions="CenterAndExpand">
+                    <Label Text="Esqueceu a senha?"
+                           FontSize="15"
+                           HorizontalOptions="CenterAndExpand">
                         <Label.GestureRecognizers>
-                            <TapGestureRecognizer Command="{Binding RequestAccessCommand}" 
-                                              NumberOfTapsRequired="1" />
+                            <TapGestureRecognizer Command="{Binding RequestAccessCommand}"
+                                                  NumberOfTapsRequired="1" />
                         </Label.GestureRecognizers>
                     </Label>
                 </StackLayout>
 
-                <StackLayout Grid.Row="3" 
-                         Orientation="Horizontal">
+                <StackLayout Grid.Row="3"
+                             Orientation="Horizontal">
                     <BoxView VerticalOptions="Center"
-                         HeightRequest="1"
-                         HorizontalOptions="FillAndExpand"
-                         Color="{StaticResource TertiaryColor}"/>
+                             HeightRequest="1"
+                             HorizontalOptions="FillAndExpand"
+                             Color="{StaticResource TertiaryColor}"/>
 
-                    <Label Text="OU" FontSize="16"/>
+                    <Label Text="OU"
+                           FontSize="16"/>
 
                     <BoxView VerticalOptions="Center"
-                         HeightRequest="1"
-                         HorizontalOptions="FillAndExpand"
-                         Color="{StaticResource TertiaryColor}"/>
+                             HeightRequest="1"
+                             HorizontalOptions="FillAndExpand"
+                             Color="{StaticResource TertiaryColor}"/>
                 </StackLayout>
 
                 <Button Grid.Row="4" 
@@ -112,7 +113,7 @@
                      AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1">
             <Frame Padding="12"
                    CornerRadius="360"  
-                   OutlineColor="{StaticResource SecondaryColor}">
+                   BorderColor="{StaticResource SecondaryColor}">
 
                 <ActivityIndicator IsRunning="{Binding Carregando, Mode=TwoWay}" 
                                    Color="{StaticResource SecondaryColor}"/>
