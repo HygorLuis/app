@@ -29,6 +29,11 @@ namespace QueixaAki.Views
             {
                 await DisplayAlert("Erro ao enviar queixa", msg.Message, "OK");
             });
+
+            MessagingCenter.Subscribe<string>(this, "EnivarQueixa", msg =>
+            {
+                Navigation.PushAsync(new LocalizacaoView());
+            });
         }
 
         protected override void OnDisappearing()
@@ -36,6 +41,7 @@ namespace QueixaAki.Views
             base.OnDisappearing();
             MessagingCenter.Unsubscribe<Message>(this, "Message");
             MessagingCenter.Unsubscribe<Exception>(this, "ErroEnviar");
+            MessagingCenter.Unsubscribe<string>(this, "EnivarQueixa");
         }
     }
 }

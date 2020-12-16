@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using QueixaAki.ViewModels.Base;
 using Xamarin.Essentials;
@@ -22,10 +24,14 @@ namespace QueixaAki.ViewModels
             //QueixaAkiCommand = new Command(Permissoes);
         }
 
-        private void Permissoes()
+        /*private async void Permissoes()
         {
-            throw new System.NotImplementedException();
-        }
+            var request = new GeolocationRequest(GeolocationAccuracy.Best, TimeSpan.FromSeconds(5));
+            var cts = new CancellationTokenSource();
+            var locationActual = await Geolocation.GetLocationAsync(request, cts.Token);
+
+            MessagingCenter.Send("", "QueixaAki");
+        }*/
 
         public async Task<PermissionStatus> CheckAndRequestLocationPermission()
         {

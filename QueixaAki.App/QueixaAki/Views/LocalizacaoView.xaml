@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:googleMaps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
+             x:Class="QueixaAki.Views.LocalizacaoView"
+             Title="Localização da queixa"
+             BackgroundColor="{StaticResource PrimaryColor}"
+             Shell.TabBarIsVisible="false">
+
+    <AbsoluteLayout HorizontalOptions="FillAndExpand" 
+                    VerticalOptions="FillAndExpand">
+        
+        <googleMaps:Map x:Name="Map" 
+                        AbsoluteLayout.LayoutFlags="All" 
+                        AbsoluteLayout.LayoutBounds="0,0,1,1"/>
+
+        <Button AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,1" 
+                x:Name="btnConfirmarLocalizacao" 
+                Text="CONFIRMAR LOCALIZAÇÃO"
+                Clicked="Button_OnClicked"
+                HorizontalOptions="FillAndExpand"
+                Margin="25"/>
+
+    </AbsoluteLayout>
+</ContentPage>

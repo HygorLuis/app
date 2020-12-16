@@ -122,9 +122,15 @@ namespace QueixaAki.ViewModels
             }, format);
         }
 
-        private async void EnivarQueixa()
+        private void EnivarQueixa()
         {
-            try
+            MessagingCenter.Send("", "EnivarQueixa");
+
+            //var request = new GeolocationRequest(GeolocationAccuracy.Best, TimeSpan.FromSeconds(10));
+            //var cts = new CancellationTokenSource();
+            //var locationActual = await Geolocation.GetLocationAsync(request, cts.Token);
+
+            /*try
             {
                 var host = "smtp-mail.outlook.com";
                 var port = 587;
@@ -161,7 +167,7 @@ namespace QueixaAki.ViewModels
             catch (Exception ex)
             {
                 MessagingCenter.Send(ex, "ErroEnviar");
-            }
+            }*/
         }
     }
 }
