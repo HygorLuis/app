@@ -2,10 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:videoPlayer="clr-namespace:Octane.Xamarin.Forms.VideoPlayer;assembly=Octane.Xamarin.Forms.VideoPlayer"
+             xmlns:system="clr-namespace:System;assembly=netstandard"
+             xmlns:converters="clr-namespace:QueixaAki.Converters;assembly=QueixaAki"
              x:Class="QueixaAki.Views.QueixaAkiView"
              Title="Escolha ou grave seu vídeo"
              BackgroundColor="{StaticResource PrimaryColor}"
              Shell.TabBarIsVisible="false">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:InvertedBoolConverter x:Key="InvertedBool" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -42,7 +49,26 @@
                                  Grid.Column="0"
                                  Grid.ColumnSpan="2"
                                  AutoPlay="True"
-                                 Source="{Binding VideoSource}"/>
+                                 Source="{Binding VideoSource}"
+                                 IsVisible="{Binding VideoPlayerVisible}"/>
+
+        <Label Grid.Row="1"
+               Grid.Column="0"
+               Grid.ColumnSpan="2"
+               FontSize="Medium"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="CenterAndExpand"
+               IsVisible="{Binding Path=VideoPlayerVisible, Converter={StaticResource InvertedBool}}">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Escolha um vídeo de no máximo 500MB"/>
+                    <Span Text="{x:Static system:Environment.NewLine}"/>
+                    <Span Text="ou"/>
+                    <Span Text="{x:Static system:Environment.NewLine}"/>
+                    <Span Text="Grave um vídeo de no máximo 1 minuto"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
 
         <ImageButton Grid.Row="2"
                      Grid.Column="0"

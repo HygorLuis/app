@@ -6,6 +6,7 @@ using System.Windows.Input;
 using Octane.Xamarin.Forms.VideoPlayer;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
+using QueixaAki.Models;
 using QueixaAki.ViewModels.Base;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -27,6 +28,18 @@ namespace QueixaAki.ViewModels
             set
             {
                 _videoSource = value;
+                VideoPlayerVisible = value != null;
+                OnPropertyChanged();
+            }
+        }
+
+        private bool _videoPlayerVisible;
+        public bool VideoPlayerVisible
+        {
+            get => _videoPlayerVisible;
+            set
+            {
+                _videoPlayerVisible = value;
                 OnPropertyChanged();
             }
         }
@@ -44,7 +57,11 @@ namespace QueixaAki.ViewModels
 
             if (!CrossMedia.Current.IsPickVideoSupported)
             {
-                MessagingCenter.Send("", "ErroGaleria");
+                MessagingCenter.Send(new Message
+                {
+                    Title = "Ops",
+                    MessageText = "Galeria de videos não suportada!"
+                }, "Message");
                 return;
             }
 
@@ -71,7 +88,11 @@ namespace QueixaAki.ViewModels
 
             if (!CrossMedia.Current.IsTakeVideoSupported || !CrossMedia.Current.IsCameraAvailable)
             {
-                MessagingCenter.Send("", "ErroCamaera");
+                MessagingCenter.Send(new Message
+                {
+                    Title = "Ops",
+                    MessageText = "Nenhuma câmera detectada!"
+                }, "Message");
                 return;
             }
 

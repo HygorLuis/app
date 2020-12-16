@@ -1,4 +1,5 @@
 ﻿using System;
+using QueixaAki.Models;
 using QueixaAki.ViewModels;
 using Xamarin.Forms;
 
@@ -19,28 +20,22 @@ namespace QueixaAki.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            MessagingCenter.Subscribe<string>(this, "ErroGaleria", async msg =>
+            MessagingCenter.Subscribe<Message>(this, "Message", msg =>
             {
-                await DisplayAlert("Ops", "Galeria de videos não suportada.", "OK");
-            });
-
-            MessagingCenter.Subscribe<string>(this, "ErroCamera", async msg =>
-            {
-                await DisplayAlert("Ops", "Nenhuma câmera detectada.", "OK");
+                DisplayAlert(msg.Title, msg.MessageText, "OK");
             });
 
             MessagingCenter.Subscribe<Exception>(this, "ErroEnviar", async msg =>
             {
-                await DisplayAlert("Erro ao enviar queixa!", msg.Message, "OK");
+                await DisplayAlert("Erro ao enviar queixa", msg.Message, "OK");
             });
         }
 
         protected override void OnDisappearing()
         {
             base.OnDisappearing();
-            MessagingCenter.Unsubscribe<string>(this, "ErroGaleria");
-            MessagingCenter.Unsubscribe<string>(this, "ErroCamera");
-            MessagingCenter.Unsubscribe<string>(this, "ErroEnviar");
+            MessagingCenter.Unsubscribe<Message>(this, "Message");
+            MessagingCenter.Unsubscribe<Exception>(this, "ErroEnviar");
         }
     }
 }
