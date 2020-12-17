@@ -79,6 +79,7 @@
                      WidthRequest="70"
                      HeightRequest="50"
                      Source="send.png"
-                     Command="{Binding EnviarQueixaCommand}"/>
+                     Command="{Binding EnviarQueixaCommand}"
+                     IsVisible="{Binding VideoPlayerVisible}"/>
     </Grid>
 </ContentPage>
