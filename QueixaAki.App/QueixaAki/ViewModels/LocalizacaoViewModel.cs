@@ -17,16 +17,26 @@ namespace QueixaAki.ViewModels
 
         public async Task<string> GetEndereço(double latitude, double longitude)
         {
-            var addrs = (await Geocoding.GetPlacemarksAsync(new Location(latitude, longitude))).FirstOrDefault();
-            if (addrs == null) return "";
+            return await Task.Run(async () =>
+            {
+                try
+                {
+                    var addrs = (await Geocoding.GetPlacemarksAsync(new Location(latitude, longitude))).FirstOrDefault();
+                    if (addrs == null) return "";
 
-            var endereco = $"{addrs.Thoroughfare}, {addrs.SubThoroughfare}";
-            var bairro = addrs.SubLocality;
-            var cidade = $"{addrs.SubAdminArea} - {Estados[addrs.AdminArea]}";
-            var cep = addrs.PostalCode;
-            var pais = addrs.CountryName;
+                    var endereco = $"{addrs.Thoroughfare}, {addrs.SubThoroughfare}";
+                    var bairro = addrs.SubLocality;
+                    var cidade = $"{addrs.SubAdminArea} - {Estados[addrs.AdminArea]}";
+                    var cep = addrs.PostalCode;
+                    var pais = addrs.CountryName;
 
-            return $"{endereco} - {bairro}, {cidade}";
+                    return $"{endereco} - {bairro}, {cidade}";
+                }
+                catch (Exception e)
+                {
+                    return $"Latitude: {latitude}; Longitude: {longitude}";
+                }
+            });
         }
 
         public async Task<Location> GetLocalizacao()

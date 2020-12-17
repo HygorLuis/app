@@ -13,7 +13,8 @@
         <googleMaps:Map x:Name="Map" 
                         AbsoluteLayout.LayoutFlags="All" 
                         AbsoluteLayout.LayoutBounds="0,0,1,1"
-                        PinDragEnd="Map_OnPinDragEnd"/>
+                        PinDragEnd="Map_OnPinDragEnd"
+                        MyLocationButtonClicked="Map_OnMyLocationButtonClicked"/>
 
         <Button AbsoluteLayout.LayoutFlags="PositionProportional"
                 AbsoluteLayout.LayoutBounds="0.5,1" 

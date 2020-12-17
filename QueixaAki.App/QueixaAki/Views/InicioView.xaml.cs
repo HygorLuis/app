@@ -1,4 +1,5 @@
-﻿using QueixaAki.ViewModels;
+﻿using QueixaAki.Models;
+using QueixaAki.ViewModels;
 using Xamarin.Forms;
 
 namespace QueixaAki.Views
@@ -21,12 +22,18 @@ namespace QueixaAki.Views
             {
                 Navigation.PushAsync(new QueixaAkiView());
             });
+
+            MessagingCenter.Subscribe<Message>(this, "Message", msg =>
+            {
+                DisplayAlert(msg.Title, msg.MessageText, "OK");
+            });
         }
 
         protected override void OnDisappearing()
         {
             base.OnDisappearing();
             MessagingCenter.Unsubscribe<string>(this, "QueixaAki");
+            MessagingCenter.Unsubscribe<Message>(this, "Message");
         }
     }
 }

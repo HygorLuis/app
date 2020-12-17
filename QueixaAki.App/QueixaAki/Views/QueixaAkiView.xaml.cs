@@ -7,7 +7,7 @@ namespace QueixaAki.Views
 {
     public partial class QueixaAkiView
     {
-        public QueixaAkiViewModel _viewModel;
+        private QueixaAkiViewModel _viewModel;
 
         public QueixaAkiView()
         {
@@ -34,6 +34,8 @@ namespace QueixaAki.Views
             {
                 Navigation.PushAsync(new LocalizacaoView());
             });
+
+            _viewModel.VideoPlayerVisible = _viewModel.FileStream != null;
         }
 
         protected override void OnDisappearing()
@@ -42,6 +44,8 @@ namespace QueixaAki.Views
             MessagingCenter.Unsubscribe<Message>(this, "Message");
             MessagingCenter.Unsubscribe<Exception>(this, "ErroEnviar");
             MessagingCenter.Unsubscribe<string>(this, "EnivarQueixa");
+
+            _viewModel.VideoPlayerVisible = false;
         }
     }
 }

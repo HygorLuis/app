@@ -1,14 +1,11 @@
 ﻿using System;
 using System.IO;
-using System.Net.Mail;
-using System.Threading;
 using System.Windows.Input;
 using Octane.Xamarin.Forms.VideoPlayer;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
 using QueixaAki.Models;
 using QueixaAki.ViewModels.Base;
-using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace QueixaAki.ViewModels
@@ -19,7 +16,7 @@ namespace QueixaAki.ViewModels
         public ICommand GravarVideoCommand { get; set; }
         public ICommand EnviarQueixaCommand { get; set; }
 
-        private Stream _fileStream;
+        public Stream FileStream { get; set; }
 
         private VideoSource _videoSource;
         public VideoSource VideoSource
@@ -28,7 +25,6 @@ namespace QueixaAki.ViewModels
             set
             {
                 _videoSource = value;
-                VideoPlayerVisible = value != null;
                 OnPropertyChanged();
             }
         }
@@ -70,7 +66,9 @@ namespace QueixaAki.ViewModels
             if (file == null)
                 return;
 
-            _fileStream = file.GetStream();
+            VideoPlayerVisible = true;
+
+            FileStream = file.GetStream();
             var format = Path.GetExtension(file.Path);
 
             VideoSource = VideoSource.FromStream(() =>
@@ -110,7 +108,9 @@ namespace QueixaAki.ViewModels
             if (file == null)
                 return;
 
-            _fileStream = file.GetStream();
+            VideoPlayerVisible = true;
+
+            FileStream = file.GetStream();
             var format = Path.GetExtension(file.Path);
 
             VideoSource = VideoSource.FromStream(() =>

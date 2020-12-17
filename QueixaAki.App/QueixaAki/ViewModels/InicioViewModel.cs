@@ -1,7 +1,7 @@
-﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using System.Windows.Input;
+using QueixaAki.Helpers;
+using QueixaAki.Models;
 using QueixaAki.ViewModels.Base;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -18,92 +18,23 @@ namespace QueixaAki.ViewModels
         {
             QueixaAkiCommand = new Command(() =>
             {
-                MessagingCenter.Send("", "QueixaAki");
+                if (App.PermissaoLocalizacao == PermissionStatus.Granted && App.PermissaoMidia == PermissionStatus.Granted)
+                    MessagingCenter.Send("", "QueixaAki");
+                else
+                {
+                    var permiss = App.PermissaoLocalizacao != PermissionStatus.Granted ? "Localização" : "";
+                    permiss += !string.IsNullOrEmpty(permiss) && App.PermissaoMidia != PermissionStatus.Granted 
+                        ? ", Mídia" 
+                        : string.IsNullOrEmpty(permiss) && App.PermissaoMidia != PermissionStatus.Granted 
+                            ? "Mídia" : "";
+
+                    MessagingCenter.Send(new Message
+                    {
+                        Title = "Permissões Necessárias",
+                        MessageText = $"Favor dar permissão as seguintes solicitações nas configurações do seu telefone: {permiss}"
+                    }, "Message");
+                }
             });
-
-            //QueixaAkiCommand = new Command(Permissoes);
-        }
-
-        /*private async void Permissoes()
-        {
-            var request = new GeolocationRequest(GeolocationAccuracy.Best, TimeSpan.FromSeconds(5));
-            var cts = new CancellationTokenSource();
-            var locationActual = await Geolocation.GetLocationAsync(request, cts.Token);
-
-            MessagingCenter.Send("", "QueixaAki");
-        }*/
-
-        public async Task<PermissionStatus> CheckAndRequestLocationPermission()
-        {
-            var status = await Permissions.CheckStatusAsync<Permissions.LocationWhenInUse>();
-
-            if (status == PermissionStatus.Granted)
-                return status;
-
-            if (status == PermissionStatus.Denied && DeviceInfo.Platform == DevicePlatform.iOS)
-            {
-                // Prompt the user to turn on in settings
-                // On iOS once a permission has been denied it may not be requested again from the application
-                return status;
-            }
-
-            if (Permissions.ShouldShowRationale<Permissions.LocationWhenInUse>())
-            {
-                // Prompt the user with additional information as to why the permission is needed
-            }
-
-            status = await Permissions.RequestAsync<Permissions.LocationWhenInUse>();
-
-            return status;
-        }
-
-        //APENAS NO iOS
-        public async Task<PermissionStatus> CheckAndRequestMediaPermission()
-        {
-            var status = await Permissions.CheckStatusAsync<Permissions.Media>();
-
-            if (status == PermissionStatus.Granted)
-                return status;
-
-            if (status == PermissionStatus.Denied && DeviceInfo.Platform == DevicePlatform.iOS)
-            {
-                // Prompt the user to turn on in settings
-                // On iOS once a permission has been denied it may not be requested again from the application
-                return status;
-            }
-
-            if (Permissions.ShouldShowRationale<Permissions.Media>())
-            {
-                // Prompt the user with additional information as to why the permission is needed
-            }
-
-            status = await Permissions.RequestAsync<Permissions.Media>();
-
-            return status;
-        }
-
-        public async Task<PermissionStatus> CheckAndRequestCameraPermission()
-        {
-            var status = await Permissions.CheckStatusAsync<Permissions.Camera>();
-
-            if (status == PermissionStatus.Granted)
-                return status;
-
-            if (status == PermissionStatus.Denied && DeviceInfo.Platform == DevicePlatform.iOS)
-            {
-                // Prompt the user to turn on in settings
-                // On iOS once a permission has been denied it may not be requested again from the application
-                return status;
-            }
-
-            if (Permissions.ShouldShowRationale<Permissions.Camera>())
-            {
-                // Prompt the user with additional information as to why the permission is needed
-            }
-
-            status = await Permissions.RequestAsync<Permissions.Camera>();
-
-            return status;
         }
     }
 }
