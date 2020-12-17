@@ -24,12 +24,7 @@ namespace QueixaAki.Views
             {
                 DisplayAlert(msg.Title, msg.MessageText, "OK");
                 if (msg.Title == "Sucesso")
-                    Navigation.PushAsync(new LoginView());
-            });
-
-            MessagingCenter.Subscribe<Exception>(this, "Exception", msg =>
-            {
-                DisplayAlert("Erro", msg.Message, "OK");
+                    Navigation.PushAsync(new LoginView(), true);
             });
         }
 
@@ -37,12 +32,11 @@ namespace QueixaAki.Views
         {
             base.OnDisappearing();
             MessagingCenter.Unsubscribe<Message>(this, "Message");
-            MessagingCenter.Unsubscribe<Message>(this, "Exception");
         }
 
         private async void Cep_OnUnfocused(object sender, FocusEventArgs e)
         {
-            if (string.IsNullOrEmpty(_viewModel.Usuario.Cep)) return;
+            if (string.IsNullOrEmpty(_viewModel.Usuario.Endereco.Cep)) return;
 
             var entry = (BaseEntry)sender;
             await _viewModel.BuscaCep(entry.Text);

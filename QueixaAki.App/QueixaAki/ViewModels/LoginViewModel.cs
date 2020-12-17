@@ -3,7 +3,6 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using QueixaAki.Helpers;
 using QueixaAki.Models;
-using QueixaAki.Security;
 using QueixaAki.Services;
 using QueixaAki.ViewModels.Base;
 using QueixaAki.Views;
@@ -120,15 +119,16 @@ namespace QueixaAki.ViewModels
             try
             {
                 Settings.IdUsuario = _usuario.Id.ToString();
-                Settings.Servidor = _usuario.Conexao.Servidor;
+                Settings.IdConexao = _usuario.Conexao.Id.ToString();
+
+                /*Settings.Servidor = _usuario.Conexao.Servidor;
                 Settings.Banco = _usuario.Conexao.Banco;
                 Settings.Usuario = _usuario.Conexao.Usuario;
-                Settings.Senha = _usuario.Conexao.Senha;
+                Settings.Senha = _usuario.Conexao.Senha;*/
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
-                throw;
+                // ignored
             }
         }
     }

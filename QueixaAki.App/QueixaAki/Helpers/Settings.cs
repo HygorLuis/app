@@ -12,7 +12,10 @@ namespace QueixaAki.Helpers
         private const string IdUsuarioToken = "idusuariotoken";
         private static readonly string IdUsuarioTokenDefault = string.Empty;
 
-        private const string ServidorToken = "servidortoken";
+        private const string IdConexaoToken = "idconexaotoken";
+        private static readonly string IdConexaoTokenDefault = string.Empty;
+
+        /*private const string ServidorToken = "servidortoken";
         private static readonly string ServidorTokenDefault = string.Empty;
 
         private const string BancoToken = "bancotoken";
@@ -22,7 +25,7 @@ namespace QueixaAki.Helpers
         private static readonly string UsuarioTokenDefault = string.Empty;
 
         private const string SenhaToken = "senhatoken";
-        private static readonly string SenhaTokenDefault = string.Empty;
+        private static readonly string SenhaTokenDefault = string.Empty;*/
 
         #endregion
 
@@ -32,7 +35,13 @@ namespace QueixaAki.Helpers
             set => AppSettings.AddOrUpdateValue(IdUsuarioToken, value);
         }
 
-        public static string Servidor
+        public static string IdConexao
+        {
+            get => AppSettings.GetValueOrDefault(IdConexaoToken, IdConexaoTokenDefault);
+            set => AppSettings.AddOrUpdateValue(IdConexaoToken, value);
+        }
+
+        /*public static string Servidor
         {
             get => AppSettings.GetValueOrDefault(ServidorToken, ServidorTokenDefault);
             set => AppSettings.AddOrUpdateValue(ServidorToken, value);
@@ -54,15 +63,16 @@ namespace QueixaAki.Helpers
         {
             get => AppSettings.GetValueOrDefault(SenhaToken, SenhaTokenDefault);
             set => AppSettings.AddOrUpdateValue(SenhaToken, value);
-        }
+        }*/
 
         public static void LimparRegistro()
         {
             IdUsuario = "";
-            Servidor = "";
+            IdConexao = "";
+            /*Servidor = "";
             Banco = "";
             Usuario = "";
-            Senha = "";
+            Senha = "";*/
         }
     }
 }

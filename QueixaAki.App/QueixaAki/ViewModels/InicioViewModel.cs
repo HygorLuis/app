@@ -1,7 +1,9 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using QueixaAki.Helpers;
 using QueixaAki.Models;
+using QueixaAki.Services;
 using QueixaAki.ViewModels.Base;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -12,10 +14,16 @@ namespace QueixaAki.ViewModels
     {
         public ICommand QueixaAkiCommand { get; set; }
 
+        private ConexaoService _conexaoService;
+
         public string TextButton => "QUEIXA\nAKI";
 
         public InicioViewModel()
         {
+            _conexaoService = new ConexaoService();
+
+            VeficarConexaoBanco();
+
             QueixaAkiCommand = new Command(() =>
             {
                 if (App.PermissaoLocalizacao == PermissionStatus.Granted && App.PermissaoMidia == PermissionStatus.Granted)
@@ -23,9 +31,9 @@ namespace QueixaAki.ViewModels
                 else
                 {
                     var permiss = App.PermissaoLocalizacao != PermissionStatus.Granted ? "Localização" : "";
-                    permiss += !string.IsNullOrEmpty(permiss) && App.PermissaoMidia != PermissionStatus.Granted 
-                        ? ", Mídia" 
-                        : string.IsNullOrEmpty(permiss) && App.PermissaoMidia != PermissionStatus.Granted 
+                    permiss += !string.IsNullOrEmpty(permiss) && App.PermissaoMidia != PermissionStatus.Granted
+                        ? ", Mídia"
+                        : string.IsNullOrEmpty(permiss) && App.PermissaoMidia != PermissionStatus.Granted
                             ? "Mídia" : "";
 
                     MessagingCenter.Send(new Message
@@ -35,6 +43,33 @@ namespace QueixaAki.ViewModels
                     }, "Message");
                 }
             });
+        }
+
+        public async void VeficarConexaoBanco()
+        {
+            try
+            {
+                if (!string.IsNullOrEmpty(App.ConnectionBanco)) return;
+
+                var (conexao, erro) = await _conexaoService.BuscarConexaoId(long.Parse(Settings.IdConexao));
+
+                if (string.IsNullOrEmpty(erro))
+                    App.ConnectionBanco = $"Server={conexao.Servidor}; Initial Catalog={conexao.Banco}; User ID={conexao.Usuario}; Password={conexao.Senha}";
+                else
+                    MessagingCenter.Send(new Message
+                    {
+                        Title = "Erro ao Verificar Conexao",
+                        MessageText = $"{erro}"
+                    }, "Message");
+            }
+            catch (Exception e)
+            {
+                MessagingCenter.Send(new Message
+                {
+                    Title = "Erro ao Verificar Conexao",
+                    MessageText = $"{e.Message}"
+                }, "Message");
+            }
         }
     }
 }

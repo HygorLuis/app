@@ -417,7 +417,7 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                               Grid.Column="1"
-                                                              Text="{Binding Usuario.Cep}" 
+                                                              Text="{Binding Usuario.Endereco.Cep}" 
                                                               Keyboard="Numeric"
                                                               FontSize="Medium" 
                                                               TextColor="{StaticResource TertiaryColor}"
@@ -459,7 +459,7 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                               Grid.Column="1"
-                                                              Text="{Binding Usuario.Rua, Mode=TwoWay}" 
+                                                              Text="{Binding Usuario.Endereco.Rua, Mode=TwoWay}" 
                                                               FontSize="Medium" 
                                                               TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
@@ -493,7 +493,7 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                               Grid.Column="1"
-                                                              Text="{Binding Usuario.Numero, Mode=TwoWay}" 
+                                                              Text="{Binding Usuario.Endereco.Numero, Mode=TwoWay}" 
                                                               Keyboard="Numeric"
                                                               FontSize="Medium" 
                                                               TextColor="{StaticResource TertiaryColor}"
@@ -528,7 +528,7 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                               Grid.Column="1"
-                                                              Text="{Binding Usuario.Complemento}" 
+                                                              Text="{Binding Usuario.Endereco.Complemento}" 
                                                               FontSize="Medium" 
                                                               TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
@@ -562,7 +562,7 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                               Grid.Column="1"
-                                                              Text="{Binding Usuario.Bairro, Mode=TwoWay}" 
+                                                              Text="{Binding Usuario.Endereco.Bairro, Mode=TwoWay}" 
                                                               FontSize="Medium" 
                                                               TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
@@ -596,7 +596,7 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                               Grid.Column="1"
-                                                              Text="{Binding Usuario.Cidade, Mode=TwoWay}" 
+                                                              Text="{Binding Usuario.Endereco.Cidade, Mode=TwoWay}" 
                                                               FontSize="Medium" 
                                                               TextColor="{StaticResource TertiaryColor}"
                                                               HorizontalOptions="FillAndExpand"
@@ -630,7 +630,7 @@
 
                                     <components:BaseEntry Grid.Row="0" 
                                                               Grid.Column="1"
-                                                              Text="{Binding Usuario.Estado, Mode=TwoWay}" 
+                                                              Text="{Binding Usuario.Endereco.Estado, Mode=TwoWay}" 
                                                               Keyboard="Text"
                                                               FontSize="Medium" 
                                                               TextColor="{StaticResource TertiaryColor}"

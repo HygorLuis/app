@@ -22,19 +22,19 @@ namespace QueixaAki.Views
             base.OnAppearing();
             MessagingCenter.Subscribe<string>(this, "Entrar", msg =>
             {
-                Navigation.PushAsync(new InicioView());
+                Navigation.PushAsync(new InicioView(), true);
             });
 
             MessagingCenter.Subscribe<string>(this, "Cadastrar", msg =>
             {
-                Navigation.PushAsync(new CadastroView());
+                Navigation.PushAsync(new CadastroView(), true);
             });
 
             MessagingCenter.Subscribe<Message>(this, "Message", msg =>
             {
                 DisplayAlert(msg.Title, msg.MessageText, "OK");
                 if (msg.Title == "Sucesso")
-                    Navigation.PushAsync(new LoginView());
+                    Navigation.PopToRootAsync(true);
             });
         }
 

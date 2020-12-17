@@ -4,9 +4,11 @@ using System.Windows.Input;
 using Octane.Xamarin.Forms.VideoPlayer;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
+using QueixaAki.Helpers;
 using QueixaAki.Models;
 using QueixaAki.ViewModels.Base;
 using Xamarin.Forms;
+using MediaFile = Plugin.Media.Abstractions.MediaFile;
 
 namespace QueixaAki.ViewModels
 {
@@ -16,7 +18,8 @@ namespace QueixaAki.ViewModels
         public ICommand GravarVideoCommand { get; set; }
         public ICommand EnviarQueixaCommand { get; set; }
 
-        public Stream FileStream { get; set; }
+        public Queixa Queixa { get; set; }
+        //public Stream FileStream { get; set; }
 
         private VideoSource _videoSource;
         public VideoSource VideoSource
@@ -44,7 +47,16 @@ namespace QueixaAki.ViewModels
         {
             EscolherVideoCommand = new Command(EscolherVideo);
             GravarVideoCommand = new Command(GravarVideo);
-            EnviarQueixaCommand = new Command(EnivarQueixa);
+            EnviarQueixaCommand = new Command(() =>
+            {
+                MessagingCenter.Send(Queixa, "EnivarQueixa");
+            });
+
+            Queixa = new Queixa
+            {
+                IdUsuario = long.Parse(Settings.IdUsuario),
+                Arquivo = new Arquivo()
+            };
         }
 
         private async void EscolherVideo()
@@ -63,21 +75,7 @@ namespace QueixaAki.ViewModels
 
             var file = await CrossMedia.Current.PickVideoAsync();
 
-            if (file == null)
-                return;
-
-            VideoPlayerVisible = true;
-
-            FileStream = file.GetStream();
-            var format = Path.GetExtension(file.Path);
-
-            VideoSource = VideoSource.FromStream(() =>
-            {
-                var stream = file.GetStream();
-                file.Dispose();
-                return stream;
-
-            }, format);
+            setVideo(file);
         }
 
         private async void GravarVideo()
@@ -105,13 +103,21 @@ namespace QueixaAki.ViewModels
                     DefaultCamera = CameraDevice.Rear
                 });
 
+            setVideo(file);
+        }
+
+        private void setVideo(MediaFile file)
+        {
             if (file == null)
                 return;
 
             VideoPlayerVisible = true;
 
-            FileStream = file.GetStream();
             var format = Path.GetExtension(file.Path);
+
+            Queixa.NomeArquivo = Path.GetFileNameWithoutExtension(file.Path);
+            Queixa.Arquivo.ArquivoByte = File.ReadAllBytes(file.Path);
+            Queixa.Formato = format;
 
             VideoSource = VideoSource.FromStream(() =>
             {
@@ -120,54 +126,6 @@ namespace QueixaAki.ViewModels
                 return stream;
 
             }, format);
-        }
-
-        private void EnivarQueixa()
-        {
-            MessagingCenter.Send("", "EnivarQueixa");
-
-            //var request = new GeolocationRequest(GeolocationAccuracy.Best, TimeSpan.FromSeconds(10));
-            //var cts = new CancellationTokenSource();
-            //var locationActual = await Geolocation.GetLocationAsync(request, cts.Token);
-
-            /*try
-            {
-                var host = "smtp-mail.outlook.com";
-                var port = 587;
-                var from = "hyg_or-guinho@live.com";
-                var to = "hyg_or-guinho@live.com";
-
-                var user = "hyg_or-guinho@live.com";
-                var password = "3ky09p000";
-
-                var request = new GeolocationRequest(GeolocationAccuracy.Best, TimeSpan.FromSeconds(10));
-                var cts = new CancellationTokenSource();
-                var location = await Geolocation.GetLocationAsync(request, cts.Token);
-
-                var mail = new MailMessage
-                {
-                    From = new MailAddress(from),
-                    To = { to },
-                    Subject = "TESTE DE ENVIO",
-                    Body = $"TESTE\n{location}",
-                    Attachments = { new Attachment(_fileStream, "attachment.mp4") }
-                };
-
-                var smtpServer = new SmtpClient
-                {
-                    Port = port,
-                    Host = host,
-                    EnableSsl = true,
-                    UseDefaultCredentials = false,
-                    Credentials = new System.Net.NetworkCredential(user, password)
-                };
-
-                smtpServer.Send(mail);
-            }
-            catch (Exception ex)
-            {
-                MessagingCenter.Send(ex, "ErroEnviar");
-            }*/
         }
     }
 }

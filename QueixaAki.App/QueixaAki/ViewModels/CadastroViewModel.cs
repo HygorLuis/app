@@ -51,6 +51,7 @@ namespace QueixaAki.ViewModels
 
             Usuario = new Usuario
             {
+                Endereco = new Endereco(),
                 DataNascimento = DateTime.Today,
                 Excluido = false
             };
@@ -99,22 +100,22 @@ namespace QueixaAki.ViewModels
 
             #region ENDEREÇO
 
-            if (string.IsNullOrEmpty(Usuario.Cep))
+            if (string.IsNullOrEmpty(Usuario.Endereco.Cep))
                 campos += string.IsNullOrEmpty(campos) ? "Cep" : ", Cep";
 
-            if (string.IsNullOrEmpty(Usuario.Rua))
+            if (string.IsNullOrEmpty(Usuario.Endereco.Rua))
                 campos += string.IsNullOrEmpty(campos) ? "Rua" : ", Rua";
 
-            if (string.IsNullOrEmpty(Usuario.Numero))
+            if (string.IsNullOrEmpty(Usuario.Endereco.Numero))
                 campos += string.IsNullOrEmpty(campos) ? "Número" : ", Número";
 
-            if (string.IsNullOrEmpty(Usuario.Bairro))
+            if (string.IsNullOrEmpty(Usuario.Endereco.Bairro))
                 campos += string.IsNullOrEmpty(campos) ? "Bairro" : ", Bairro";
 
-            if (string.IsNullOrEmpty(Usuario.Cidade))
+            if (string.IsNullOrEmpty(Usuario.Endereco.Cidade))
                 campos += string.IsNullOrEmpty(campos) ? "Cidade" : ", Cidade";
 
-            if (string.IsNullOrEmpty(Usuario.Estado))
+            if (string.IsNullOrEmpty(Usuario.Endereco.Estado))
                 campos += string.IsNullOrEmpty(campos) ? "Estado" : ", Estado";
 
             #endregion
@@ -253,7 +254,7 @@ namespace QueixaAki.ViewModels
 
             #endregion
 
-            var conexao = await _conexaoService.BuscarConexao(Usuario.Cidade, Usuario.Estado);
+            var conexao = await _conexaoService.BuscarConexao(Usuario.Endereco.Cidade, Usuario.Endereco.Estado);
 
             if (conexao.Item1 != null && conexao.Item1.Id > 0)
             {
@@ -297,7 +298,7 @@ namespace QueixaAki.ViewModels
                 {
                     MessagingCenter.Send(new Message
                     {
-                        Title = "Erro",
+                        Title = "Erro ao Incluir Usuário",
                         MessageText = result.Item2
                     }, "Message");
                 }
@@ -305,7 +306,11 @@ namespace QueixaAki.ViewModels
             }
             catch (Exception ex)
             {
-                // ignored
+                MessagingCenter.Send(new Message
+                {
+                    Title = "Erro ao Salvar Cadastro",
+                    MessageText = ex.Message
+                }, "Message");
             }
             finally
             {
@@ -332,7 +337,7 @@ namespace QueixaAki.ViewModels
                 {
                     MessagingCenter.Send(new Message
                     {
-                        Title = "Servidor indisponível",
+                        Title = "Servidor Indisponível",
                         MessageText = "Erro ao buscar cep!"
                     }, "Message");
                     return;
@@ -354,23 +359,27 @@ namespace QueixaAki.ViewModels
                             {
                                 MessagingCenter.Send(new Message
                                 {
-                                    Title = "Buscar cep",
+                                    Title = "Buscar Cep",
                                     MessageText = "Cep não encontrado!"
                                 }, "Message");
                                 return;
                             }
 
-                            Usuario.Rua = substrings[2].Replace(": ", "*").Split("*".ToCharArray())[1];
-                            Usuario.Bairro = substrings[4].Replace(": ", "*").Split("*".ToCharArray())[1];
-                            Usuario.Cidade = substrings[5].Replace(": ", "*").Split("*".ToCharArray())[1];
-                            Usuario.Estado = substrings[6].Replace(": ", "*").Split("*".ToCharArray())[1];
+                            Usuario.Endereco.Rua = substrings[2].Replace(": ", "*").Split("*".ToCharArray())[1];
+                            Usuario.Endereco.Bairro = substrings[4].Replace(": ", "*").Split("*".ToCharArray())[1];
+                            Usuario.Endereco.Cidade = substrings[5].Replace(": ", "*").Split("*".ToCharArray())[1];
+                            Usuario.Endereco.Estado = substrings[6].Replace(": ", "*").Split("*".ToCharArray())[1];
                         }
                     }
                 }
             }
             catch (Exception ex)
             {
-                // ignored
+                MessagingCenter.Send(new Message
+                {
+                    Title = "Erro ao Buscar Cep",
+                    MessageText = ex.Message
+                }, "Message");
             }
             finally
             {

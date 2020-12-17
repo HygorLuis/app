@@ -2,10 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:googleMaps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
+             xmlns:converters="clr-namespace:QueixaAki.Converters;assembly=QueixaAki"
              x:Class="QueixaAki.Views.LocalizacaoView"
              Title="Localização da queixa"
              BackgroundColor="{StaticResource PrimaryColor}"
              Shell.TabBarIsVisible="false">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:InvertedBoolConverter x:Key="InvertedBool" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
     <AbsoluteLayout HorizontalOptions="FillAndExpand" 
                     VerticalOptions="FillAndExpand">
@@ -14,15 +20,31 @@
                         AbsoluteLayout.LayoutFlags="All" 
                         AbsoluteLayout.LayoutBounds="0,0,1,1"
                         PinDragEnd="Map_OnPinDragEnd"
-                        MyLocationButtonClicked="Map_OnMyLocationButtonClicked"/>
+                        MyLocationButtonClicked="Map_OnMyLocationButtonClicked"
+                        IsEnabled="{Binding Path=Carregando, Converter={StaticResource InvertedBool}}"/>
 
         <Button AbsoluteLayout.LayoutFlags="PositionProportional"
                 AbsoluteLayout.LayoutBounds="0.5,1" 
                 x:Name="btnConfirmarLocalizacao" 
                 Text="CONFIRMAR LOCALIZAÇÃO"
-                Clicked="Button_OnClicked"
                 HorizontalOptions="FillAndExpand"
-                Margin="25"/>
+                Margin="25"
+                Command="{Binding ConfirmarLocalizacaoCommand}"
+                IsEnabled="{Binding Path=Carregando, Converter={StaticResource InvertedBool}}"/>
 
+            <Frame Padding="12"
+                   CornerRadius="15"  
+                   BorderColor="{StaticResource SecondaryColor}"
+                   IsVisible="{Binding Carregando, Mode=TwoWay}"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1">
+                <StackLayout>
+                    <ActivityIndicator IsRunning="{Binding Carregando, Mode=TwoWay}" 
+                                       Color="{StaticResource SecondaryColor}"/>
+
+                    <Label Text="Enviando queixa..."
+                           TextColor="Gray"/>
+                </StackLayout>
+            </Frame>
     </AbsoluteLayout>
 </ContentPage>

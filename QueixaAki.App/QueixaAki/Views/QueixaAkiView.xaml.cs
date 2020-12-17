@@ -1,5 +1,4 @@
-﻿using System;
-using QueixaAki.Models;
+﻿using QueixaAki.Models;
 using QueixaAki.ViewModels;
 using Xamarin.Forms;
 
@@ -25,24 +24,18 @@ namespace QueixaAki.Views
                 DisplayAlert(msg.Title, msg.MessageText, "OK");
             });
 
-            MessagingCenter.Subscribe<Exception>(this, "ErroEnviar", async msg =>
+            MessagingCenter.Subscribe<Queixa>(this, "EnivarQueixa", msg =>
             {
-                await DisplayAlert("Erro ao enviar queixa", msg.Message, "OK");
+                Navigation.PushAsync(new LocalizacaoView(msg), true);
             });
 
-            MessagingCenter.Subscribe<string>(this, "EnivarQueixa", msg =>
-            {
-                Navigation.PushAsync(new LocalizacaoView());
-            });
-
-            _viewModel.VideoPlayerVisible = _viewModel.FileStream != null;
+            _viewModel.VideoPlayerVisible = !string.IsNullOrEmpty(_viewModel.Queixa.NomeArquivo);
         }
 
         protected override void OnDisappearing()
         {
             base.OnDisappearing();
             MessagingCenter.Unsubscribe<Message>(this, "Message");
-            MessagingCenter.Unsubscribe<Exception>(this, "ErroEnviar");
             MessagingCenter.Unsubscribe<string>(this, "EnivarQueixa");
 
             _viewModel.VideoPlayerVisible = false;

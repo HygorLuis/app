@@ -1,6 +1,7 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using QueixaAki.Models;
 using QueixaAki.ViewModels;
+using Xamarin.Forms;
 using Xamarin.Forms.GoogleMaps;
 
 namespace QueixaAki.Views
@@ -16,11 +17,11 @@ namespace QueixaAki.Views
             IsDraggable = true
         };
 
-        public LocalizacaoView()
+        public LocalizacaoView(Queixa queixa)
         {
             InitializeComponent();
 
-            _viewModel = new LocalizacaoViewModel();
+            _viewModel = new LocalizacaoViewModel(queixa);
             BindingContext = _viewModel;
 
             SetLocalizacaoAtual();
@@ -62,9 +63,22 @@ namespace QueixaAki.Views
             SetLocalizacaoAtual();
         }
 
-        private void Button_OnClicked(object sender, EventArgs e)
+        protected override void OnAppearing()
         {
-            var teste = Map.SelectedPin;
+            base.OnAppearing();
+            MessagingCenter.Subscribe<Message>(this, "Message", msg =>
+            {
+                DisplayAlert(msg.Title, msg.MessageText, "OK");
+                if (msg.Title != "Sucesso") return;
+
+                Navigation.PopToRootAsync(true);
+            });
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            MessagingCenter.Unsubscribe<Message>(this, "Message");
         }
     }
 }

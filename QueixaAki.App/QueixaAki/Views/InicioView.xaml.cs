@@ -20,7 +20,7 @@ namespace QueixaAki.Views
             base.OnAppearing();
             MessagingCenter.Subscribe<string>(this, "QueixaAki", msg =>
             {
-                Navigation.PushAsync(new QueixaAkiView());
+                Navigation.PushAsync(new QueixaAkiView(), true);
             });
 
             MessagingCenter.Subscribe<Message>(this, "Message", msg =>
