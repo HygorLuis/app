@@ -97,8 +97,8 @@ namespace QueixaAki.ViewModels
                 {
                     Directory = "Queixas",
                     DesiredLength = new TimeSpan(0, 1, 0),
-                    CompressionQuality = 50,
-                    Quality = VideoQuality.Medium,
+                    CompressionQuality = 0,
+                    Quality = VideoQuality.Low,
                     SaveToAlbum = true,
                     DefaultCamera = CameraDevice.Rear
                 });
