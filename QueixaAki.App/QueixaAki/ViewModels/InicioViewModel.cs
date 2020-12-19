@@ -3,7 +3,6 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
-using QueixaAki.Helpers;
 using QueixaAki.Models;
 using QueixaAki.Services;
 using QueixaAki.ViewModels.Base;
@@ -23,7 +22,6 @@ namespace QueixaAki.ViewModels
         public InicioViewModel()
         {
             _conexaoService = new ConexaoService();
-            VeficarConexaoBanco();
 
             QueixaAkiCommand = new Command(QueixaAKi);
         }
@@ -80,7 +78,7 @@ namespace QueixaAki.ViewModels
             return mediaFile;
         }
 
-        public async void VeficarConexaoBanco()
+        public async Task VeficarConexaoBanco()
         {
             try
             {

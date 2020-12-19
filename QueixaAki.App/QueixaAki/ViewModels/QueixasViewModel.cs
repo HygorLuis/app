@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using QueixaAki.Models;
@@ -46,12 +48,28 @@ namespace QueixaAki.ViewModels
             }
         }
 
+        //public ICommand BaixarArquivoCommand { get; set; }
+
         public QueixasViewModel()
         {
             Queixas = new ObservableCollection<Queixa>();
             _queixaService = new QueixaService();
 
+            //BaixarArquivoCommand = new Command(BaixarArquivo);
+
             GetQueixas();
+        }
+
+        public async Task BaixarArquivo(long idArquivo)
+        {
+            Queixas.FirstOrDefault(x => x.Id == idArquivo).Download = true;
+
+            await Task.Run(() =>
+            {
+                Thread.Sleep(10000);
+            });
+
+            Queixas.FirstOrDefault(x => x.Id == idArquivo).Download = false;
         }
 
         public async Task GetQueixas()
@@ -63,7 +81,7 @@ namespace QueixaAki.ViewModels
                 var (queixas, erro) = await _queixaService.BuscarQueixasIdUsuario(App.IdUsuario);
                 if (string.IsNullOrEmpty(erro))
                 {
-                    Queixas = new ObservableCollection<Queixa>(queixas);
+                    Queixas = queixas;
                     //QueixaSelected = Queixas.FirstOrDefault();
                 }
                 else

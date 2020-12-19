@@ -16,7 +16,7 @@ namespace QueixaAki.Views
             BindingContext = _viewModel;
         }
 
-        protected override void OnAppearing()
+        protected override async void OnAppearing()
         {
             base.OnAppearing();
             MessagingCenter.Subscribe<MediaFile>(this, "QueixaAki", msg =>
@@ -28,6 +28,8 @@ namespace QueixaAki.Views
             {
                 DisplayAlert(msg.Title, msg.MessageText, "OK");
             });
+
+            await _viewModel.VeficarConexaoBanco();
         }
 
         protected override void OnDisappearing()

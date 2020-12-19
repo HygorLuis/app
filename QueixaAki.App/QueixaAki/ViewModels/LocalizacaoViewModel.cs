@@ -107,7 +107,6 @@ namespace QueixaAki.ViewModels
                 Carregando = true;
 
                 _queixa.DataCriacao = DateTime.Now;
-                _queixa.Arquivo.DataCriacao = DateTime.Now;
 
                 var (sucesso, erro) = await _queixaService.Incluir(_queixa);
                 if (sucesso)

@@ -1,4 +1,7 @@
-﻿using QueixaAki.Models;
+﻿using System;
+using System.Linq;
+using System.Threading;
+using QueixaAki.Models;
 using QueixaAki.ViewModels;
 using Xamarin.Forms;
 
@@ -28,6 +31,12 @@ namespace QueixaAki.Views
         {
             base.OnDisappearing();
             MessagingCenter.Unsubscribe<Message>(this, "Message");
+        }
+
+        private async void DownloadBtn_OnClicked(object sender, EventArgs e)
+        {
+            var button = (ImageButton) sender;
+            await _viewModel.BaixarArquivo(long.Parse(button.CommandParameter.ToString()));
         }
     }
 }

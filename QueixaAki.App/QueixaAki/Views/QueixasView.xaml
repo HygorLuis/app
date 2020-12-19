@@ -1,31 +1,88 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:QueixaAki.Converters;assembly=QueixaAki"
              x:Class="QueixaAki.Views.QueixasView"
              Title="Queixas"
-             BackgroundColor="{StaticResource PrimaryColor}">
+             BackgroundColor="{StaticResource PrimaryColor}"
+             x:Name="QueixasPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:InvertedBoolConverter x:Key="InvertedBool" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
-    <ListView ItemsSource="{Binding Queixas}" 
-                  Margin="25"
-                  IsPullToRefreshEnabled="True"
-                  RefreshCommand="{Binding AtualizarCommand}"
-                  IsRefreshing="{Binding Carregando}"
-                  RefreshControlColor="{StaticResource SecondaryColor}"
-                  SeparatorColor="{StaticResource SecondaryColor}"
-                  HasUnevenRows="True">
+    <ListView x:Name="QueixasList"
+              ItemsSource="{Binding Queixas}"
+              Margin="25"
+              IsPullToRefreshEnabled="True"
+              RefreshCommand="{Binding AtualizarCommand}"
+              IsRefreshing="{Binding Carregando}"
+              RefreshControlColor="{StaticResource SecondaryColor}"
+              SeparatorColor="{StaticResource SecondaryColor}"
+              HasUnevenRows="True">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
-                    <StackLayout Orientation="Vertical">
-                        <Label Text="{Binding NomeArquivoCompleto}" 
-                                       FontSize="20" 
-                                       VerticalTextAlignment="Center"/>
+                    <Grid x:Name="QueixaGrid">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
 
-                        <Label Text="{Binding Endereco.EnderecoCompleto}"
+                        <AbsoluteLayout Grid.Row="0"
+                                        Grid.RowSpan="3"
+                                        Grid.Column="0"
+                                        Margin="0,10,10,10"
+                                        VerticalOptions="CenterAndExpand">
+                            <StackLayout AbsoluteLayout.LayoutFlags="All" 
+                                         AbsoluteLayout.LayoutBounds="0,0,1,1">
+                                <ImageButton x:Name="DownloadBtn"
+                                             Padding="5"
+                                             CornerRadius="360"
+                                             WidthRequest="45"
+                                             HeightRequest="45"
+                                             BackgroundColor="Transparent"
+                                             Source="download.png"
+                                             IsVisible="{Binding Path=Download, Converter={StaticResource InvertedBool}}"
+                                             Clicked="DownloadBtn_OnClicked" 
+                                             CommandParameter="{Binding Id}"/>
+                            </StackLayout>
+
+
+                            <ActivityIndicator AbsoluteLayout.LayoutFlags="PositionProportional"
+                                               AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1"
+                                               IsVisible="{Binding Download}" 
+                                               IsRunning="{Binding Download}" 
+                                               Color="{StaticResource SecondaryColor}"/>
+                        </AbsoluteLayout>
+
+
+                        <Label Grid.Row="0"
+                               Grid.Column="1"
+                               Text="{Binding DataCriacao, StringFormat='{0:dd/MM/yyyy}'}"
+                               FontSize="14" 
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="End"/>
+
+                        <Label Grid.Row="1"
+                               Grid.Column="1" 
+                               Text="{Binding NomeArquivoCompleto}" 
+                               FontSize="20" 
+                               VerticalTextAlignment="Center"/>
+
+                        <Label Grid.Row="2"
+                               Grid.Column="1"
+                               Text="{Binding Endereco.EnderecoCompleto}"
                                FontSize="14" 
                                FontAttributes="Bold"
                                TextColor="DarkGray"/>
-                    </StackLayout>
+                    </Grid>
                 </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>

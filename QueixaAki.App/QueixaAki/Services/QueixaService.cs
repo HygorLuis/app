@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
@@ -41,13 +42,11 @@ namespace QueixaAki.Services
                             sqlCommand.Parameters.AddWithValue("@Excluido", queixa.Excluido);
                             queixa.Id = long.Parse(sqlCommand.ExecuteScalar().ToString());
 
-                            sqlCommand.CommandText = "INSERT INTO Arquivo (IdQueixa,Arquivo,DataCriacao,Excluido) " +
-                                    "VALUES (@IdQueixa,@Arquivo,@DataCriacaoArquivo,@ExcluidoArquivo);";
+                            sqlCommand.CommandText = "INSERT INTO Arquivo (IdQueixa,Arquivo) " +
+                                    "VALUES (@IdQueixa,@Arquivo);";
 
                             sqlCommand.Parameters.AddWithValue("@IdQueixa", queixa.Id);
                             sqlCommand.Parameters.AddWithValue("@Arquivo", queixa.Arquivo.ArquivoByte);
-                            sqlCommand.Parameters.AddWithValue("@DataCriacaoArquivo", $"{queixa.Arquivo.DataCriacao:yyyy/MM/dd HH:mm:ss}");
-                            sqlCommand.Parameters.AddWithValue("@ExcluidoArquivo", queixa.Excluido);
 
                             sqlCommand.ExecuteNonQuery();
                             sqlCommand.Transaction.Commit();
@@ -65,7 +64,7 @@ namespace QueixaAki.Services
             });
         }
 
-        public async Task<Tuple<List<Queixa>, string>> BuscarQueixasIdUsuario(long idUsuario)
+        public async Task<Tuple<ObservableCollection<Queixa>, string>> BuscarQueixasIdUsuario(long idUsuario)
         {
             return await Task.Run(() =>
             {
@@ -78,7 +77,7 @@ namespace QueixaAki.Services
                         connection.Open();
                         using (var sqlCommand = connection.CreateCommand())
                         {
-                            sqlCommand.CommandText = $"SELECT * FROM Queixa WHERE Excluido = 0 AND IdUsuario = {idUsuario};";
+                            sqlCommand.CommandText = $"SELECT * FROM Queixa WHERE Excluido = 0 AND IdUsuario = {idUsuario} ORDER BY DataCriacao DESC;";
                             using (var dataAdapter = new SqlDataAdapter())
                             {
                                 dataAdapter.SelectCommand = sqlCommand;
@@ -88,7 +87,7 @@ namespace QueixaAki.Services
                         connection.Close();
                     }
 
-                    return new Tuple<List<Queixa>, string>(queixas.AsEnumerable().ToList().Select(x => new Queixa
+                    return new Tuple<ObservableCollection<Queixa>, string>(new ObservableCollection<Queixa>(queixas.AsEnumerable().ToList().Select(x => new Queixa
                     {
                         Id = x.Field<long>("Id"),
                         NomeArquivo = x.Field<string>("NomeArquivo"),
@@ -108,11 +107,11 @@ namespace QueixaAki.Services
                             Estado = x.Field<string>("Estado")
                         }
 
-                    }).ToList(), "");
+                    }).ToList()), "");
                 }
                 catch (Exception ex)
                 {
-                    return new Tuple<List<Queixa>, string>(new List<Queixa>(), ex.Message);
+                    return new Tuple<ObservableCollection<Queixa>, string>(new ObservableCollection<Queixa>(), ex.Message);
                 }
             });
         }

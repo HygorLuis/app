@@ -215,4 +215,13 @@
   <ItemGroup>
     <BundleResource Include="Resources\hide%403x.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\download%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\download%403x.png" />
+  </ItemGroup>
 </Project>
