@@ -20,6 +20,9 @@ namespace QueixaAki.iOS
         {
             global::Xamarin.Forms.Forms.SetFlags("CollectionView_Experimental");
             global::Xamarin.Forms.Forms.Init();
+
+            //https://developers.google.com/maps/documentation/ios-sdk/begin#create-billing-account
+            //Xamarin.FormsGoogleMaps.Init("");
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

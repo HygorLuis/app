@@ -70,20 +70,21 @@ namespace QueixaAki.ViewModels
                     var adders = (await Geocoding.GetPlacemarksAsync(new Location(latitude, longitude))).FirstOrDefault();
                     if (adders == null) return "";
 
-                    _queixa.Endereco.Rua = adders.Thoroughfare;
-                    _queixa.Endereco.Numero = adders.SubThoroughfare;
-                    _queixa.Endereco.Bairro = adders.SubLocality;
-                    _queixa.Endereco.Cidade = adders.SubAdminArea;
-                    _queixa.Endereco.Estado = Estados[adders.AdminArea];
-                    _queixa.Endereco.Cep = adders.PostalCode;
+                    var rua = adders.Thoroughfare;
+                    var numero = adders.SubThoroughfare;
+                    var bairro = adders.SubLocality;
+                    var cidade = adders.SubAdminArea;
+                    var estado = Estados[adders.AdminArea];
+                    var cep = adders.PostalCode;
 
-                    /*var endereco = $"{addrs.Thoroughfare}, {addrs.SubThoroughfare}";
-                    var bairro = addrs.SubLocality;
-                    var cidade = $"{addrs.SubAdminArea} - {Estados[addrs.AdminArea]}";
-                    var cep = addrs.PostalCode;
-                    var pais = addrs.CountryName;*/
+                    _queixa.Endereco.Rua = rua;
+                    _queixa.Endereco.Numero = numero;
+                    _queixa.Endereco.Bairro = bairro;
+                    _queixa.Endereco.Cidade = cidade;
+                    _queixa.Endereco.Estado = estado;
+                    _queixa.Endereco.Cep = cep;
 
-                    return $"{_queixa.Endereco.Rua}, {_queixa.Endereco.Numero} - {_queixa.Endereco.Bairro}, {_queixa.Endereco.Cidade} - {_queixa.Endereco.Estado}";
+                    return $"{rua}, {numero} - {bairro}, {cidade} - {estado}";
                 }
                 catch (Exception e)
                 {

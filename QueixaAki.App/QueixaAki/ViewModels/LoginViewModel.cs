@@ -102,7 +102,11 @@ namespace QueixaAki.ViewModels
             }
             catch (Exception e)
             {
-                // ignored
+                MessagingCenter.Send(new Message
+                {
+                    Title = "Erro ao Entrar",
+                    MessageText = e.Message
+                }, "Message");
             }
             finally
             {
@@ -118,13 +122,10 @@ namespace QueixaAki.ViewModels
         {
             try
             {
+                App.IdUsuario = _usuario.Id;
+                App.IdConexao = _usuario.Conexao.Id;
                 Settings.IdUsuario = _usuario.Id.ToString();
                 Settings.IdConexao = _usuario.Conexao.Id.ToString();
-
-                /*Settings.Servidor = _usuario.Conexao.Servidor;
-                Settings.Banco = _usuario.Conexao.Banco;
-                Settings.Usuario = _usuario.Conexao.Usuario;
-                Settings.Senha = _usuario.Conexao.Senha;*/
             }
             catch (Exception e)
             {

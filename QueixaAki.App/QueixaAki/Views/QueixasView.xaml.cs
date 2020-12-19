@@ -1,10 +1,33 @@
-﻿namespace QueixaAki.Views
+﻿using QueixaAki.Models;
+using QueixaAki.ViewModels;
+using Xamarin.Forms;
+
+namespace QueixaAki.Views
 {
-    public partial class QueixasView 
+    public partial class QueixasView
     {
+        private QueixasViewModel _viewModel;
         public QueixasView()
         {
             InitializeComponent();
+
+            _viewModel = new QueixasViewModel();
+            BindingContext = _viewModel;
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            MessagingCenter.Subscribe<Message>(this, "Message", msg =>
+            {
+                DisplayAlert(msg.Title, msg.MessageText, "OK");
+            });
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            MessagingCenter.Unsubscribe<Message>(this, "Message");
         }
     }
 }

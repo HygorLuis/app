@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
+using System.Linq;
 using System.Threading.Tasks;
 using QueixaAki.Models;
 
@@ -58,6 +61,58 @@ namespace QueixaAki.Services
                 catch (Exception ex)
                 {
                     return new Tuple<bool, string>(false, ex.Message);
+                }
+            });
+        }
+
+        public async Task<Tuple<List<Queixa>, string>> BuscarQueixasIdUsuario(long idUsuario)
+        {
+            return await Task.Run(() =>
+            {
+                try
+                {
+                    var queixas = new DataTable();
+
+                    using (var connection = new SqlConnection(App.ConnectionBanco))
+                    {
+                        connection.Open();
+                        using (var sqlCommand = connection.CreateCommand())
+                        {
+                            sqlCommand.CommandText = $"SELECT * FROM Queixa WHERE Excluido = 0 AND IdUsuario = {idUsuario};";
+                            using (var dataAdapter = new SqlDataAdapter())
+                            {
+                                dataAdapter.SelectCommand = sqlCommand;
+                                dataAdapter.Fill(queixas);
+                            }
+                        }
+                        connection.Close();
+                    }
+
+                    return new Tuple<List<Queixa>, string>(queixas.AsEnumerable().ToList().Select(x => new Queixa
+                    {
+                        Id = x.Field<long>("Id"),
+                        NomeArquivo = x.Field<string>("NomeArquivo"),
+                        Formato = x.Field<string>("Formato"),
+                        Latitude = x.Field<string>("Latitude"),
+                        Longitude = x.Field<string>("Longitude"),
+                        DataCriacao = x.Field<DateTime>("DataCriacao"),
+                        Excluido = x.Field<bool>("Excluido"),
+                        Endereco = new Endereco
+                        {
+                            Cep = x.Field<string>("Cep"),
+                            Rua = x.Field<string>("Rua"),
+                            Numero = x.Field<string>("Numero"),
+                            Complemento = x.Field<string>("Complemento"),
+                            Bairro = x.Field<string>("Bairro"),
+                            Cidade = x.Field<string>("Cidade"),
+                            Estado = x.Field<string>("Estado")
+                        }
+
+                    }).ToList(), "");
+                }
+                catch (Exception ex)
+                {
+                    return new Tuple<List<Queixa>, string>(new List<Queixa>(), ex.Message);
                 }
             });
         }

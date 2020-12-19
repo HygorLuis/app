@@ -1,6 +1,7 @@
 ﻿using QueixaAki.Models;
 using QueixaAki.ViewModels;
 using Xamarin.Forms;
+using MediaFile = Plugin.Media.Abstractions.MediaFile;
 
 namespace QueixaAki.Views
 {
@@ -8,11 +9,11 @@ namespace QueixaAki.Views
     {
         private QueixaAkiViewModel _viewModel;
 
-        public QueixaAkiView()
+        public QueixaAkiView(MediaFile mediaFile)
         {
             InitializeComponent();
 
-            _viewModel = new QueixaAkiViewModel();
+            _viewModel = new QueixaAkiViewModel(mediaFile);
             BindingContext = _viewModel;
         }
 
@@ -29,7 +30,7 @@ namespace QueixaAki.Views
                 Navigation.PushAsync(new LocalizacaoView(msg), true);
             });
 
-            _viewModel.VideoPlayerVisible = !string.IsNullOrEmpty(_viewModel.Queixa.NomeArquivo);
+            VPvideoPlayer.IsVisible = true;
         }
 
         protected override void OnDisappearing()
@@ -37,8 +38,7 @@ namespace QueixaAki.Views
             base.OnDisappearing();
             MessagingCenter.Unsubscribe<Message>(this, "Message");
             MessagingCenter.Unsubscribe<string>(this, "EnivarQueixa");
-
-            _viewModel.VideoPlayerVisible = false;
+            VPvideoPlayer.IsVisible = false;
         }
     }
 }

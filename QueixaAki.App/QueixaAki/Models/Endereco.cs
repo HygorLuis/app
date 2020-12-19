@@ -69,5 +69,7 @@ namespace QueixaAki.Models
                 OnPropertyChanged();
             }
         }
+
+        public string EnderecoCompleto => $"{Rua}, {Numero} - {Bairro}, {Cidade} - {Estado}";
     }
 }

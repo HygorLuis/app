@@ -5,4 +5,29 @@
              Title="Queixas"
              BackgroundColor="{StaticResource PrimaryColor}">
 
+    <ListView ItemsSource="{Binding Queixas}" 
+                  Margin="25"
+                  IsPullToRefreshEnabled="True"
+                  RefreshCommand="{Binding AtualizarCommand}"
+                  IsRefreshing="{Binding Carregando}"
+                  RefreshControlColor="{StaticResource SecondaryColor}"
+                  SeparatorColor="{StaticResource SecondaryColor}"
+                  HasUnevenRows="True">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="{Binding NomeArquivoCompleto}" 
+                                       FontSize="20" 
+                                       VerticalTextAlignment="Center"/>
+
+                        <Label Text="{Binding Endereco.EnderecoCompleto}"
+                               FontSize="14" 
+                               FontAttributes="Bold"
+                               TextColor="DarkGray"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </ContentPage>

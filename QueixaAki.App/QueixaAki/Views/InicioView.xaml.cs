@@ -1,12 +1,13 @@
 ﻿using QueixaAki.Models;
 using QueixaAki.ViewModels;
 using Xamarin.Forms;
+using MediaFile = Plugin.Media.Abstractions.MediaFile;
 
 namespace QueixaAki.Views
 {
     public partial class InicioView
     {
-        private InicioViewModel _viewModel;
+        private readonly InicioViewModel _viewModel;
         public InicioView()
         {
             InitializeComponent();
@@ -18,9 +19,9 @@ namespace QueixaAki.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            MessagingCenter.Subscribe<string>(this, "QueixaAki", msg =>
+            MessagingCenter.Subscribe<MediaFile>(this, "QueixaAki", msg =>
             {
-                Navigation.PushAsync(new QueixaAkiView(), true);
+                Navigation.PushAsync(new QueixaAkiView(msg), true);
             });
 
             MessagingCenter.Subscribe<Message>(this, "Message", msg =>
@@ -32,7 +33,7 @@ namespace QueixaAki.Views
         protected override void OnDisappearing()
         {
             base.OnDisappearing();
-            MessagingCenter.Unsubscribe<string>(this, "QueixaAki");
+            MessagingCenter.Unsubscribe<MediaFile>(this, "QueixaAki");
             MessagingCenter.Unsubscribe<Message>(this, "Message");
         }
     }
