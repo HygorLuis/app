@@ -12,8 +12,7 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <ListView x:Name="QueixasList"
-              ItemsSource="{Binding Queixas}"
+    <ListView ItemsSource="{Binding Queixas}"
               Margin="25"
               IsPullToRefreshEnabled="True"
               RefreshCommand="{Binding AtualizarCommand}"
@@ -24,7 +23,7 @@
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
-                    <Grid x:Name="QueixaGrid">
+                    <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto"/>
                             <RowDefinition Height="Auto"/>

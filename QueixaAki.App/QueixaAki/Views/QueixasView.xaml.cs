@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Linq;
-using System.Threading;
 using QueixaAki.Models;
 using QueixaAki.ViewModels;
 using Xamarin.Forms;

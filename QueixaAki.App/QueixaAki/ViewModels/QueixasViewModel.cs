@@ -48,14 +48,10 @@ namespace QueixaAki.ViewModels
             }
         }
 
-        //public ICommand BaixarArquivoCommand { get; set; }
-
         public QueixasViewModel()
         {
             Queixas = new ObservableCollection<Queixa>();
             _queixaService = new QueixaService();
-
-            //BaixarArquivoCommand = new Command(BaixarArquivo);
 
             GetQueixas();
         }
@@ -82,7 +78,6 @@ namespace QueixaAki.ViewModels
                 if (string.IsNullOrEmpty(erro))
                 {
                     Queixas = queixas;
-                    //QueixaSelected = Queixas.FirstOrDefault();
                 }
                 else
                 {
