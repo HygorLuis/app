@@ -22,6 +22,7 @@ namespace QueixaAki.ViewModels
         public InicioViewModel()
         {
             _conexaoService = new ConexaoService();
+            VeficarConexaoBanco();
 
             QueixaAkiCommand = new Command(QueixaAKi);
         }
@@ -78,13 +79,13 @@ namespace QueixaAki.ViewModels
             return mediaFile;
         }
 
-        public async Task VeficarConexaoBanco()
+        public async void VeficarConexaoBanco()
         {
             try
             {
                 if (!string.IsNullOrEmpty(App.ConnectionBanco)) return;
 
-                var (conexao, erro) = await _conexaoService.BuscarConexaoId(App.IdUsuario);
+                var (conexao, erro) = await _conexaoService.BuscarConexaoId(App.IdConexao);
 
                 if (string.IsNullOrEmpty(erro))
                     App.ConnectionBanco = $"Server={conexao.Servidor}; Initial Catalog={conexao.Banco}; User ID={conexao.Usuario}; Password={conexao.Senha}";

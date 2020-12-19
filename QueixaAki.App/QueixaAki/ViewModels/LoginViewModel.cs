@@ -60,9 +60,9 @@ namespace QueixaAki.ViewModels
 
             #endregion
 
-            var login = await _usuarioService.BuscarUsuario(Email, Senha);
+            var (usuario, erro) = await _usuarioService.BuscarUsuario(Email, Senha);
 
-            if (login.Item1 == null || login.Item1.Id <= 0)
+            if (usuario == null || usuario.Id <= 0)
             {
                 MessagingCenter.Send(new Message
                 {
@@ -72,7 +72,7 @@ namespace QueixaAki.ViewModels
                 return false;
             }
 
-            _usuario = login.Item1;
+            _usuario = usuario;
 
             return true;
         }
@@ -95,7 +95,7 @@ namespace QueixaAki.ViewModels
 
                 if (!await Validar()) return;
 
-                SetRegistro();
+                await SetRegistro();
 
                 Application.Current.MainPage = new AppShell();
                 await Shell.Current.GoToAsync($"//{nameof(InicioView)}");
@@ -118,7 +118,7 @@ namespace QueixaAki.ViewModels
             await Shell.Current.GoToAsync($"//{nameof(InicioView)}");*/
         }
 
-        public async void SetRegistro()
+        public async Task SetRegistro()
         {
             try
             {
