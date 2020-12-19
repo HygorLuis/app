@@ -32,9 +32,19 @@ namespace QueixaAki.ViewModels
             get => _queixaSelected;
             set
             {
+                _queixaSelected = value;
                 if (value == null) return;
-                QueixaSelected = value;
+                WorkOnQueixaSelected(value);
             }
+        }
+
+        private async void WorkOnQueixaSelected(Queixa value)
+        {
+            Queixas.FirstOrDefault(x => x.Id == value.Id).Download = true;
+
+            await BaixarArquivo(value.Id);
+
+            Queixas.FirstOrDefault(x => x.Id == value.Id).Download = false;
         }
 
         public ICommand AtualizarCommand
@@ -58,14 +68,10 @@ namespace QueixaAki.ViewModels
 
         public async Task BaixarArquivo(long idArquivo)
         {
-            Queixas.FirstOrDefault(x => x.Id == idArquivo).Download = true;
-
             await Task.Run(() =>
             {
                 Thread.Sleep(10000);
             });
-
-            Queixas.FirstOrDefault(x => x.Id == idArquivo).Download = false;
         }
 
         public async Task GetQueixas()
