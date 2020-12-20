@@ -12,8 +12,10 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <ListView ItemsSource="{Binding Queixas}"
-              SelectedItem="{Binding QueixaSelected}"
+    <ListView x:Name="QueixasList"
+              ItemsSource="{Binding Queixas}"
+              ItemTapped="QueixasList_OnItemTapped"
+              SelectionMode="None"
               Margin="25"
               IsPullToRefreshEnabled="True"
               RefreshCommand="{Binding AtualizarCommand}"

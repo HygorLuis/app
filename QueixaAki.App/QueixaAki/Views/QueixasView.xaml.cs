@@ -31,10 +31,11 @@ namespace QueixaAki.Views
             MessagingCenter.Unsubscribe<Message>(this, "Message");
         }
 
-        private async void DownloadBtn_OnClicked(object sender, EventArgs e)
+        private void QueixasList_OnItemTapped(object sender, ItemTappedEventArgs e)
         {
-            var button = (ImageButton) sender;
-            await _viewModel.BaixarArquivo(long.Parse(button.CommandParameter.ToString()));
+            var queixa = e.Item as Queixa;
+            if (queixa != null) 
+                _viewModel.BaixarArquivo(queixa.Id);
         }
     }
 }
