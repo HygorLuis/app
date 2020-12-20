@@ -45,18 +45,6 @@ namespace QueixaAki.ViewModels
             GetQueixas();
         }
 
-        public async void BaixarArquivo(long idArquivo)
-        {
-            Queixas.FirstOrDefault(x => x.Id == idArquivo).Download = true;
-
-            await Task.Run(() =>
-            {
-                Thread.Sleep(10000);
-            });
-
-            Queixas.FirstOrDefault(x => x.Id == idArquivo).Download = false;
-        }
-
         public async Task GetQueixas()
         {
             try
@@ -89,6 +77,25 @@ namespace QueixaAki.ViewModels
             {
                 Carregando = false;
             }
+        }
+
+        public void VerificarQueixa(long id)
+        {
+            if (Queixas.FirstOrDefault(x => x.Id == id).Download) return;
+
+            BaixarArquivo(id);
+        }
+
+        public async void BaixarArquivo(long id)
+        {
+            Queixas.FirstOrDefault(x => x.Id == id).Download = true;
+
+            await Task.Run(() =>
+            {
+                Thread.Sleep(20000);
+            });
+
+            Queixas.FirstOrDefault(x => x.Id == id).Download = false;
         }
     }
 }
