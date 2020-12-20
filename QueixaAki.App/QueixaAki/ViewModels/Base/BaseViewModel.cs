@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Plugin.Connectivity;
@@ -10,7 +9,7 @@ using QueixaAki.Services;
 
 namespace QueixaAki.ViewModels.Base
 {
-    public class BaseViewModel : INotifyPropertyChanged
+    public class BaseViewModel : Base
     {
         public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
 
@@ -33,26 +32,14 @@ namespace QueixaAki.ViewModels.Base
         protected bool SetProperty<T>(ref T backingStore, T value,
         [CallerMemberName] string propertyName = "",
         Action onChanged = null)
-    {
-        if (EqualityComparer<T>.Default.Equals(backingStore, value))
-            return false;
+        {
+            if (EqualityComparer<T>.Default.Equals(backingStore, value))
+                return false;
 
-        backingStore = value;
-        onChanged?.Invoke();
-        OnPropertyChanged(propertyName);
-        return true;
+            backingStore = value;
+            onChanged?.Invoke();
+            OnPropertyChanged(propertyName);
+            return true;
+        }
     }
-
-    #region INotifyPropertyChanged
-    public event PropertyChangedEventHandler PropertyChanged;
-    protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
-    {
-        var changed = PropertyChanged;
-        if (changed == null)
-            return;
-
-        changed.Invoke(this, new PropertyChangedEventArgs(propertyName));
-    }
-    #endregion
-}
 }

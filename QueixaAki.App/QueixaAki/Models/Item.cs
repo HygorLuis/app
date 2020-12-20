@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace QueixaAki.Models
+﻿namespace QueixaAki.Models
 {
     public class Item
     {

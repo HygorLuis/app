@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Data;
 using System.Data.SqlClient;
@@ -77,7 +76,8 @@ namespace QueixaAki.Services
                         connection.Open();
                         using (var sqlCommand = connection.CreateCommand())
                         {
-                            sqlCommand.CommandText = $"SELECT * FROM Queixa WHERE Excluido = 0 AND IdUsuario = {idUsuario} ORDER BY DataCriacao DESC;";
+                            var condicao = idUsuario == 1 ? "" : $"AND IdUsuario = {idUsuario}";
+                            sqlCommand.CommandText = $"SELECT * FROM Queixa WHERE Excluido = 0 {condicao} ORDER BY DataCriacao DESC;";
                             using (var dataAdapter = new SqlDataAdapter())
                             {
                                 dataAdapter.SelectCommand = sqlCommand;
@@ -112,6 +112,43 @@ namespace QueixaAki.Services
                 catch (Exception ex)
                 {
                     return new Tuple<ObservableCollection<Queixa>, string>(new ObservableCollection<Queixa>(), ex.Message);
+                }
+            });
+        }
+
+        public async Task<Tuple<Arquivo, string>> BuscarArquivoIdQueixa(long id)
+        {
+            return await Task.Run(() =>
+            {
+                try
+                {
+                    var arquivo = new Arquivo();
+
+                    using (var connection = new SqlConnection(App.ConnectionBanco))
+                    {
+                        connection.Open();
+                        using (var sqlCommand = connection.CreateCommand())
+                        {
+                            sqlCommand.CommandText = $"SELECT * FROM Arquivo WHERE IdQueixa = {id};";
+                            var dr = sqlCommand.ExecuteReader();
+
+                            if (!dr.HasRows) return null;
+                            dr.Read();
+
+                            arquivo.Id = long.Parse(dr["Id"].ToString());
+                            arquivo.IdQueixa = long.Parse(dr["IdQueixa"].ToString());
+                            arquivo.ArquivoByte = (byte[])dr["Arquivo"];
+
+                            dr.Close();
+                        }
+                        connection.Close();
+                    }
+
+                    return new Tuple<Arquivo, string>(arquivo, "");
+                }
+                catch (Exception ex)
+                {
+                    return new Tuple<Arquivo, string>(null, ex.Message);
                 }
             });
         }

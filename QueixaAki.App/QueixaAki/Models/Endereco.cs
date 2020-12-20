@@ -3,7 +3,7 @@ using QueixaAki.ViewModels.Base;
 
 namespace QueixaAki.Models
 {
-    public class Endereco : BaseViewModel
+    public class Endereco : Base
     {
         private string _cep;
         public string Cep

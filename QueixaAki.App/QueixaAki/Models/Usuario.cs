@@ -1,10 +1,9 @@
 ﻿using System;
-using QueixaAki.Helpers;
 using QueixaAki.ViewModels.Base;
 
 namespace QueixaAki.Models
 {
-    public class Usuario : BaseViewModel
+    public class Usuario : Base
     {
         public long Id { get; set; }
         public string Nome { get; set; }

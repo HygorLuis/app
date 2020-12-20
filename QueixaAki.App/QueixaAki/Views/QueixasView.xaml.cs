@@ -1,6 +1,4 @@
-﻿using System;
-using System.Linq;
-using QueixaAki.Models;
+﻿using QueixaAki.Models;
 using QueixaAki.ViewModels;
 using Xamarin.Forms;
 
@@ -34,8 +32,12 @@ namespace QueixaAki.Views
 
         private void QueixasList_OnItemTapped(object sender, ItemTappedEventArgs e)
         {
-            if (e.Item is Queixa queixa)
-                _viewModel.VerificarQueixa(queixa.Id);
+            if (!(e.Item is Queixa queixa)) return;
+
+            if (queixa.DownloadVisible)
+                _viewModel.BaixarArquivo(queixa);
+            else
+                Navigation.PushAsync(new QueixaView(queixa), true);
         }
     }
 }

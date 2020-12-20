@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.IO;
 using System.Linq;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Plugin.Permissions.Abstractions;
+using QueixaAki.Helpers;
 using QueixaAki.Models;
 using QueixaAki.Services;
 using QueixaAki.ViewModels.Base;
@@ -54,6 +56,21 @@ namespace QueixaAki.ViewModels
                 var (queixas, erro) = await _queixaService.BuscarQueixasIdUsuario(App.IdUsuario);
                 if (string.IsNullOrEmpty(erro))
                 {
+                    foreach (var queixa in queixas)
+                    {
+                        var exist = await FileHelper.FileExists(queixa.NomeArquivoCompleto);
+                        if (exist == null)
+                        {
+                            queixa.DownloadVisible = true;
+                        }
+                        else
+                        {
+                            queixa.Arquivo = new Arquivo
+                            {
+                                ArquivoByte = File.ReadAllBytes(exist)
+                            };
+                        }
+                    }
                     Queixas = queixas;
                 }
                 else
@@ -79,23 +96,68 @@ namespace QueixaAki.ViewModels
             }
         }
 
-        public void VerificarQueixa(long id)
+        public async void BaixarArquivo(Queixa queixa)
         {
-            if (Queixas.FirstOrDefault(x => x.Id == id).Download) return;
-
-            BaixarArquivo(id);
-        }
-
-        public async void BaixarArquivo(long id)
-        {
-            Queixas.FirstOrDefault(x => x.Id == id).Download = true;
-
-            await Task.Run(() =>
+            try
             {
-                Thread.Sleep(20000);
-            });
+                if (App.PermissaoMidia != PermissionStatus.Granted)
+                {
+                    var permiss = App.PermissaoMidia != PermissionStatus.Granted ? "Mídia" : "";
 
-            Queixas.FirstOrDefault(x => x.Id == id).Download = false;
+                    MessagingCenter.Send(new Message
+                    {
+                        Title = "Permissões Necessárias",
+                        MessageText = $"Favor dar permissão as seguintes solicitações nas configurações do seu telefone: {permiss}"
+                    }, "Message");
+                    return;
+                }
+
+                if (Queixas.FirstOrDefault(x => x.Id == queixa.Id).Download) return;
+
+                Queixas.FirstOrDefault(x => x.Id == queixa.Id).Download = true;
+
+                var (arquivo, erro) = await _queixaService.BuscarArquivoIdQueixa(queixa.Id);
+
+                if (!string.IsNullOrEmpty(erro))
+                {
+                    MessagingCenter.Send(new Message
+                    {
+                        Title = "Erro ao Buscar Arquivo da Queixa",
+                        MessageText = erro
+                    }, "Message");
+
+                    return;
+                }
+
+                var (path, erroCreate) = await FileHelper.CreateFile(arquivo.ArquivoByte, queixa.NomeArquivoCompleto);
+
+                if (!string.IsNullOrEmpty(erroCreate))
+                {
+                    MessagingCenter.Send(new Message
+                    {
+                        Title = "Erro ao Criar Arquivo",
+                        MessageText = erroCreate
+                    }, "Message");
+
+                    return;
+                }
+
+                Queixas.FirstOrDefault(x => x.Id == queixa.Id).Arquivo = arquivo;
+            }
+            catch (Exception ex)
+            {
+                MessagingCenter.Send(new Message
+                {
+                    Title = "Erro ao Baixar Arquivo",
+                    MessageText = ex.Message
+                }, "Message");
+            }
+            finally
+            {
+                Queixas.FirstOrDefault(x => x.Id == queixa.Id).Download = false;
+                if (Queixas.FirstOrDefault(x => x.Id == queixa.Id).Arquivo != null) 
+                    Queixas.FirstOrDefault(x => x.Id == queixa.Id).DownloadVisible = false;
+            }
         }
     }
 }

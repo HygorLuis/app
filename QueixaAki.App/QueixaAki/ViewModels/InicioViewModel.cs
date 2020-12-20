@@ -3,10 +3,10 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
+using Plugin.Permissions.Abstractions;
 using QueixaAki.Models;
 using QueixaAki.Services;
 using QueixaAki.ViewModels.Base;
-using Xamarin.Essentials;
 using Xamarin.Forms;
 using MediaFile = Plugin.Media.Abstractions.MediaFile;
 

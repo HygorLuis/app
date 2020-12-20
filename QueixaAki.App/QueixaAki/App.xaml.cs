@@ -1,7 +1,8 @@
-﻿using QueixaAki.Helpers;
+﻿using Plugin.Permissions.Abstractions;
+using QueixaAki.Helpers;
+using QueixaAki.Interfaces;
 using Xamarin.Forms;
 using QueixaAki.Views;
-using Xamarin.Essentials;
 
 namespace QueixaAki
 {
@@ -16,6 +17,8 @@ namespace QueixaAki
         public static long IdConexao { get; set; }
         public static PermissionStatus PermissaoLocalizacao { get; set; }
         public static PermissionStatus PermissaoMidia { get; set; }
+        public static ISpecificPlatform SpecificPlatform => DependencyService.Get<ISpecificPlatform>();
+
 
         public App()
         {

@@ -1,11 +1,46 @@
 ﻿using System.Threading.Tasks;
-using Xamarin.Essentials;
+using Plugin.Permissions;
+using Plugin.Permissions.Abstractions;
+//using Xamarin.Essentials;
+//using PermissionStatus = Xamarin.Essentials.PermissionStatus;
 
 namespace QueixaAki.Helpers
 {
     public static class CheckPermissions
     {
         public static async Task<PermissionStatus> VerificarLocalizacao()
+        {
+            var status = await CrossPermissions.Current.CheckPermissionStatusAsync(Permission.LocationWhenInUse);
+
+            if (status == PermissionStatus.Granted)
+                return status;
+
+            var conceded = await CrossPermissions.Current.RequestPermissionsAsync(Permission.LocationWhenInUse);
+            return conceded[Permission.LocationWhenInUse];
+        }
+
+        public static async Task<PermissionStatus> VerificarMidia()
+        {
+            var status = await CrossPermissions.Current.CheckPermissionStatusAsync(Permission.Storage);
+
+            if (status == PermissionStatus.Granted)
+                return status;
+
+            var conceded = await CrossPermissions.Current.RequestPermissionsAsync(Permission.Storage);
+            return conceded[Permission.Storage];
+        }
+
+
+
+
+
+
+
+
+
+
+
+        /*public static async Task<PermissionStatus> VerificarLocalizacao()
         {
             var status = await Permissions.CheckStatusAsync<Permissions.LocationWhenInUse>();
 
@@ -76,6 +111,6 @@ namespace QueixaAki.Helpers
             status = await Permissions.RequestAsync<Permissions.Camera>();
 
             return status;
-        }
+        }*/
     }
 }

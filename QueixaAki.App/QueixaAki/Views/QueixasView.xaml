@@ -41,7 +41,8 @@
                                      Grid.RowSpan="3"
                                      Grid.Column="0"
                                      Margin="0,10,10,10"
-                                     VerticalOptions="CenterAndExpand">
+                                     VerticalOptions="CenterAndExpand"
+                                     IsVisible="{Binding DownloadVisible}">
 
                                 <Image WidthRequest="35"
                                        HeightRequest="35"
@@ -51,7 +52,7 @@
 
                             <ActivityIndicator IsVisible="{Binding Download}" 
                                                IsRunning="{Binding Download}" 
-                                               Color="{StaticResource SecondaryColor}"/>
+                                               Color="{StaticResource TertiaryColor}"/>
                         </StackLayout>
 
 
