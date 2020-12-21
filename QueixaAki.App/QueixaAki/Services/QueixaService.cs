@@ -167,5 +167,38 @@ namespace QueixaAki.Services
                 return new Tuple<Arquivo, string>(null, erro);
             });
         }
+
+        public async Task<Tuple<bool, string>> ExcluirArquivo(long id)
+        {
+            return await Task.Run(() =>
+            {
+                try
+                {
+                    using (var connection = new SqlConnection(App.ConnectionBanco))
+                    {
+                        connection.Open();
+                        using (var sqlCommand = connection.CreateCommand())
+                        {
+                            sqlCommand.Transaction = connection.BeginTransaction();
+                            sqlCommand.CommandText = $"UPDATE Queixa SET Excluido = 1 WHERE Id = {id};";
+                            sqlCommand.ExecuteNonQuery();
+
+                            sqlCommand.CommandText = $"DELETE FROM Arquivo WHERE IdQueixa = {id};";
+
+                            sqlCommand.ExecuteNonQuery();
+                            sqlCommand.Transaction.Commit();
+                        }
+
+                        connection.Close();
+                    }
+
+                    return new Tuple<bool, string>(true, "");
+                }
+                catch (Exception ex)
+                {
+                    return new Tuple<bool, string>(false, ex.Message);
+                }
+            });
+        }
     }
 }

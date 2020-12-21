@@ -28,6 +28,17 @@ namespace QueixaAki.ViewModels
             }
         }
 
+        private bool _listViewCarregando = false;
+        public bool ListViewCarregando
+        {
+            get => _listViewCarregando;
+            set
+            {
+                _listViewCarregando = value;
+                OnPropertyChanged();
+            }
+        }
+
         public ICommand AtualizarCommand
         {
             get
@@ -51,7 +62,7 @@ namespace QueixaAki.ViewModels
         {
             try
             {
-                Carregando = true;
+                ListViewCarregando = true;
 
                 if (!await VerificarAcessoInternet())
                 {
@@ -102,7 +113,7 @@ namespace QueixaAki.ViewModels
             }
             finally
             {
-                Carregando = false;
+                ListViewCarregando = false;
             }
         }
 
@@ -131,7 +142,7 @@ namespace QueixaAki.ViewModels
                     MessagingCenter.Send(new Message
                     {
                         Title = "Erro ao Buscar Arquivo da Queixa",
-                        MessageText = $"Favor tentar novamente mais tarde!"
+                        MessageText = "Favor tentar novamente mais tarde!"
                     }, "Message");
 
                     return;
@@ -165,6 +176,41 @@ namespace QueixaAki.ViewModels
                 Queixas.FirstOrDefault(x => x.Id == queixa.Id).Download = false;
                 if (Queixas.FirstOrDefault(x => x.Id == queixa.Id).Arquivo != null) 
                     Queixas.FirstOrDefault(x => x.Id == queixa.Id).DownloadVisible = false;
+            }
+        }
+
+        public async Task ExcluirArquivo(long id)
+        {
+            try
+            {
+                Carregando = true;
+
+                var (concluido, erro) = await _queixaService.ExcluirArquivo(id);
+                
+                if (concluido)
+                    MessagingCenter.Send(new Message
+                    {
+                        Title = "Sucesso",
+                        MessageText = "Arquivo excluido com sucesso!"
+                    }, "Message");
+                else
+                {
+                    MessagingCenter.Send(new Message
+                    {
+                        Title = "Erro ao Excluir Arquivo",
+                        MessageText = erro
+                    }, "Message");
+                }
+
+            }
+            catch (Exception e)
+            {
+                // ignored
+            }
+            finally
+            {
+                Carregando = false;
+                await GetQueixas();
             }
         }
     }
