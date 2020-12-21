@@ -1,4 +1,5 @@
-﻿using QueixaAki.Models;
+﻿using System.Linq;
+using QueixaAki.Models;
 using QueixaAki.ViewModels;
 using Xamarin.Forms;
 
@@ -33,6 +34,7 @@ namespace QueixaAki.Views
         private void QueixasList_OnItemTapped(object sender, ItemTappedEventArgs e)
         {
             if (!(e.Item is Queixa queixa)) return;
+            if (_viewModel.Queixas.FirstOrDefault(x => x.Id == queixa.Id).Download) return;
 
             if (queixa.DownloadVisible)
                 _viewModel.BaixarArquivo(queixa);

@@ -56,47 +56,44 @@ namespace QueixaAki.Services
             });
         }
 
-        public async Task<Tuple<Conexao, string>> BuscarConexaoId(long id)
+        public Tuple<Conexao, string> BuscarConexaoId(long id)
         {
-            return await Task.Run(() =>
+            try
             {
-                try
-                {
-                    var conexao = new Conexao();
+                var conexao = new Conexao();
 
-                    using (var connection = new SqlConnection(App.ConnectionQueixaAki))
+                using (var connection = new SqlConnection(App.ConnectionQueixaAki))
+                {
+                    connection.Open();
+                    using (var sqlCommand = connection.CreateCommand())
                     {
-                        connection.Open();
-                        using (var sqlCommand = connection.CreateCommand())
-                        {
-                            sqlCommand.CommandText = $"SELECT * FROM Conexao WHERE Excluido = 0 AND Id = {id};";
-                            var dr = sqlCommand.ExecuteReader();
+                        sqlCommand.CommandText = $"SELECT * FROM Conexao WHERE Excluido = 0 AND Id = {id};";
+                        var dr = sqlCommand.ExecuteReader();
 
-                            if (!dr.HasRows) return null;
-                            dr.Read();
+                        if (!dr.HasRows) return null;
+                        dr.Read();
 
-                            conexao.Id = long.Parse(dr["Id"].ToString());
-                            conexao.Cidade = dr["Cidade"].ToString();
-                            conexao.Estado = dr["Estado"].ToString();
-                            conexao.Servidor = dr["Servidor"].ToString();
-                            conexao.Banco = dr["Banco"].ToString();
-                            conexao.Usuario = dr["Usuario"].ToString();
-                            conexao.Senha = dr["Senha"].ToString();
-                            conexao.DataCriacao = DateTime.Parse(dr["DataCriacao"].ToString());
-                            conexao.Excluido = bool.Parse(dr["Excluido"].ToString());
+                        conexao.Id = long.Parse(dr["Id"].ToString());
+                        conexao.Cidade = dr["Cidade"].ToString();
+                        conexao.Estado = dr["Estado"].ToString();
+                        conexao.Servidor = dr["Servidor"].ToString();
+                        conexao.Banco = dr["Banco"].ToString();
+                        conexao.Usuario = dr["Usuario"].ToString();
+                        conexao.Senha = dr["Senha"].ToString();
+                        conexao.DataCriacao = DateTime.Parse(dr["DataCriacao"].ToString());
+                        conexao.Excluido = bool.Parse(dr["Excluido"].ToString());
 
-                            dr.Close();
-                        }
-                        connection.Close();
+                        dr.Close();
                     }
+                    connection.Close();
+                }
 
-                    return new Tuple<Conexao, string>(conexao, "");
-                }
-                catch (Exception ex)
-                {
-                    return new Tuple<Conexao, string>(new Conexao(), ex.Message);
-                }
-            });
+                return new Tuple<Conexao, string>(conexao, "");
+            }
+            catch (Exception ex)
+            {
+                return new Tuple<Conexao, string>(new Conexao(), ex.Message);
+            }
         }
     }
 }

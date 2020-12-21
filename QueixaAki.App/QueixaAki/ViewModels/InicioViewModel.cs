@@ -29,6 +29,16 @@ namespace QueixaAki.ViewModels
 
         private async void QueixaAKi()
         {
+            if (!await VerificarAcessoInternet())
+            {
+                MessagingCenter.Send(new Message
+                {
+                    Title = "Erro",
+                    MessageText = "Sem acesso à internet!"
+                }, "Message");
+                return;
+            }
+
             if (App.PermissaoLocalizacao == PermissionStatus.Granted && App.PermissaoMidia == PermissionStatus.Granted)
             {
                 var mediaFile = await GravarVideo();
@@ -79,20 +89,20 @@ namespace QueixaAki.ViewModels
             return mediaFile;
         }
 
-        public async void VeficarConexaoBanco()
+        public void VeficarConexaoBanco()
         {
             try
             {
                 if (!string.IsNullOrEmpty(App.ConnectionBanco)) return;
 
-                var (conexao, erro) = await _conexaoService.BuscarConexaoId(App.IdConexao);
+                var (conexao, erro) = _conexaoService.BuscarConexaoId(App.IdConexao);
 
                 if (string.IsNullOrEmpty(erro))
-                    App.ConnectionBanco = $"Server={conexao.Servidor}; Initial Catalog={conexao.Banco}; User ID={conexao.Usuario}; Password={conexao.Senha}";
+                    App.ConnectionBanco = $"Server={conexao.Servidor}; Initial Catalog={conexao.Banco}; User ID={conexao.Usuario}; Password={conexao.Senha}; Connection Timeout=0";
                 else
                     MessagingCenter.Send(new Message
                     {
-                        Title = "Erro ao Verificar Conexao",
+                        Title = "Erro ao Buscar Conexao",
                         MessageText = $"{erro}"
                     }, "Message");
             }

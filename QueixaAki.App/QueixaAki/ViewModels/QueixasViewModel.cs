@@ -53,6 +53,16 @@ namespace QueixaAki.ViewModels
             {
                 Carregando = true;
 
+                if (!await VerificarAcessoInternet())
+                {
+                    MessagingCenter.Send(new Message
+                    {
+                        Title = "Erro",
+                        MessageText = "Sem acesso à internet!"
+                    }, "Message");
+                    return;
+                }
+
                 var (queixas, erro) = await _queixaService.BuscarQueixasIdUsuario(App.IdUsuario);
                 if (string.IsNullOrEmpty(erro))
                 {
@@ -112,18 +122,16 @@ namespace QueixaAki.ViewModels
                     return;
                 }
 
-                if (Queixas.FirstOrDefault(x => x.Id == queixa.Id).Download) return;
-
                 Queixas.FirstOrDefault(x => x.Id == queixa.Id).Download = true;
 
                 var (arquivo, erro) = await _queixaService.BuscarArquivoIdQueixa(queixa.Id);
 
-                if (!string.IsNullOrEmpty(erro))
+                if (arquivo == null || !string.IsNullOrEmpty(erro))
                 {
                     MessagingCenter.Send(new Message
                     {
                         Title = "Erro ao Buscar Arquivo da Queixa",
-                        MessageText = erro
+                        MessageText = $"Favor tentar novamente mais tarde!\n\n{erro}"
                     }, "Message");
 
                     return;

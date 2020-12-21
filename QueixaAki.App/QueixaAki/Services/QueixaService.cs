@@ -3,6 +3,7 @@ using System.Collections.ObjectModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using QueixaAki.Models;
 
@@ -118,38 +119,52 @@ namespace QueixaAki.Services
 
         public async Task<Tuple<Arquivo, string>> BuscarArquivoIdQueixa(long id)
         {
+            var tentativas = 3;
+            var erro = "";
+
             return await Task.Run(() =>
             {
-                try
+                while (tentativas > 0)
                 {
-                    var arquivo = new Arquivo();
+                    if (tentativas < 3)
+                        Thread.Sleep(5000);
 
-                    using (var connection = new SqlConnection(App.ConnectionBanco))
+                    try
                     {
-                        connection.Open();
-                        using (var sqlCommand = connection.CreateCommand())
+                        var arquivo = new Arquivo();
+
+                        using (var connection = new SqlConnection(App.ConnectionBanco))
                         {
-                            sqlCommand.CommandText = $"SELECT * FROM Arquivo WHERE IdQueixa = {id};";
-                            var dr = sqlCommand.ExecuteReader();
+                            connection.Open();
+                            using (var sqlCommand = connection.CreateCommand())
+                            {
+                                sqlCommand.CommandTimeout = 0;
+                                sqlCommand.CommandText = $"SELECT * FROM Arquivo WHERE IdQueixa = {id};";
+                                var dr = sqlCommand.ExecuteReader(CommandBehavior.CloseConnection);
 
-                            if (!dr.HasRows) return null;
-                            dr.Read();
+                                if (!dr.HasRows) return null;
+                                dr.Read();
 
-                            arquivo.Id = long.Parse(dr["Id"].ToString());
-                            arquivo.IdQueixa = long.Parse(dr["IdQueixa"].ToString());
-                            arquivo.ArquivoByte = (byte[])dr["Arquivo"];
+                                arquivo.Id = long.Parse(dr["Id"].ToString());
+                                arquivo.IdQueixa = long.Parse(dr["IdQueixa"].ToString());
+                                arquivo.ArquivoByte = (byte[])dr["Arquivo"];
 
-                            dr.Close();
+                                dr.Close();
+                            }
+                            connection.Close();
                         }
-                        connection.Close();
-                    }
 
-                    return new Tuple<Arquivo, string>(arquivo, "");
+                        return new Tuple<Arquivo, string>(arquivo, "");
+                    }
+                    catch (Exception ex)
+                    {
+                        tentativas--;
+                        if (!string.IsNullOrEmpty(ex.Message))
+                            erro = ex.Message;
+                        //return new Tuple<Arquivo, string>(null, ex.Message);
+                    }
                 }
-                catch (Exception ex)
-                {
-                    return new Tuple<Arquivo, string>(null, ex.Message);
-                }
+                return new Tuple<Arquivo, string>(null, erro);
             });
         }
     }
