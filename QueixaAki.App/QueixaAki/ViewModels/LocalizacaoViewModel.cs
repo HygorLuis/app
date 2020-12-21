@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using QueixaAki.Helpers;
 using QueixaAki.Models;
 using QueixaAki.Services;
 using QueixaAki.ViewModels.Base;
@@ -12,11 +14,15 @@ namespace QueixaAki.ViewModels
     {
         public ICommand ConfirmarLocalizacaoCommand { get; set; }
         private QueixaService _queixaService;
+        private ConexaoService _conexaoService;
+        private UsuarioService _usuarioService;
         private Queixa _queixa;
 
         public LocalizacaoViewModel(Queixa queixa)
         {
             _queixaService = new QueixaService();
+            _conexaoService = new ConexaoService();
+            _usuarioService = new UsuarioService();
 
             _queixa = queixa;
             _queixa.Endereco = new Endereco();
@@ -58,25 +64,39 @@ namespace QueixaAki.ViewModels
 
                 _queixa.DataCriacao = DateTime.Now;
 
-                var (sucesso, erro) = await _queixaService.Incluir(_queixa);
-                if (sucesso)
+                var conexao = await _conexaoService.BuscarConexao(new List<string> { _queixa.Endereco.Cidade }, new List<string> { _queixa.Endereco.Estado });
+                var usuario = await _usuarioService.BuscarUsuarioId(App.IdUsuario);
+
+                if (conexao.Item1 != null && conexao.Item1.Id > 0
+                                          && usuario.Endereco.Cidade.ApenasLetras().ToUpper() == _queixa.Endereco.Cidade.ApenasLetras().ToUpper()
+                                          && usuario.Endereco.Estado.ApenasLetras().ToUpper() == _queixa.Endereco.Estado.ApenasLetras().ToUpper())
                 {
-                    MessagingCenter.Send(new Message
+                    var (sucesso, erro) = await _queixaService.Incluir(_queixa);
+                    if (sucesso)
                     {
-                        Title = "Sucesso",
-                        MessageText = "Queixa enviada com sucesso!"
-                    }, "Message");
+                        MessagingCenter.Send(new Message
+                        {
+                            Title = "Sucesso",
+                            MessageText = "Queixa enviada com sucesso!"
+                        }, "Message");
+                    }
+                    else
+                    {
+                        MessagingCenter.Send(new Message
+                        {
+                            Title = "Erro ao Incluir Queixa",
+                            MessageText = erro
+                        }, "Message");
+                    }
                 }
                 else
                 {
                     MessagingCenter.Send(new Message
                     {
-                        Title = "Erro ao Incluir Queixa",
-                        MessageText = erro
+                        Title = "Erro",
+                        MessageText = "Sua queixa não está disponível para essa localização!"
                     }, "Message");
                 }
-
-
             }
             catch (Exception e)
             {

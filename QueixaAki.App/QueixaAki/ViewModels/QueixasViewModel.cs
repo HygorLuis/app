@@ -131,7 +131,7 @@ namespace QueixaAki.ViewModels
                     MessagingCenter.Send(new Message
                     {
                         Title = "Erro ao Buscar Arquivo da Queixa",
-                        MessageText = $"Favor tentar novamente mais tarde!\n\n{erro}"
+                        MessageText = $"Favor tentar novamente mais tarde!"
                     }, "Message");
 
                     return;

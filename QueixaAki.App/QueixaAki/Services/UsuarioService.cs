@@ -149,5 +149,54 @@ namespace QueixaAki.Services
                 }
             });
         }
+
+        public async Task<Usuario> BuscarUsuarioId(long id)
+        {
+            return await Task.Run(() =>
+            {
+                try
+                {
+                    var usuario = new Usuario();
+
+                    using (var connection = new SqlConnection(App.ConnectionQueixaAki))
+                    {
+                        connection.Open();
+                        using (var sqlCommand = connection.CreateCommand())
+                        {
+                            sqlCommand.CommandText = $"SELECT * FROM UsuarioApp WHERE Id = {id};";
+                            var dr = sqlCommand.ExecuteReader();
+
+                            if (!dr.HasRows) return null;
+                            dr.Read();
+
+                            usuario.Id = long.Parse(dr["Id"].ToString());
+                            usuario.Email = dr["EMail"].ToString();
+                            usuario.Senha = dr["Senha"].ToString();
+                            usuario.Telefone1 = dr["Telefone1"].ToString();
+                            usuario.Telefone2 = dr["Telefone2"].ToString();
+                            usuario.Endereco = new Endereco
+                            {
+                                Cep = dr["Cep"].ToString(),
+                                Rua = dr["Rua"].ToString(),
+                                Numero = dr["Numero"].ToString(),
+                                Complemento = dr["Complemento"].ToString(),
+                                Bairro = dr["Bairro"].ToString(),
+                                Cidade = dr["Cidade"].ToString(),
+                                Estado = dr["Estado"].ToString()
+                            };
+
+                            dr.Close();
+                        }
+                        connection.Close();
+                    }
+
+                    return usuario;
+                }
+                catch (Exception ex)
+                {
+                    return null;
+                }
+            });
+        }
     }
 }
