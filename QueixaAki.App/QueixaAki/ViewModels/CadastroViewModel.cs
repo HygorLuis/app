@@ -299,8 +299,6 @@ namespace QueixaAki.ViewModels
 
                 if (!await Validar()) return;
 
-                Usuario.DataCriacao = DateTime.Now;
-
                 var result = await _usuarioService.Incluir(Usuario);
                 if (result.Item1)
                 {

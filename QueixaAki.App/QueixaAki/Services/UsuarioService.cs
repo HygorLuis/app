@@ -42,7 +42,7 @@ namespace QueixaAki.Services
                             sqlCommand.Parameters.AddWithValue("@Cidade", usuario.Endereco.Cidade);
                             sqlCommand.Parameters.AddWithValue("@Estado", usuario.Endereco.Estado);
                             sqlCommand.Parameters.AddWithValue("@IdConexao", usuario.Conexao.Id);
-                            sqlCommand.Parameters.AddWithValue("@DataCriacao", $"{usuario.DataCriacao:yyyy/MM/dd HH:mm:ss}");
+                            sqlCommand.Parameters.AddWithValue("@DataCriacao", $"{DateTime.Now:yyyy/MM/dd HH:mm:ss}");
                             sqlCommand.Parameters.AddWithValue("@Excluido", usuario.Excluido);
 
                             sqlCommand.ExecuteNonQuery();

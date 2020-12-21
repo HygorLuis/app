@@ -62,8 +62,6 @@ namespace QueixaAki.ViewModels
             {
                 Carregando = true;
 
-                _queixa.DataCriacao = DateTime.Now;
-
                 var conexao = await _conexaoService.BuscarConexao(new List<string> { _queixa.Endereco.Cidade }, new List<string> { _queixa.Endereco.Estado });
                 var usuario = await _usuarioService.BuscarUsuarioId(App.IdUsuario);
 
