@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -254,7 +255,22 @@ namespace QueixaAki.ViewModels
 
             #endregion
 
-            var conexao = await _conexaoService.BuscarConexao(Usuario.Endereco.Cidade, Usuario.Endereco.Estado);
+            var localizacao = await GetLocalizacao();
+            var enderecoLocalizacao = await GetEnderecoLocalizacao(localizacao.Latitude, localizacao.Longitude);
+
+            var cidade = new List<string>
+            {
+                Usuario.Endereco.Cidade,
+                enderecoLocalizacao.Cidade
+            };
+
+            var estado = new List<string>
+            {
+                Usuario.Endereco.Estado,
+                enderecoLocalizacao.Estado
+            };
+
+            var conexao = await _conexaoService.BuscarConexao(cidade, estado);
 
             if (conexao.Item1 != null && conexao.Item1.Id > 0)
             {
@@ -265,7 +281,7 @@ namespace QueixaAki.ViewModels
                 MessagingCenter.Send(new Message
                 {
                     Title = "Erro",
-                    MessageText = "O aplicativo ainda não está disponível para sua cidade!"
+                    MessageText = "O aplicativo ainda não está disponível para sua cidade ou localização!"
                 }, "Message");
                 return false;
             }

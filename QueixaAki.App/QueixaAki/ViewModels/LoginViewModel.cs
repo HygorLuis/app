@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Plugin.Permissions.Abstractions;
 using QueixaAki.Helpers;
 using QueixaAki.Models;
 using QueixaAki.Services;
@@ -28,7 +29,16 @@ namespace QueixaAki.ViewModels
             EntrarCommand = new Command(Entrar);
             CadastrarCommand = new Command(() =>
             {
-                MessagingCenter.Send("", "Cadastrar");
+                if (App.PermissaoLocalizacao == PermissionStatus.Granted)
+                    MessagingCenter.Send("", "Cadastrar");
+                else
+                {
+                    MessagingCenter.Send(new Message
+                    {
+                        Title = "Permissões Necessárias",
+                        MessageText = "Favor dar permissão as seguintes solicitações nas configurações do seu telefone: Localização"
+                    }, "Message");
+                }
             });
         }
 

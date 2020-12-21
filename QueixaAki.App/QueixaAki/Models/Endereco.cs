@@ -15,7 +15,7 @@ namespace QueixaAki.Models
         private string _rua;
         public string Rua
         {
-            get => _rua?.ToUpper();
+            get => _rua;
             set
             {
                 _rua = value;
@@ -26,21 +26,21 @@ namespace QueixaAki.Models
         private string _numero;
         public string Numero
         {
-            get => _numero?.ToUpper();
+            get => _numero;
             set => _numero = value;
         }
 
         private string _complemento;
         public string Complemento
         {
-            get => _complemento?.ToUpper();
+            get => _complemento;
             set => _complemento = value;
         }
 
         private string _bairro;
         public string Bairro
         {
-            get => _bairro?.ToUpper();
+            get => _bairro;
             set
             {
                 _bairro = value;
@@ -51,7 +51,7 @@ namespace QueixaAki.Models
         private string _cidade;
         public string Cidade
         {
-            get => _cidade?.ToUpper();
+            get => _cidade;
             set
             {
                 _cidade = value;

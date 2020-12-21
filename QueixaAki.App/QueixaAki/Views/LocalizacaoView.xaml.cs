@@ -47,7 +47,7 @@ namespace QueixaAki.Views
         private async Task SelectedPin(double latitude, double longitude)
         {
             pinAtual.Position = new Position(latitude, longitude);
-            pinAtual.Address = await _viewModel.GetEndereço(latitude, longitude);
+            pinAtual.Address = await _viewModel.GetEndereco(latitude, longitude);
 
             if (Map.Pins.Count == 0)
                 Map.Pins.Add(pinAtual);

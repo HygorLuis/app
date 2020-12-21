@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace QueixaAki.Services
 {
     public class ConexaoService
     {
-        public async Task<Tuple<Conexao, string>> BuscarConexao(string cidade, string estado)
+        public async Task<Tuple<Conexao, string>> BuscarConexao(List<string> cidade, List<string> estado)
         {
             return await Task.Run(() =>
             {
@@ -46,8 +47,8 @@ namespace QueixaAki.Services
                         Excluido = x.Field<bool>("Excluido")
                     });
 
-                    return new Tuple<Conexao, string>(conexoesList.FirstOrDefault(x => x.Cidade.ApenasLetras().ToUpper() == cidade.ApenasLetras().ToUpper()
-                                                                                       && x.Estado.ApenasLetras().ToUpper() == estado.ApenasLetras().ToUpper()), "");
+                    return new Tuple<Conexao, string>(conexoesList.FirstOrDefault(x => cidade.All(c => c.ApenasLetras().ToUpper() == x.Cidade.ApenasLetras().ToUpper())
+                                                                                       && estado.All(e => e.ApenasLetras().ToUpper() == x.Estado.ApenasLetras().ToUpper())), "");
                 }
                 catch (Exception ex)
                 {
