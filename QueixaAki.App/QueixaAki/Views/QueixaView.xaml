@@ -1,19 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:videoPlayer="clr-namespace:Octane.Xamarin.Forms.VideoPlayer;assembly=Octane.Xamarin.Forms.VideoPlayer"
+             xmlns:videoPlayer="clr-namespace:Xam.Forms.VideoPlayer;assembly=Xam.Forms.VideoPlayer"
              x:Class="QueixaAki.Views.QueixaView"
              Title="Queixa"
              BackgroundColor="{StaticResource PrimaryColor}"
              Shell.TabBarIsVisible="false">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-
-        <videoPlayer:VideoPlayer x:Name="VPvideoPlayer" 
-                                 Grid.Row="0"
-                                 AutoPlay="True"
+        <videoPlayer:VideoPlayer Grid.Row="0" 
+                                 x:Name="videoPlayer"
+                                 BackgroundColor="Black"
+                                 HorizontalOptions="FillAndExpand"
+                                 VerticalOptions="FillAndExpand"
                                  Source="{Binding VideoSource}"/>
+
+        <ActivityIndicator Grid.Row="0" 
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           Color="White"
+                           BackgroundColor="Transparent"
+                           IsVisible="False">
+            <ActivityIndicator.Triggers>
+                <DataTrigger TargetType="ActivityIndicator"
+                             Binding="{Binding Source={x:Reference videoPlayer}, Path=Status}"
+                             Value="{x:Static videoPlayer:VideoStatus.NotReady}">
+                    <Setter Property="IsVisible" Value="True" />
+                    <Setter Property="IsRunning" Value="True" />
+                </DataTrigger>
+                <DataTrigger TargetType="ActivityIndicator"
+                             Binding="{Binding Source={x:Reference videoPlayer}, Path=IsBuffering}"
+                             Value="true">
+                    <Setter Property="IsVisible" Value="True" />
+                    <Setter Property="IsRunning" Value="True" />
+                </DataTrigger>
+            </ActivityIndicator.Triggers>
+        </ActivityIndicator>
     </Grid>
 </ContentPage>

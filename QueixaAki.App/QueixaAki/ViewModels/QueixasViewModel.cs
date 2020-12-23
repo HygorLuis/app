@@ -88,7 +88,8 @@ namespace QueixaAki.ViewModels
                         {
                             queixa.Arquivo = new Arquivo
                             {
-                                ArquivoByte = File.ReadAllBytes(exist)
+                                ArquivoByte = File.ReadAllBytes(exist),
+                                Path = exist
                             };
                         }
                     }
@@ -162,6 +163,7 @@ namespace QueixaAki.ViewModels
                 }
 
                 Queixas.FirstOrDefault(x => x.Id == queixa.Id).Arquivo = arquivo;
+                Queixas.FirstOrDefault(x => x.Id == queixa.Id).Arquivo.Path = path;
             }
             catch (Exception ex)
             {

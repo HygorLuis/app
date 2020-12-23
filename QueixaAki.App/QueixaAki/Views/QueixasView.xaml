@@ -87,11 +87,10 @@
                                          Grid.Column="2">
 
                                 <ImageButton x:Name="DeleteBtn"
-                                             Padding="8"
-                                             CornerRadius="50"
                                              WidthRequest="35"
                                              HeightRequest="35"
-                                             Source="send.png"
+                                             BackgroundColor="Transparent"
+                                             Source="delete.png"
                                              VerticalOptions="CenterAndExpand"
                                              Clicked="DeleteBtn_OnClicked"
                                              CommandParameter="{Binding .}"/>

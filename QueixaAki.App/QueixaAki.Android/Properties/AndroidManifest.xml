@@ -10,7 +10,7 @@
 	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 	<uses-permission android:name="android.permission.INTERNET" />
-	<application android:label="Queixa Aki" android:theme="@style/MainTheme">
+	<application android:usesCleartextTraffic="True" android:label="Queixa Aki" android:theme="@style/MainTheme">
 		<provider android:name="android.support.v4.content.FileProvider" android:authorities="br.com.queixaaki.fileprovider" android:exported="false" android:grantUriPermissions="true">
 			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
 		</provider>
