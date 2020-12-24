@@ -23,7 +23,6 @@ namespace QueixaAki.Droid
             Window.SetStatusBarColor(parsedColor);
             await CrossMedia.Current.Initialize();
 
-            Xam.Forms.VideoPlayer.Android.VideoPlayerRenderer.Init();
             Xamarin.FormsGoogleMaps.Init(this, savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);

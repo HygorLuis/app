@@ -1,7 +1,7 @@
 ﻿using System.IO;
+using Octane.Xamarin.Forms.VideoPlayer;
 using QueixaAki.Models;
 using QueixaAki.ViewModels.Base;
-using Xam.Forms.VideoPlayer;
 
 namespace QueixaAki.ViewModels
 {
@@ -20,7 +20,7 @@ namespace QueixaAki.ViewModels
 
         public QueixaViewModel(Queixa queixa)
         {
-            VideoSource = VideoSource.FromFile(queixa.Arquivo.Path);
+            VideoSource = VideoSource.FromStream(() => new MemoryStream(queixa.Arquivo.ArquivoByte), queixa.Formato);
         }
     }
 }

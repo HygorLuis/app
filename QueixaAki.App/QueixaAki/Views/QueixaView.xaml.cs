@@ -4,7 +4,6 @@ using QueixaAki.ViewModels;
 
 namespace QueixaAki.Views
 {
-    [DesignTimeVisible(false)]
     public partial class QueixaView
     {
         private QueixaViewModel _viewModel;

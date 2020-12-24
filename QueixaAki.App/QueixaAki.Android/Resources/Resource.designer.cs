@@ -391,1972 +391,6 @@ namespace QueixaAki.Droid
 			global::Plugin.Permissions.Resource.Styleable.GradientColor_android_tileMode = global::QueixaAki.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Plugin.Permissions.Resource.Styleable.GradientColor_android_type = global::QueixaAki.Droid.Resource.Styleable.GradientColor_android_type;
 			global::Plugin.Permissions.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::QueixaAki.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_fade_in = global::QueixaAki.Droid.Resource.Animation.abc_fade_in;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_fade_out = global::QueixaAki.Droid.Resource.Animation.abc_fade_out;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::QueixaAki.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_popup_enter = global::QueixaAki.Droid.Resource.Animation.abc_popup_enter;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_popup_exit = global::QueixaAki.Droid.Resource.Animation.abc_popup_exit;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::QueixaAki.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_slide_in_bottom = global::QueixaAki.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_slide_in_top = global::QueixaAki.Droid.Resource.Animation.abc_slide_in_top;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_slide_out_bottom = global::QueixaAki.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_slide_out_top = global::QueixaAki.Droid.Resource.Animation.abc_slide_out_top;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.design_bottom_sheet_slide_in = global::QueixaAki.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.design_bottom_sheet_slide_out = global::QueixaAki.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.design_snackbar_in = global::QueixaAki.Droid.Resource.Animation.design_snackbar_in;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.design_snackbar_out = global::QueixaAki.Droid.Resource.Animation.design_snackbar_out;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.EnterFromLeft = global::QueixaAki.Droid.Resource.Animation.EnterFromLeft;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.EnterFromRight = global::QueixaAki.Droid.Resource.Animation.EnterFromRight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.ExitToLeft = global::QueixaAki.Droid.Resource.Animation.ExitToLeft;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.ExitToRight = global::QueixaAki.Droid.Resource.Animation.ExitToRight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Animator.design_appbar_state_list_animator = global::QueixaAki.Droid.Resource.Animator.design_appbar_state_list_animator;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarDivider = global::QueixaAki.Droid.Resource.Attribute.actionBarDivider;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarItemBackground = global::QueixaAki.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarPopupTheme = global::QueixaAki.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarSize = global::QueixaAki.Droid.Resource.Attribute.actionBarSize;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarSplitStyle = global::QueixaAki.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarStyle = global::QueixaAki.Droid.Resource.Attribute.actionBarStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarTabBarStyle = global::QueixaAki.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarTabStyle = global::QueixaAki.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarTabTextStyle = global::QueixaAki.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarTheme = global::QueixaAki.Droid.Resource.Attribute.actionBarTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarWidgetTheme = global::QueixaAki.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionButtonStyle = global::QueixaAki.Droid.Resource.Attribute.actionButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionDropDownStyle = global::QueixaAki.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionLayout = global::QueixaAki.Droid.Resource.Attribute.actionLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionMenuTextAppearance = global::QueixaAki.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionMenuTextColor = global::QueixaAki.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeBackground = global::QueixaAki.Droid.Resource.Attribute.actionModeBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeCloseButtonStyle = global::QueixaAki.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeCloseDrawable = global::QueixaAki.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeCopyDrawable = global::QueixaAki.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeCutDrawable = global::QueixaAki.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeFindDrawable = global::QueixaAki.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModePasteDrawable = global::QueixaAki.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModePopupWindowStyle = global::QueixaAki.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeSelectAllDrawable = global::QueixaAki.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeShareDrawable = global::QueixaAki.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeSplitBackground = global::QueixaAki.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeStyle = global::QueixaAki.Droid.Resource.Attribute.actionModeStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeWebSearchDrawable = global::QueixaAki.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionOverflowButtonStyle = global::QueixaAki.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionOverflowMenuStyle = global::QueixaAki.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionProviderClass = global::QueixaAki.Droid.Resource.Attribute.actionProviderClass;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionViewClass = global::QueixaAki.Droid.Resource.Attribute.actionViewClass;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.activityChooserViewStyle = global::QueixaAki.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::QueixaAki.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alertDialogCenterButtons = global::QueixaAki.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alertDialogStyle = global::QueixaAki.Droid.Resource.Attribute.alertDialogStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alertDialogTheme = global::QueixaAki.Droid.Resource.Attribute.alertDialogTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.allowStacking = global::QueixaAki.Droid.Resource.Attribute.allowStacking;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alpha = global::QueixaAki.Droid.Resource.Attribute.alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alphabeticModifiers = global::QueixaAki.Droid.Resource.Attribute.alphabeticModifiers;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.arrowHeadLength = global::QueixaAki.Droid.Resource.Attribute.arrowHeadLength;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.arrowShaftLength = global::QueixaAki.Droid.Resource.Attribute.arrowShaftLength;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoCompleteTextViewStyle = global::QueixaAki.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoSizeMaxTextSize = global::QueixaAki.Droid.Resource.Attribute.autoSizeMaxTextSize;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoSizeMinTextSize = global::QueixaAki.Droid.Resource.Attribute.autoSizeMinTextSize;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoSizePresetSizes = global::QueixaAki.Droid.Resource.Attribute.autoSizePresetSizes;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoSizeStepGranularity = global::QueixaAki.Droid.Resource.Attribute.autoSizeStepGranularity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoSizeTextType = global::QueixaAki.Droid.Resource.Attribute.autoSizeTextType;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.background = global::QueixaAki.Droid.Resource.Attribute.background;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.backgroundSplit = global::QueixaAki.Droid.Resource.Attribute.backgroundSplit;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.backgroundStacked = global::QueixaAki.Droid.Resource.Attribute.backgroundStacked;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.backgroundTint = global::QueixaAki.Droid.Resource.Attribute.backgroundTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.backgroundTintMode = global::QueixaAki.Droid.Resource.Attribute.backgroundTintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.barLength = global::QueixaAki.Droid.Resource.Attribute.barLength;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.behavior_autoHide = global::QueixaAki.Droid.Resource.Attribute.behavior_autoHide;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.behavior_hideable = global::QueixaAki.Droid.Resource.Attribute.behavior_hideable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.behavior_overlapTop = global::QueixaAki.Droid.Resource.Attribute.behavior_overlapTop;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.behavior_peekHeight = global::QueixaAki.Droid.Resource.Attribute.behavior_peekHeight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.behavior_skipCollapsed = global::QueixaAki.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.borderWidth = global::QueixaAki.Droid.Resource.Attribute.borderWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.borderlessButtonStyle = global::QueixaAki.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.bottomSheetDialogTheme = global::QueixaAki.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.bottomSheetStyle = global::QueixaAki.Droid.Resource.Attribute.bottomSheetStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonBarButtonStyle = global::QueixaAki.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::QueixaAki.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::QueixaAki.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::QueixaAki.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonBarStyle = global::QueixaAki.Droid.Resource.Attribute.buttonBarStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonGravity = global::QueixaAki.Droid.Resource.Attribute.buttonGravity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonPanelSideLayout = global::QueixaAki.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonStyle = global::QueixaAki.Droid.Resource.Attribute.buttonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonStyleSmall = global::QueixaAki.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonTint = global::QueixaAki.Droid.Resource.Attribute.buttonTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonTintMode = global::QueixaAki.Droid.Resource.Attribute.buttonTintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardBackgroundColor = global::QueixaAki.Droid.Resource.Attribute.cardBackgroundColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardCornerRadius = global::QueixaAki.Droid.Resource.Attribute.cardCornerRadius;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardElevation = global::QueixaAki.Droid.Resource.Attribute.cardElevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardMaxElevation = global::QueixaAki.Droid.Resource.Attribute.cardMaxElevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardPreventCornerOverlap = global::QueixaAki.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardUseCompatPadding = global::QueixaAki.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.checkboxStyle = global::QueixaAki.Droid.Resource.Attribute.checkboxStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.checkedTextViewStyle = global::QueixaAki.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.closeIcon = global::QueixaAki.Droid.Resource.Attribute.closeIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.closeItemLayout = global::QueixaAki.Droid.Resource.Attribute.closeItemLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.collapseContentDescription = global::QueixaAki.Droid.Resource.Attribute.collapseContentDescription;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.collapseIcon = global::QueixaAki.Droid.Resource.Attribute.collapseIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.collapsedTitleGravity = global::QueixaAki.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.collapsedTitleTextAppearance = global::QueixaAki.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.color = global::QueixaAki.Droid.Resource.Attribute.color;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorAccent = global::QueixaAki.Droid.Resource.Attribute.colorAccent;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorBackgroundFloating = global::QueixaAki.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorButtonNormal = global::QueixaAki.Droid.Resource.Attribute.colorButtonNormal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorControlActivated = global::QueixaAki.Droid.Resource.Attribute.colorControlActivated;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorControlHighlight = global::QueixaAki.Droid.Resource.Attribute.colorControlHighlight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorControlNormal = global::QueixaAki.Droid.Resource.Attribute.colorControlNormal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorError = global::QueixaAki.Droid.Resource.Attribute.colorError;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorPrimary = global::QueixaAki.Droid.Resource.Attribute.colorPrimary;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorPrimaryDark = global::QueixaAki.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorSwitchThumbNormal = global::QueixaAki.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.commitIcon = global::QueixaAki.Droid.Resource.Attribute.commitIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentDescription = global::QueixaAki.Droid.Resource.Attribute.contentDescription;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetEnd = global::QueixaAki.Droid.Resource.Attribute.contentInsetEnd;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetEndWithActions = global::QueixaAki.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetLeft = global::QueixaAki.Droid.Resource.Attribute.contentInsetLeft;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetRight = global::QueixaAki.Droid.Resource.Attribute.contentInsetRight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetStart = global::QueixaAki.Droid.Resource.Attribute.contentInsetStart;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetStartWithNavigation = global::QueixaAki.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentPadding = global::QueixaAki.Droid.Resource.Attribute.contentPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentPaddingBottom = global::QueixaAki.Droid.Resource.Attribute.contentPaddingBottom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentPaddingLeft = global::QueixaAki.Droid.Resource.Attribute.contentPaddingLeft;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentPaddingRight = global::QueixaAki.Droid.Resource.Attribute.contentPaddingRight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentPaddingTop = global::QueixaAki.Droid.Resource.Attribute.contentPaddingTop;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentScrim = global::QueixaAki.Droid.Resource.Attribute.contentScrim;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.controlBackground = global::QueixaAki.Droid.Resource.Attribute.controlBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.counterEnabled = global::QueixaAki.Droid.Resource.Attribute.counterEnabled;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.counterMaxLength = global::QueixaAki.Droid.Resource.Attribute.counterMaxLength;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.counterOverflowTextAppearance = global::QueixaAki.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.counterTextAppearance = global::QueixaAki.Droid.Resource.Attribute.counterTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.customNavigationLayout = global::QueixaAki.Droid.Resource.Attribute.customNavigationLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.defaultQueryHint = global::QueixaAki.Droid.Resource.Attribute.defaultQueryHint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dialogPreferredPadding = global::QueixaAki.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dialogTheme = global::QueixaAki.Droid.Resource.Attribute.dialogTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.displayOptions = global::QueixaAki.Droid.Resource.Attribute.displayOptions;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.divider = global::QueixaAki.Droid.Resource.Attribute.divider;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dividerHorizontal = global::QueixaAki.Droid.Resource.Attribute.dividerHorizontal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dividerPadding = global::QueixaAki.Droid.Resource.Attribute.dividerPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dividerVertical = global::QueixaAki.Droid.Resource.Attribute.dividerVertical;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.drawableSize = global::QueixaAki.Droid.Resource.Attribute.drawableSize;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.drawerArrowStyle = global::QueixaAki.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dropDownListViewStyle = global::QueixaAki.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::QueixaAki.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.editTextBackground = global::QueixaAki.Droid.Resource.Attribute.editTextBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.editTextColor = global::QueixaAki.Droid.Resource.Attribute.editTextColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.editTextStyle = global::QueixaAki.Droid.Resource.Attribute.editTextStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.elevation = global::QueixaAki.Droid.Resource.Attribute.elevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.errorEnabled = global::QueixaAki.Droid.Resource.Attribute.errorEnabled;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.errorTextAppearance = global::QueixaAki.Droid.Resource.Attribute.errorTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::QueixaAki.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expanded = global::QueixaAki.Droid.Resource.Attribute.expanded;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleGravity = global::QueixaAki.Droid.Resource.Attribute.expandedTitleGravity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleMargin = global::QueixaAki.Droid.Resource.Attribute.expandedTitleMargin;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleMarginBottom = global::QueixaAki.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleMarginEnd = global::QueixaAki.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleMarginStart = global::QueixaAki.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleMarginTop = global::QueixaAki.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleTextAppearance = global::QueixaAki.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fabSize = global::QueixaAki.Droid.Resource.Attribute.fabSize;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fastScrollEnabled = global::QueixaAki.Droid.Resource.Attribute.fastScrollEnabled;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::QueixaAki.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::QueixaAki.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::QueixaAki.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::QueixaAki.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.font = global::QueixaAki.Droid.Resource.Attribute.font;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontFamily = global::QueixaAki.Droid.Resource.Attribute.fontFamily;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderAuthority = global::QueixaAki.Droid.Resource.Attribute.fontProviderAuthority;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderCerts = global::QueixaAki.Droid.Resource.Attribute.fontProviderCerts;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderFetchStrategy = global::QueixaAki.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderFetchTimeout = global::QueixaAki.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderPackage = global::QueixaAki.Droid.Resource.Attribute.fontProviderPackage;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderQuery = global::QueixaAki.Droid.Resource.Attribute.fontProviderQuery;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontStyle = global::QueixaAki.Droid.Resource.Attribute.fontStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontWeight = global::QueixaAki.Droid.Resource.Attribute.fontWeight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.foregroundInsidePadding = global::QueixaAki.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.gapBetweenBars = global::QueixaAki.Droid.Resource.Attribute.gapBetweenBars;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.goIcon = global::QueixaAki.Droid.Resource.Attribute.goIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.headerLayout = global::QueixaAki.Droid.Resource.Attribute.headerLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.height = global::QueixaAki.Droid.Resource.Attribute.height;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.hideOnContentScroll = global::QueixaAki.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.hintAnimationEnabled = global::QueixaAki.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.hintEnabled = global::QueixaAki.Droid.Resource.Attribute.hintEnabled;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.hintTextAppearance = global::QueixaAki.Droid.Resource.Attribute.hintTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.homeAsUpIndicator = global::QueixaAki.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.homeLayout = global::QueixaAki.Droid.Resource.Attribute.homeLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.icon = global::QueixaAki.Droid.Resource.Attribute.icon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.iconTint = global::QueixaAki.Droid.Resource.Attribute.iconTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.iconTintMode = global::QueixaAki.Droid.Resource.Attribute.iconTintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.iconifiedByDefault = global::QueixaAki.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.imageButtonStyle = global::QueixaAki.Droid.Resource.Attribute.imageButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.indeterminateProgressStyle = global::QueixaAki.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.initialActivityCount = global::QueixaAki.Droid.Resource.Attribute.initialActivityCount;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.insetForeground = global::QueixaAki.Droid.Resource.Attribute.insetForeground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.isLightTheme = global::QueixaAki.Droid.Resource.Attribute.isLightTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.itemBackground = global::QueixaAki.Droid.Resource.Attribute.itemBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.itemIconTint = global::QueixaAki.Droid.Resource.Attribute.itemIconTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.itemPadding = global::QueixaAki.Droid.Resource.Attribute.itemPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.itemTextAppearance = global::QueixaAki.Droid.Resource.Attribute.itemTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.itemTextColor = global::QueixaAki.Droid.Resource.Attribute.itemTextColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.keylines = global::QueixaAki.Droid.Resource.Attribute.keylines;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout = global::QueixaAki.Droid.Resource.Attribute.layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layoutManager = global::QueixaAki.Droid.Resource.Attribute.layoutManager;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_anchor = global::QueixaAki.Droid.Resource.Attribute.layout_anchor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_anchorGravity = global::QueixaAki.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_behavior = global::QueixaAki.Droid.Resource.Attribute.layout_behavior;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_collapseMode = global::QueixaAki.Droid.Resource.Attribute.layout_collapseMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::QueixaAki.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_dodgeInsetEdges = global::QueixaAki.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_insetEdge = global::QueixaAki.Droid.Resource.Attribute.layout_insetEdge;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_keyline = global::QueixaAki.Droid.Resource.Attribute.layout_keyline;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_scrollFlags = global::QueixaAki.Droid.Resource.Attribute.layout_scrollFlags;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_scrollInterpolator = global::QueixaAki.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::QueixaAki.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listDividerAlertDialog = global::QueixaAki.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listItemLayout = global::QueixaAki.Droid.Resource.Attribute.listItemLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listLayout = global::QueixaAki.Droid.Resource.Attribute.listLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listMenuViewStyle = global::QueixaAki.Droid.Resource.Attribute.listMenuViewStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPopupWindowStyle = global::QueixaAki.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPreferredItemHeight = global::QueixaAki.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPreferredItemHeightLarge = global::QueixaAki.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPreferredItemHeightSmall = global::QueixaAki.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::QueixaAki.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPreferredItemPaddingRight = global::QueixaAki.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.logo = global::QueixaAki.Droid.Resource.Attribute.logo;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.logoDescription = global::QueixaAki.Droid.Resource.Attribute.logoDescription;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.maxActionInlineWidth = global::QueixaAki.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.maxButtonHeight = global::QueixaAki.Droid.Resource.Attribute.maxButtonHeight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.measureWithLargestChild = global::QueixaAki.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.menu = global::QueixaAki.Droid.Resource.Attribute.menu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.multiChoiceItemLayout = global::QueixaAki.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.navigationContentDescription = global::QueixaAki.Droid.Resource.Attribute.navigationContentDescription;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.navigationIcon = global::QueixaAki.Droid.Resource.Attribute.navigationIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.navigationMode = global::QueixaAki.Droid.Resource.Attribute.navigationMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.numericModifiers = global::QueixaAki.Droid.Resource.Attribute.numericModifiers;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.overlapAnchor = global::QueixaAki.Droid.Resource.Attribute.overlapAnchor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.paddingBottomNoButtons = global::QueixaAki.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.paddingEnd = global::QueixaAki.Droid.Resource.Attribute.paddingEnd;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.paddingStart = global::QueixaAki.Droid.Resource.Attribute.paddingStart;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.paddingTopNoTitle = global::QueixaAki.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.panelBackground = global::QueixaAki.Droid.Resource.Attribute.panelBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.panelMenuListTheme = global::QueixaAki.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.panelMenuListWidth = global::QueixaAki.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.passwordToggleContentDescription = global::QueixaAki.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.passwordToggleDrawable = global::QueixaAki.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.passwordToggleEnabled = global::QueixaAki.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.passwordToggleTint = global::QueixaAki.Droid.Resource.Attribute.passwordToggleTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.passwordToggleTintMode = global::QueixaAki.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.popupMenuStyle = global::QueixaAki.Droid.Resource.Attribute.popupMenuStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.popupTheme = global::QueixaAki.Droid.Resource.Attribute.popupTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.popupWindowStyle = global::QueixaAki.Droid.Resource.Attribute.popupWindowStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.preserveIconSpacing = global::QueixaAki.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.pressedTranslationZ = global::QueixaAki.Droid.Resource.Attribute.pressedTranslationZ;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.progressBarPadding = global::QueixaAki.Droid.Resource.Attribute.progressBarPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.progressBarStyle = global::QueixaAki.Droid.Resource.Attribute.progressBarStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.queryBackground = global::QueixaAki.Droid.Resource.Attribute.queryBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.queryHint = global::QueixaAki.Droid.Resource.Attribute.queryHint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.radioButtonStyle = global::QueixaAki.Droid.Resource.Attribute.radioButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.ratingBarStyle = global::QueixaAki.Droid.Resource.Attribute.ratingBarStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.ratingBarStyleIndicator = global::QueixaAki.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.ratingBarStyleSmall = global::QueixaAki.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.reverseLayout = global::QueixaAki.Droid.Resource.Attribute.reverseLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.rippleColor = global::QueixaAki.Droid.Resource.Attribute.rippleColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.scrimAnimationDuration = global::QueixaAki.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::QueixaAki.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.searchHintIcon = global::QueixaAki.Droid.Resource.Attribute.searchHintIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.searchIcon = global::QueixaAki.Droid.Resource.Attribute.searchIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.searchViewStyle = global::QueixaAki.Droid.Resource.Attribute.searchViewStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.seekBarStyle = global::QueixaAki.Droid.Resource.Attribute.seekBarStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.selectableItemBackground = global::QueixaAki.Droid.Resource.Attribute.selectableItemBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::QueixaAki.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.showAsAction = global::QueixaAki.Droid.Resource.Attribute.showAsAction;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.showDividers = global::QueixaAki.Droid.Resource.Attribute.showDividers;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.showText = global::QueixaAki.Droid.Resource.Attribute.showText;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.showTitle = global::QueixaAki.Droid.Resource.Attribute.showTitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.singleChoiceItemLayout = global::QueixaAki.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.spanCount = global::QueixaAki.Droid.Resource.Attribute.spanCount;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.spinBars = global::QueixaAki.Droid.Resource.Attribute.spinBars;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.spinnerDropDownItemStyle = global::QueixaAki.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.spinnerStyle = global::QueixaAki.Droid.Resource.Attribute.spinnerStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.splitTrack = global::QueixaAki.Droid.Resource.Attribute.splitTrack;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.srcCompat = global::QueixaAki.Droid.Resource.Attribute.srcCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.stackFromEnd = global::QueixaAki.Droid.Resource.Attribute.stackFromEnd;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.state_above_anchor = global::QueixaAki.Droid.Resource.Attribute.state_above_anchor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.state_collapsed = global::QueixaAki.Droid.Resource.Attribute.state_collapsed;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.state_collapsible = global::QueixaAki.Droid.Resource.Attribute.state_collapsible;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.statusBarBackground = global::QueixaAki.Droid.Resource.Attribute.statusBarBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.statusBarScrim = global::QueixaAki.Droid.Resource.Attribute.statusBarScrim;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.subMenuArrow = global::QueixaAki.Droid.Resource.Attribute.subMenuArrow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.submitBackground = global::QueixaAki.Droid.Resource.Attribute.submitBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.subtitle = global::QueixaAki.Droid.Resource.Attribute.subtitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.subtitleTextAppearance = global::QueixaAki.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.subtitleTextColor = global::QueixaAki.Droid.Resource.Attribute.subtitleTextColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.subtitleTextStyle = global::QueixaAki.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.suggestionRowLayout = global::QueixaAki.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.switchMinWidth = global::QueixaAki.Droid.Resource.Attribute.switchMinWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.switchPadding = global::QueixaAki.Droid.Resource.Attribute.switchPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.switchStyle = global::QueixaAki.Droid.Resource.Attribute.switchStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.switchTextAppearance = global::QueixaAki.Droid.Resource.Attribute.switchTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabBackground = global::QueixaAki.Droid.Resource.Attribute.tabBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabContentStart = global::QueixaAki.Droid.Resource.Attribute.tabContentStart;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabGravity = global::QueixaAki.Droid.Resource.Attribute.tabGravity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabIndicatorColor = global::QueixaAki.Droid.Resource.Attribute.tabIndicatorColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabIndicatorHeight = global::QueixaAki.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabMaxWidth = global::QueixaAki.Droid.Resource.Attribute.tabMaxWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabMinWidth = global::QueixaAki.Droid.Resource.Attribute.tabMinWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabMode = global::QueixaAki.Droid.Resource.Attribute.tabMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabPadding = global::QueixaAki.Droid.Resource.Attribute.tabPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabPaddingBottom = global::QueixaAki.Droid.Resource.Attribute.tabPaddingBottom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabPaddingEnd = global::QueixaAki.Droid.Resource.Attribute.tabPaddingEnd;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabPaddingStart = global::QueixaAki.Droid.Resource.Attribute.tabPaddingStart;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabPaddingTop = global::QueixaAki.Droid.Resource.Attribute.tabPaddingTop;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabSelectedTextColor = global::QueixaAki.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabTextAppearance = global::QueixaAki.Droid.Resource.Attribute.tabTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabTextColor = global::QueixaAki.Droid.Resource.Attribute.tabTextColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAllCaps = global::QueixaAki.Droid.Resource.Attribute.textAllCaps;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::QueixaAki.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceListItem = global::QueixaAki.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceListItemSecondary = global::QueixaAki.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceListItemSmall = global::QueixaAki.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::QueixaAki.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::QueixaAki.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::QueixaAki.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::QueixaAki.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textColorAlertDialogListItem = global::QueixaAki.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textColorSearchUrl = global::QueixaAki.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.theme = global::QueixaAki.Droid.Resource.Attribute.theme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.thickness = global::QueixaAki.Droid.Resource.Attribute.thickness;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.thumbTextPadding = global::QueixaAki.Droid.Resource.Attribute.thumbTextPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.thumbTint = global::QueixaAki.Droid.Resource.Attribute.thumbTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.thumbTintMode = global::QueixaAki.Droid.Resource.Attribute.thumbTintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tickMark = global::QueixaAki.Droid.Resource.Attribute.tickMark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tickMarkTint = global::QueixaAki.Droid.Resource.Attribute.tickMarkTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tickMarkTintMode = global::QueixaAki.Droid.Resource.Attribute.tickMarkTintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tint = global::QueixaAki.Droid.Resource.Attribute.tint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tintMode = global::QueixaAki.Droid.Resource.Attribute.tintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.title = global::QueixaAki.Droid.Resource.Attribute.title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleEnabled = global::QueixaAki.Droid.Resource.Attribute.titleEnabled;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMargin = global::QueixaAki.Droid.Resource.Attribute.titleMargin;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMarginBottom = global::QueixaAki.Droid.Resource.Attribute.titleMarginBottom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMarginEnd = global::QueixaAki.Droid.Resource.Attribute.titleMarginEnd;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMarginStart = global::QueixaAki.Droid.Resource.Attribute.titleMarginStart;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMarginTop = global::QueixaAki.Droid.Resource.Attribute.titleMarginTop;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMargins = global::QueixaAki.Droid.Resource.Attribute.titleMargins;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleTextAppearance = global::QueixaAki.Droid.Resource.Attribute.titleTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleTextColor = global::QueixaAki.Droid.Resource.Attribute.titleTextColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleTextStyle = global::QueixaAki.Droid.Resource.Attribute.titleTextStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.toolbarId = global::QueixaAki.Droid.Resource.Attribute.toolbarId;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::QueixaAki.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.toolbarStyle = global::QueixaAki.Droid.Resource.Attribute.toolbarStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tooltipForegroundColor = global::QueixaAki.Droid.Resource.Attribute.tooltipForegroundColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tooltipFrameBackground = global::QueixaAki.Droid.Resource.Attribute.tooltipFrameBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tooltipText = global::QueixaAki.Droid.Resource.Attribute.tooltipText;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.track = global::QueixaAki.Droid.Resource.Attribute.track;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.trackTint = global::QueixaAki.Droid.Resource.Attribute.trackTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.trackTintMode = global::QueixaAki.Droid.Resource.Attribute.trackTintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.useCompatPadding = global::QueixaAki.Droid.Resource.Attribute.useCompatPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.voiceIcon = global::QueixaAki.Droid.Resource.Attribute.voiceIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowActionBar = global::QueixaAki.Droid.Resource.Attribute.windowActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowActionBarOverlay = global::QueixaAki.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowActionModeOverlay = global::QueixaAki.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowFixedHeightMajor = global::QueixaAki.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowFixedHeightMinor = global::QueixaAki.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowFixedWidthMajor = global::QueixaAki.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowFixedWidthMinor = global::QueixaAki.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowMinWidthMajor = global::QueixaAki.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowMinWidthMinor = global::QueixaAki.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowNoTitle = global::QueixaAki.Droid.Resource.Attribute.windowNoTitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::QueixaAki.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::QueixaAki.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::QueixaAki.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::QueixaAki.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::QueixaAki.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::QueixaAki.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_btn_colored_text_material = global::QueixaAki.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_color_highlight_material = global::QueixaAki.Droid.Resource.Color.abc_color_highlight_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_hint_foreground_material_dark = global::QueixaAki.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_hint_foreground_material_light = global::QueixaAki.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_input_method_navigation_guard = global::QueixaAki.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::QueixaAki.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::QueixaAki.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_primary_text_material_dark = global::QueixaAki.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_primary_text_material_light = global::QueixaAki.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_search_url_text = global::QueixaAki.Droid.Resource.Color.abc_search_url_text;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_search_url_text_normal = global::QueixaAki.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_search_url_text_pressed = global::QueixaAki.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_search_url_text_selected = global::QueixaAki.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_secondary_text_material_dark = global::QueixaAki.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_secondary_text_material_light = global::QueixaAki.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_btn_checkable = global::QueixaAki.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_default = global::QueixaAki.Droid.Resource.Color.abc_tint_default;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_edittext = global::QueixaAki.Droid.Resource.Color.abc_tint_edittext;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_seek_thumb = global::QueixaAki.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_spinner = global::QueixaAki.Droid.Resource.Color.abc_tint_spinner;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_switch_track = global::QueixaAki.Droid.Resource.Color.abc_tint_switch_track;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.accent_material_dark = global::QueixaAki.Droid.Resource.Color.accent_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.accent_material_light = global::QueixaAki.Droid.Resource.Color.accent_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.background_floating_material_dark = global::QueixaAki.Droid.Resource.Color.background_floating_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.background_floating_material_light = global::QueixaAki.Droid.Resource.Color.background_floating_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.background_material_dark = global::QueixaAki.Droid.Resource.Color.background_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.background_material_light = global::QueixaAki.Droid.Resource.Color.background_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_disabled_material_dark = global::QueixaAki.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_disabled_material_light = global::QueixaAki.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_inverse_material_dark = global::QueixaAki.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_inverse_material_light = global::QueixaAki.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_material_dark = global::QueixaAki.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_material_light = global::QueixaAki.Droid.Resource.Color.bright_foreground_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.button_material_dark = global::QueixaAki.Droid.Resource.Color.button_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.button_material_light = global::QueixaAki.Droid.Resource.Color.button_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.cardview_dark_background = global::QueixaAki.Droid.Resource.Color.cardview_dark_background;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.cardview_light_background = global::QueixaAki.Droid.Resource.Color.cardview_light_background;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.cardview_shadow_end_color = global::QueixaAki.Droid.Resource.Color.cardview_shadow_end_color;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.cardview_shadow_start_color = global::QueixaAki.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_bottom_navigation_shadow_color = global::QueixaAki.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_error = global::QueixaAki.Droid.Resource.Color.design_error;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_shadow_end_color = global::QueixaAki.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_shadow_mid_color = global::QueixaAki.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_shadow_start_color = global::QueixaAki.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_stroke_end_inner_color = global::QueixaAki.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_stroke_end_outer_color = global::QueixaAki.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_stroke_top_inner_color = global::QueixaAki.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_stroke_top_outer_color = global::QueixaAki.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_snackbar_background_color = global::QueixaAki.Droid.Resource.Color.design_snackbar_background_color;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_tint_password_toggle = global::QueixaAki.Droid.Resource.Color.design_tint_password_toggle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.dim_foreground_disabled_material_dark = global::QueixaAki.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.dim_foreground_disabled_material_light = global::QueixaAki.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.dim_foreground_material_dark = global::QueixaAki.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.dim_foreground_material_light = global::QueixaAki.Droid.Resource.Color.dim_foreground_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.foreground_material_dark = global::QueixaAki.Droid.Resource.Color.foreground_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.foreground_material_light = global::QueixaAki.Droid.Resource.Color.foreground_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.highlighted_text_material_dark = global::QueixaAki.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.highlighted_text_material_light = global::QueixaAki.Droid.Resource.Color.highlighted_text_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_blue_grey_800 = global::QueixaAki.Droid.Resource.Color.material_blue_grey_800;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_blue_grey_900 = global::QueixaAki.Droid.Resource.Color.material_blue_grey_900;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_blue_grey_950 = global::QueixaAki.Droid.Resource.Color.material_blue_grey_950;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_deep_teal_200 = global::QueixaAki.Droid.Resource.Color.material_deep_teal_200;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_deep_teal_500 = global::QueixaAki.Droid.Resource.Color.material_deep_teal_500;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_100 = global::QueixaAki.Droid.Resource.Color.material_grey_100;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_300 = global::QueixaAki.Droid.Resource.Color.material_grey_300;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_50 = global::QueixaAki.Droid.Resource.Color.material_grey_50;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_600 = global::QueixaAki.Droid.Resource.Color.material_grey_600;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_800 = global::QueixaAki.Droid.Resource.Color.material_grey_800;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_850 = global::QueixaAki.Droid.Resource.Color.material_grey_850;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_900 = global::QueixaAki.Droid.Resource.Color.material_grey_900;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.notification_action_color_filter = global::QueixaAki.Droid.Resource.Color.notification_action_color_filter;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.notification_icon_bg_color = global::QueixaAki.Droid.Resource.Color.notification_icon_bg_color;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.notification_material_background_media_default_color = global::QueixaAki.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_dark_material_dark = global::QueixaAki.Droid.Resource.Color.primary_dark_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_dark_material_light = global::QueixaAki.Droid.Resource.Color.primary_dark_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_material_dark = global::QueixaAki.Droid.Resource.Color.primary_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_material_light = global::QueixaAki.Droid.Resource.Color.primary_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_text_default_material_dark = global::QueixaAki.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_text_default_material_light = global::QueixaAki.Droid.Resource.Color.primary_text_default_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_text_disabled_material_dark = global::QueixaAki.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_text_disabled_material_light = global::QueixaAki.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.ripple_material_dark = global::QueixaAki.Droid.Resource.Color.ripple_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.ripple_material_light = global::QueixaAki.Droid.Resource.Color.ripple_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.secondary_text_default_material_dark = global::QueixaAki.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.secondary_text_default_material_light = global::QueixaAki.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.secondary_text_disabled_material_dark = global::QueixaAki.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.secondary_text_disabled_material_light = global::QueixaAki.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_disabled_material_dark = global::QueixaAki.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_disabled_material_light = global::QueixaAki.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_material_dark = global::QueixaAki.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_material_light = global::QueixaAki.Droid.Resource.Color.switch_thumb_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_normal_material_dark = global::QueixaAki.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_normal_material_light = global::QueixaAki.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.tooltip_background_dark = global::QueixaAki.Droid.Resource.Color.tooltip_background_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Color.tooltip_background_light = global::QueixaAki.Droid.Resource.Color.tooltip_background_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::QueixaAki.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::QueixaAki.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_default_height_material = global::QueixaAki.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::QueixaAki.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::QueixaAki.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_elevation_material = global::QueixaAki.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::QueixaAki.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::QueixaAki.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::QueixaAki.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::QueixaAki.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::QueixaAki.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::QueixaAki.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::QueixaAki.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_button_min_height_material = global::QueixaAki.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_button_min_width_material = global::QueixaAki.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::QueixaAki.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::QueixaAki.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::QueixaAki.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_button_inset_vertical_material = global::QueixaAki.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::QueixaAki.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_button_padding_vertical_material = global::QueixaAki.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::QueixaAki.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_config_prefDialogWidth = global::QueixaAki.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_control_corner_material = global::QueixaAki.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_control_inset_material = global::QueixaAki.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_control_padding_material = global::QueixaAki.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::QueixaAki.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::QueixaAki.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::QueixaAki.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::QueixaAki.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::QueixaAki.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::QueixaAki.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_min_width_major = global::QueixaAki.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_min_width_minor = global::QueixaAki.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_padding_material = global::QueixaAki.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_padding_top_material = global::QueixaAki.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_title_divider_material = global::QueixaAki.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::QueixaAki.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::QueixaAki.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::QueixaAki.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::QueixaAki.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::QueixaAki.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::QueixaAki.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::QueixaAki.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::QueixaAki.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_floating_window_z = global::QueixaAki.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::QueixaAki.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_panel_menu_list_width = global::QueixaAki.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_progress_bar_height_material = global::QueixaAki.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_search_view_preferred_height = global::QueixaAki.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_search_view_preferred_width = global::QueixaAki.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::QueixaAki.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::QueixaAki.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::QueixaAki.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_switch_padding = global::QueixaAki.Droid.Resource.Dimension.abc_switch_padding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_body_1_material = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_body_2_material = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_button_material = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_caption_material = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_display_1_material = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_display_2_material = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_display_3_material = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_display_4_material = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_headline_material = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_large_material = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_medium_material = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_menu_header_material = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_menu_material = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_small_material = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_subhead_material = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_title_material = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::QueixaAki.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.cardview_compat_inset_shadow = global::QueixaAki.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.cardview_default_elevation = global::QueixaAki.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.cardview_default_radius = global::QueixaAki.Droid.Resource.Dimension.cardview_default_radius;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::QueixaAki.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.compat_button_inset_vertical_material = global::QueixaAki.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::QueixaAki.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.compat_button_padding_vertical_material = global::QueixaAki.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.compat_control_corner_material = global::QueixaAki.Droid.Resource.Dimension.compat_control_corner_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_appbar_elevation = global::QueixaAki.Droid.Resource.Dimension.design_appbar_elevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::QueixaAki.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::QueixaAki.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_elevation = global::QueixaAki.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_height = global::QueixaAki.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::QueixaAki.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::QueixaAki.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_margin = global::QueixaAki.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::QueixaAki.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_text_size = global::QueixaAki.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::QueixaAki.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::QueixaAki.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_border_width = global::QueixaAki.Droid.Resource.Dimension.design_fab_border_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_elevation = global::QueixaAki.Droid.Resource.Dimension.design_fab_elevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_image_size = global::QueixaAki.Droid.Resource.Dimension.design_fab_image_size;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_size_mini = global::QueixaAki.Droid.Resource.Dimension.design_fab_size_mini;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_size_normal = global::QueixaAki.Droid.Resource.Dimension.design_fab_size_normal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_translation_z_pressed = global::QueixaAki.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_elevation = global::QueixaAki.Droid.Resource.Dimension.design_navigation_elevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_icon_padding = global::QueixaAki.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_icon_size = global::QueixaAki.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_max_width = global::QueixaAki.Droid.Resource.Dimension.design_navigation_max_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_padding_bottom = global::QueixaAki.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::QueixaAki.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::QueixaAki.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::QueixaAki.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_elevation = global::QueixaAki.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::QueixaAki.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_max_width = global::QueixaAki.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_min_width = global::QueixaAki.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::QueixaAki.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_padding_vertical = global::QueixaAki.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::QueixaAki.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_text_size = global::QueixaAki.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_tab_max_width = global::QueixaAki.Droid.Resource.Dimension.design_tab_max_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_tab_scrollable_min_width = global::QueixaAki.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_tab_text_size = global::QueixaAki.Droid.Resource.Dimension.design_tab_text_size;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_tab_text_size_2line = global::QueixaAki.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.disabled_alpha_material_dark = global::QueixaAki.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.disabled_alpha_material_light = global::QueixaAki.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.fastscroll_default_thickness = global::QueixaAki.Droid.Resource.Dimension.fastscroll_default_thickness;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.fastscroll_margin = global::QueixaAki.Droid.Resource.Dimension.fastscroll_margin;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.fastscroll_minimum_range = global::QueixaAki.Droid.Resource.Dimension.fastscroll_minimum_range;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.highlight_alpha_material_colored = global::QueixaAki.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.highlight_alpha_material_dark = global::QueixaAki.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.highlight_alpha_material_light = global::QueixaAki.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.hint_alpha_material_dark = global::QueixaAki.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.hint_alpha_material_light = global::QueixaAki.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::QueixaAki.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::QueixaAki.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::QueixaAki.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::QueixaAki.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::QueixaAki.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_action_icon_size = global::QueixaAki.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_action_text_size = global::QueixaAki.Droid.Resource.Dimension.notification_action_text_size;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_big_circle_margin = global::QueixaAki.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_content_margin_start = global::QueixaAki.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_large_icon_height = global::QueixaAki.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_large_icon_width = global::QueixaAki.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_main_column_padding_top = global::QueixaAki.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_media_narrow_margin = global::QueixaAki.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_right_icon_size = global::QueixaAki.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_right_side_padding_top = global::QueixaAki.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_small_icon_background_padding = global::QueixaAki.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_small_icon_size_as_large = global::QueixaAki.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_subtext_size = global::QueixaAki.Droid.Resource.Dimension.notification_subtext_size;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_top_pad = global::QueixaAki.Droid.Resource.Dimension.notification_top_pad;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_top_pad_large_text = global::QueixaAki.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_corner_radius = global::QueixaAki.Droid.Resource.Dimension.tooltip_corner_radius;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_horizontal_padding = global::QueixaAki.Droid.Resource.Dimension.tooltip_horizontal_padding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_margin = global::QueixaAki.Droid.Resource.Dimension.tooltip_margin;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::QueixaAki.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_precise_anchor_threshold = global::QueixaAki.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_vertical_padding = global::QueixaAki.Droid.Resource.Dimension.tooltip_vertical_padding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_y_offset_non_touch = global::QueixaAki.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_y_offset_touch = global::QueixaAki.Droid.Resource.Dimension.tooltip_y_offset_touch;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_action_bar_item_background_material = global::QueixaAki.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_borderless_material = global::QueixaAki.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_check_material = global::QueixaAki.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::QueixaAki.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::QueixaAki.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_colored_material = global::QueixaAki.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::QueixaAki.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_radio_material = global::QueixaAki.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::QueixaAki.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::QueixaAki.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::QueixaAki.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::QueixaAki.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_cab_background_internal_bg = global::QueixaAki.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_cab_background_top_material = global::QueixaAki.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_control_background_material = global::QueixaAki.Droid.Resource.Drawable.abc_control_background_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_dialog_material_background = global::QueixaAki.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_edit_text_material = global::QueixaAki.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_ab_back_material = global::QueixaAki.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::QueixaAki.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_clear_material = global::QueixaAki.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_go_search_api_material = global::QueixaAki.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::QueixaAki.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_search_api_material = global::QueixaAki.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_star_black_16dp = global::QueixaAki.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_star_black_36dp = global::QueixaAki.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_star_black_48dp = global::QueixaAki.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::QueixaAki.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::QueixaAki.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::QueixaAki.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::QueixaAki.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_item_background_holo_dark = global::QueixaAki.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_item_background_holo_light = global::QueixaAki.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_focused_holo = global::QueixaAki.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_longpressed_holo = global::QueixaAki.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::QueixaAki.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_pressed_holo_light = global::QueixaAki.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::QueixaAki.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::QueixaAki.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::QueixaAki.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::QueixaAki.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_holo_dark = global::QueixaAki.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_holo_light = global::QueixaAki.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::QueixaAki.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::QueixaAki.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::QueixaAki.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ratingbar_material = global::QueixaAki.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ratingbar_small_material = global::QueixaAki.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::QueixaAki.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::QueixaAki.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_seekbar_thumb_material = global::QueixaAki.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::QueixaAki.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_seekbar_track_material = global::QueixaAki.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::QueixaAki.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_switch_thumb_material = global::QueixaAki.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_tab_indicator_material = global::QueixaAki.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_text_cursor_material = global::QueixaAki.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::QueixaAki.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::QueixaAki.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::QueixaAki.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::QueixaAki.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::QueixaAki.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::QueixaAki.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::QueixaAki.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_textfield_search_material = global::QueixaAki.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_vector_test = global::QueixaAki.Droid.Resource.Drawable.abc_vector_test;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.avd_hide_password = global::QueixaAki.Droid.Resource.Drawable.avd_hide_password;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.avd_show_password = global::QueixaAki.Droid.Resource.Drawable.avd_show_password;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_bottom_navigation_item_background = global::QueixaAki.Droid.Resource.Drawable.design_bottom_navigation_item_background;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_fab_background = global::QueixaAki.Droid.Resource.Drawable.design_fab_background;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_ic_visibility = global::QueixaAki.Droid.Resource.Drawable.design_ic_visibility;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_ic_visibility_off = global::QueixaAki.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_password_eye = global::QueixaAki.Droid.Resource.Drawable.design_password_eye;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_snackbar_background = global::QueixaAki.Droid.Resource.Drawable.design_snackbar_background;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.ic_fullscreen = global::QueixaAki.Droid.Resource.Drawable.ic_fullscreen;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.ic_fullscreen_exit = global::QueixaAki.Droid.Resource.Drawable.ic_fullscreen_exit;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.navigation_empty_icon = global::QueixaAki.Droid.Resource.Drawable.navigation_empty_icon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_action_background = global::QueixaAki.Droid.Resource.Drawable.notification_action_background;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg = global::QueixaAki.Droid.Resource.Drawable.notification_bg;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg_low = global::QueixaAki.Droid.Resource.Drawable.notification_bg_low;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg_low_normal = global::QueixaAki.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg_low_pressed = global::QueixaAki.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg_normal = global::QueixaAki.Droid.Resource.Drawable.notification_bg_normal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg_normal_pressed = global::QueixaAki.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_icon_background = global::QueixaAki.Droid.Resource.Drawable.notification_icon_background;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_template_icon_bg = global::QueixaAki.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_template_icon_low_bg = global::QueixaAki.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_tile_bg = global::QueixaAki.Droid.Resource.Drawable.notification_tile_bg;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::QueixaAki.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.tooltip_frame_dark = global::QueixaAki.Droid.Resource.Drawable.tooltip_frame_dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.tooltip_frame_light = global::QueixaAki.Droid.Resource.Drawable.tooltip_frame_light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.ALT = global::QueixaAki.Droid.Resource.Id.ALT;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.CTRL = global::QueixaAki.Droid.Resource.Id.CTRL;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.FUNCTION = global::QueixaAki.Droid.Resource.Id.FUNCTION;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.META = global::QueixaAki.Droid.Resource.Id.META;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.SHIFT = global::QueixaAki.Droid.Resource.Id.SHIFT;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.SYM = global::QueixaAki.Droid.Resource.Id.SYM;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action0 = global::QueixaAki.Droid.Resource.Id.action0;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar = global::QueixaAki.Droid.Resource.Id.action_bar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_activity_content = global::QueixaAki.Droid.Resource.Id.action_bar_activity_content;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_container = global::QueixaAki.Droid.Resource.Id.action_bar_container;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_root = global::QueixaAki.Droid.Resource.Id.action_bar_root;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_spinner = global::QueixaAki.Droid.Resource.Id.action_bar_spinner;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_subtitle = global::QueixaAki.Droid.Resource.Id.action_bar_subtitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_title = global::QueixaAki.Droid.Resource.Id.action_bar_title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_container = global::QueixaAki.Droid.Resource.Id.action_container;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_context_bar = global::QueixaAki.Droid.Resource.Id.action_context_bar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_divider = global::QueixaAki.Droid.Resource.Id.action_divider;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_image = global::QueixaAki.Droid.Resource.Id.action_image;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_menu_divider = global::QueixaAki.Droid.Resource.Id.action_menu_divider;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_menu_presenter = global::QueixaAki.Droid.Resource.Id.action_menu_presenter;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_mode_bar = global::QueixaAki.Droid.Resource.Id.action_mode_bar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_mode_bar_stub = global::QueixaAki.Droid.Resource.Id.action_mode_bar_stub;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_mode_close_button = global::QueixaAki.Droid.Resource.Id.action_mode_close_button;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_text = global::QueixaAki.Droid.Resource.Id.action_text;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.actions = global::QueixaAki.Droid.Resource.Id.actions;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.activity_chooser_view_content = global::QueixaAki.Droid.Resource.Id.activity_chooser_view_content;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.add = global::QueixaAki.Droid.Resource.Id.add;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.alertTitle = global::QueixaAki.Droid.Resource.Id.alertTitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.all = global::QueixaAki.Droid.Resource.Id.all;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.always = global::QueixaAki.Droid.Resource.Id.always;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.async = global::QueixaAki.Droid.Resource.Id.async;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.auto = global::QueixaAki.Droid.Resource.Id.auto;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.beginning = global::QueixaAki.Droid.Resource.Id.beginning;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.blocking = global::QueixaAki.Droid.Resource.Id.blocking;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.bottom = global::QueixaAki.Droid.Resource.Id.bottom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.bottomtab_navarea = global::QueixaAki.Droid.Resource.Id.bottomtab_navarea;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.bottomtab_tabbar = global::QueixaAki.Droid.Resource.Id.bottomtab_tabbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.buttonPanel = global::QueixaAki.Droid.Resource.Id.buttonPanel;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.cancel_action = global::QueixaAki.Droid.Resource.Id.cancel_action;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.center = global::QueixaAki.Droid.Resource.Id.center;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.center_horizontal = global::QueixaAki.Droid.Resource.Id.center_horizontal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.center_vertical = global::QueixaAki.Droid.Resource.Id.center_vertical;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.checkbox = global::QueixaAki.Droid.Resource.Id.checkbox;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.chronometer = global::QueixaAki.Droid.Resource.Id.chronometer;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.clip_horizontal = global::QueixaAki.Droid.Resource.Id.clip_horizontal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.clip_vertical = global::QueixaAki.Droid.Resource.Id.clip_vertical;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.collapseActionView = global::QueixaAki.Droid.Resource.Id.collapseActionView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.container = global::QueixaAki.Droid.Resource.Id.container;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.contentPanel = global::QueixaAki.Droid.Resource.Id.contentPanel;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.coordinator = global::QueixaAki.Droid.Resource.Id.coordinator;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.custom = global::QueixaAki.Droid.Resource.Id.custom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.customPanel = global::QueixaAki.Droid.Resource.Id.customPanel;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.decor_content_parent = global::QueixaAki.Droid.Resource.Id.decor_content_parent;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.default_activity_button = global::QueixaAki.Droid.Resource.Id.default_activity_button;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.design_bottom_sheet = global::QueixaAki.Droid.Resource.Id.design_bottom_sheet;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.design_menu_item_action_area = global::QueixaAki.Droid.Resource.Id.design_menu_item_action_area;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.design_menu_item_action_area_stub = global::QueixaAki.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.design_menu_item_text = global::QueixaAki.Droid.Resource.Id.design_menu_item_text;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.design_navigation_view = global::QueixaAki.Droid.Resource.Id.design_navigation_view;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.disableHome = global::QueixaAki.Droid.Resource.Id.disableHome;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.edit_query = global::QueixaAki.Droid.Resource.Id.edit_query;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.end = global::QueixaAki.Droid.Resource.Id.end;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.end_padder = global::QueixaAki.Droid.Resource.Id.end_padder;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.enterAlways = global::QueixaAki.Droid.Resource.Id.enterAlways;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.enterAlwaysCollapsed = global::QueixaAki.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.exitUntilCollapsed = global::QueixaAki.Droid.Resource.Id.exitUntilCollapsed;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.expand_activities_button = global::QueixaAki.Droid.Resource.Id.expand_activities_button;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.expanded_menu = global::QueixaAki.Droid.Resource.Id.expanded_menu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.fill = global::QueixaAki.Droid.Resource.Id.fill;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.fill_horizontal = global::QueixaAki.Droid.Resource.Id.fill_horizontal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.fill_vertical = global::QueixaAki.Droid.Resource.Id.fill_vertical;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.@fixed = global::QueixaAki.Droid.Resource.Id.@fixed;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.flyoutcontent_appbar = global::QueixaAki.Droid.Resource.Id.flyoutcontent_appbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.flyoutcontent_recycler = global::QueixaAki.Droid.Resource.Id.flyoutcontent_recycler;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.forever = global::QueixaAki.Droid.Resource.Id.forever;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.ghost_view = global::QueixaAki.Droid.Resource.Id.ghost_view;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.home = global::QueixaAki.Droid.Resource.Id.home;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.homeAsUp = global::QueixaAki.Droid.Resource.Id.homeAsUp;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.icon = global::QueixaAki.Droid.Resource.Id.icon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.icon_group = global::QueixaAki.Droid.Resource.Id.icon_group;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.ifRoom = global::QueixaAki.Droid.Resource.Id.ifRoom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.image = global::QueixaAki.Droid.Resource.Id.image;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.info = global::QueixaAki.Droid.Resource.Id.info;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.italic = global::QueixaAki.Droid.Resource.Id.italic;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.item_touch_helper_previous_elevation = global::QueixaAki.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.largeLabel = global::QueixaAki.Droid.Resource.Id.largeLabel;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.left = global::QueixaAki.Droid.Resource.Id.left;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.line1 = global::QueixaAki.Droid.Resource.Id.line1;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.line3 = global::QueixaAki.Droid.Resource.Id.line3;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.listMode = global::QueixaAki.Droid.Resource.Id.listMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.list_item = global::QueixaAki.Droid.Resource.Id.list_item;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.main_appbar = global::QueixaAki.Droid.Resource.Id.main_appbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.main_tablayout = global::QueixaAki.Droid.Resource.Id.main_tablayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.main_toolbar = global::QueixaAki.Droid.Resource.Id.main_toolbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.main_viewpager = global::QueixaAki.Droid.Resource.Id.main_viewpager;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.masked = global::QueixaAki.Droid.Resource.Id.masked;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.media_actions = global::QueixaAki.Droid.Resource.Id.media_actions;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.message = global::QueixaAki.Droid.Resource.Id.message;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.middle = global::QueixaAki.Droid.Resource.Id.middle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.mini = global::QueixaAki.Droid.Resource.Id.mini;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.multiply = global::QueixaAki.Droid.Resource.Id.multiply;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.navigation_header_container = global::QueixaAki.Droid.Resource.Id.navigation_header_container;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.never = global::QueixaAki.Droid.Resource.Id.never;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.none = global::QueixaAki.Droid.Resource.Id.none;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.normal = global::QueixaAki.Droid.Resource.Id.normal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.notification_background = global::QueixaAki.Droid.Resource.Id.notification_background;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.notification_main_column = global::QueixaAki.Droid.Resource.Id.notification_main_column;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.notification_main_column_container = global::QueixaAki.Droid.Resource.Id.notification_main_column_container;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.parallax = global::QueixaAki.Droid.Resource.Id.parallax;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.parentPanel = global::QueixaAki.Droid.Resource.Id.parentPanel;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.parent_matrix = global::QueixaAki.Droid.Resource.Id.parent_matrix;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.pin = global::QueixaAki.Droid.Resource.Id.pin;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.progress_circular = global::QueixaAki.Droid.Resource.Id.progress_circular;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.progress_horizontal = global::QueixaAki.Droid.Resource.Id.progress_horizontal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.radio = global::QueixaAki.Droid.Resource.Id.radio;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.right = global::QueixaAki.Droid.Resource.Id.right;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.right_icon = global::QueixaAki.Droid.Resource.Id.right_icon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.right_side = global::QueixaAki.Droid.Resource.Id.right_side;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.save_image_matrix = global::QueixaAki.Droid.Resource.Id.save_image_matrix;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.save_non_transition_alpha = global::QueixaAki.Droid.Resource.Id.save_non_transition_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.save_scale_type = global::QueixaAki.Droid.Resource.Id.save_scale_type;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.screen = global::QueixaAki.Droid.Resource.Id.screen;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.scroll = global::QueixaAki.Droid.Resource.Id.scroll;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.scrollIndicatorDown = global::QueixaAki.Droid.Resource.Id.scrollIndicatorDown;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.scrollIndicatorUp = global::QueixaAki.Droid.Resource.Id.scrollIndicatorUp;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.scrollView = global::QueixaAki.Droid.Resource.Id.scrollView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.scrollable = global::QueixaAki.Droid.Resource.Id.scrollable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_badge = global::QueixaAki.Droid.Resource.Id.search_badge;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_bar = global::QueixaAki.Droid.Resource.Id.search_bar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_button = global::QueixaAki.Droid.Resource.Id.search_button;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_close_btn = global::QueixaAki.Droid.Resource.Id.search_close_btn;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_edit_frame = global::QueixaAki.Droid.Resource.Id.search_edit_frame;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_go_btn = global::QueixaAki.Droid.Resource.Id.search_go_btn;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_mag_icon = global::QueixaAki.Droid.Resource.Id.search_mag_icon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_plate = global::QueixaAki.Droid.Resource.Id.search_plate;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_src_text = global::QueixaAki.Droid.Resource.Id.search_src_text;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_voice_btn = global::QueixaAki.Droid.Resource.Id.search_voice_btn;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.select_dialog_listview = global::QueixaAki.Droid.Resource.Id.select_dialog_listview;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.shellcontent_appbar = global::QueixaAki.Droid.Resource.Id.shellcontent_appbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.shellcontent_toolbar = global::QueixaAki.Droid.Resource.Id.shellcontent_toolbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.shortcut = global::QueixaAki.Droid.Resource.Id.shortcut;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.showCustom = global::QueixaAki.Droid.Resource.Id.showCustom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.showHome = global::QueixaAki.Droid.Resource.Id.showHome;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.showTitle = global::QueixaAki.Droid.Resource.Id.showTitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.smallLabel = global::QueixaAki.Droid.Resource.Id.smallLabel;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.snackbar_action = global::QueixaAki.Droid.Resource.Id.snackbar_action;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.snackbar_text = global::QueixaAki.Droid.Resource.Id.snackbar_text;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.snap = global::QueixaAki.Droid.Resource.Id.snap;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.spacer = global::QueixaAki.Droid.Resource.Id.spacer;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.split_action_bar = global::QueixaAki.Droid.Resource.Id.split_action_bar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.src_atop = global::QueixaAki.Droid.Resource.Id.src_atop;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.src_in = global::QueixaAki.Droid.Resource.Id.src_in;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.src_over = global::QueixaAki.Droid.Resource.Id.src_over;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.start = global::QueixaAki.Droid.Resource.Id.start;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.status_bar_latest_event_content = global::QueixaAki.Droid.Resource.Id.status_bar_latest_event_content;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.submenuarrow = global::QueixaAki.Droid.Resource.Id.submenuarrow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.submit_area = global::QueixaAki.Droid.Resource.Id.submit_area;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.tabMode = global::QueixaAki.Droid.Resource.Id.tabMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.tag_transition_group = global::QueixaAki.Droid.Resource.Id.tag_transition_group;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.text = global::QueixaAki.Droid.Resource.Id.text;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.text2 = global::QueixaAki.Droid.Resource.Id.text2;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.textSpacerNoButtons = global::QueixaAki.Droid.Resource.Id.textSpacerNoButtons;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.textSpacerNoTitle = global::QueixaAki.Droid.Resource.Id.textSpacerNoTitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.text_input_password_toggle = global::QueixaAki.Droid.Resource.Id.text_input_password_toggle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.textinput_counter = global::QueixaAki.Droid.Resource.Id.textinput_counter;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.textinput_error = global::QueixaAki.Droid.Resource.Id.textinput_error;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.time = global::QueixaAki.Droid.Resource.Id.time;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.title = global::QueixaAki.Droid.Resource.Id.title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.titleDividerNoCustom = global::QueixaAki.Droid.Resource.Id.titleDividerNoCustom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.title_template = global::QueixaAki.Droid.Resource.Id.title_template;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.top = global::QueixaAki.Droid.Resource.Id.top;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.topPanel = global::QueixaAki.Droid.Resource.Id.topPanel;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.touch_outside = global::QueixaAki.Droid.Resource.Id.touch_outside;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.transition_current_scene = global::QueixaAki.Droid.Resource.Id.transition_current_scene;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.transition_layout_save = global::QueixaAki.Droid.Resource.Id.transition_layout_save;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.transition_position = global::QueixaAki.Droid.Resource.Id.transition_position;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.transition_scene_layoutid_cache = global::QueixaAki.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.transition_transform = global::QueixaAki.Droid.Resource.Id.transition_transform;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.uniform = global::QueixaAki.Droid.Resource.Id.uniform;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.up = global::QueixaAki.Droid.Resource.Id.up;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.useLogo = global::QueixaAki.Droid.Resource.Id.useLogo;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.view_offset_helper = global::QueixaAki.Droid.Resource.Id.view_offset_helper;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.visible = global::QueixaAki.Droid.Resource.Id.visible;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.withText = global::QueixaAki.Droid.Resource.Id.withText;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Id.wrap_content = global::QueixaAki.Droid.Resource.Id.wrap_content;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.abc_config_activityDefaultDur = global::QueixaAki.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.abc_config_activityShortDur = global::QueixaAki.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.app_bar_elevation_anim_duration = global::QueixaAki.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.bottom_sheet_slide_duration = global::QueixaAki.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.cancel_button_image_alpha = global::QueixaAki.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.config_tooltipAnimTime = global::QueixaAki.Droid.Resource.Integer.config_tooltipAnimTime;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.design_snackbar_text_max_lines = global::QueixaAki.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.hide_password_duration = global::QueixaAki.Droid.Resource.Integer.hide_password_duration;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.show_password_duration = global::QueixaAki.Droid.Resource.Integer.show_password_duration;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.status_bar_notification_info_maxnum = global::QueixaAki.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_bar_title_item = global::QueixaAki.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_bar_up_container = global::QueixaAki.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_menu_item_layout = global::QueixaAki.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_menu_layout = global::QueixaAki.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_mode_bar = global::QueixaAki.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_mode_close_item_material = global::QueixaAki.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_activity_chooser_view = global::QueixaAki.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::QueixaAki.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::QueixaAki.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_alert_dialog_material = global::QueixaAki.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_alert_dialog_title_material = global::QueixaAki.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_dialog_title_material = global::QueixaAki.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_expanded_menu_layout = global::QueixaAki.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_list_menu_item_checkbox = global::QueixaAki.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_list_menu_item_icon = global::QueixaAki.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_list_menu_item_layout = global::QueixaAki.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_list_menu_item_radio = global::QueixaAki.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::QueixaAki.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_popup_menu_item_layout = global::QueixaAki.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_screen_content_include = global::QueixaAki.Droid.Resource.Layout.abc_screen_content_include;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_screen_simple = global::QueixaAki.Droid.Resource.Layout.abc_screen_simple;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::QueixaAki.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_screen_toolbar = global::QueixaAki.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::QueixaAki.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_search_view = global::QueixaAki.Droid.Resource.Layout.abc_search_view;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_select_dialog_material = global::QueixaAki.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.BottomTabLayout = global::QueixaAki.Droid.Resource.Layout.BottomTabLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_bottom_navigation_item = global::QueixaAki.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_bottom_sheet_dialog = global::QueixaAki.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_layout_snackbar = global::QueixaAki.Droid.Resource.Layout.design_layout_snackbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_layout_snackbar_include = global::QueixaAki.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_layout_tab_icon = global::QueixaAki.Droid.Resource.Layout.design_layout_tab_icon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_layout_tab_text = global::QueixaAki.Droid.Resource.Layout.design_layout_tab_text;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_menu_item_action_area = global::QueixaAki.Droid.Resource.Layout.design_menu_item_action_area;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_item = global::QueixaAki.Droid.Resource.Layout.design_navigation_item;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_item_header = global::QueixaAki.Droid.Resource.Layout.design_navigation_item_header;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_item_separator = global::QueixaAki.Droid.Resource.Layout.design_navigation_item_separator;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_item_subheader = global::QueixaAki.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_menu = global::QueixaAki.Droid.Resource.Layout.design_navigation_menu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_menu_item = global::QueixaAki.Droid.Resource.Layout.design_navigation_menu_item;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_text_input_password_icon = global::QueixaAki.Droid.Resource.Layout.design_text_input_password_icon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.FlyoutContent = global::QueixaAki.Droid.Resource.Layout.FlyoutContent;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_action = global::QueixaAki.Droid.Resource.Layout.notification_action;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_action_tombstone = global::QueixaAki.Droid.Resource.Layout.notification_action_tombstone;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_media_action = global::QueixaAki.Droid.Resource.Layout.notification_media_action;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_media_cancel_action = global::QueixaAki.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_big_media = global::QueixaAki.Droid.Resource.Layout.notification_template_big_media;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_big_media_custom = global::QueixaAki.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_big_media_narrow = global::QueixaAki.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::QueixaAki.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_custom_big = global::QueixaAki.Droid.Resource.Layout.notification_template_custom_big;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_icon_group = global::QueixaAki.Droid.Resource.Layout.notification_template_icon_group;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_lines_media = global::QueixaAki.Droid.Resource.Layout.notification_template_lines_media;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_media = global::QueixaAki.Droid.Resource.Layout.notification_template_media;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_media_custom = global::QueixaAki.Droid.Resource.Layout.notification_template_media_custom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_part_chronometer = global::QueixaAki.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_part_time = global::QueixaAki.Droid.Resource.Layout.notification_template_part_time;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.RootLayout = global::QueixaAki.Droid.Resource.Layout.RootLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.select_dialog_item_material = global::QueixaAki.Droid.Resource.Layout.select_dialog_item_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.select_dialog_multichoice_material = global::QueixaAki.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.select_dialog_singlechoice_material = global::QueixaAki.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.ShellContent = global::QueixaAki.Droid.Resource.Layout.ShellContent;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::QueixaAki.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_action_bar_home_description = global::QueixaAki.Droid.Resource.String.abc_action_bar_home_description;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_action_bar_up_description = global::QueixaAki.Droid.Resource.String.abc_action_bar_up_description;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_action_menu_overflow_description = global::QueixaAki.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_action_mode_done = global::QueixaAki.Droid.Resource.String.abc_action_mode_done;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_activity_chooser_view_see_all = global::QueixaAki.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_activitychooserview_choose_application = global::QueixaAki.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_capital_off = global::QueixaAki.Droid.Resource.String.abc_capital_off;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_capital_on = global::QueixaAki.Droid.Resource.String.abc_capital_on;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_font_family_body_1_material = global::QueixaAki.Droid.Resource.String.abc_font_family_body_1_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_font_family_body_2_material = global::QueixaAki.Droid.Resource.String.abc_font_family_body_2_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_font_family_button_material = global::QueixaAki.Droid.Resource.String.abc_font_family_button_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_font_family_caption_material = global::QueixaAki.Droid.Resource.String.abc_font_family_caption_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_font_family_display_1_material = global::QueixaAki.Droid.Resource.String.abc_font_family_display_1_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_font_family_display_2_material = global::QueixaAki.Droid.Resource.String.abc_font_family_display_2_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_font_family_display_3_material = global::QueixaAki.Droid.Resource.String.abc_font_family_display_3_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_font_family_display_4_material = global::QueixaAki.Droid.Resource.String.abc_font_family_display_4_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_font_family_headline_material = global::QueixaAki.Droid.Resource.String.abc_font_family_headline_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_font_family_menu_material = global::QueixaAki.Droid.Resource.String.abc_font_family_menu_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_font_family_subhead_material = global::QueixaAki.Droid.Resource.String.abc_font_family_subhead_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_font_family_title_material = global::QueixaAki.Droid.Resource.String.abc_font_family_title_material;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_search_hint = global::QueixaAki.Droid.Resource.String.abc_search_hint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_searchview_description_clear = global::QueixaAki.Droid.Resource.String.abc_searchview_description_clear;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_searchview_description_query = global::QueixaAki.Droid.Resource.String.abc_searchview_description_query;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_searchview_description_search = global::QueixaAki.Droid.Resource.String.abc_searchview_description_search;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_searchview_description_submit = global::QueixaAki.Droid.Resource.String.abc_searchview_description_submit;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_searchview_description_voice = global::QueixaAki.Droid.Resource.String.abc_searchview_description_voice;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_shareactionprovider_share_with = global::QueixaAki.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_shareactionprovider_share_with_application = global::QueixaAki.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_toolbar_collapse_description = global::QueixaAki.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.app_name = global::QueixaAki.Droid.Resource.String.app_name;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.appbar_scrolling_view_behavior = global::QueixaAki.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.bottom_sheet_behavior = global::QueixaAki.Droid.Resource.String.bottom_sheet_behavior;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.character_counter_pattern = global::QueixaAki.Droid.Resource.String.character_counter_pattern;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.hello = global::QueixaAki.Droid.Resource.String.hello;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.password_toggle_content_description = global::QueixaAki.Droid.Resource.String.password_toggle_content_description;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.path_password_eye = global::QueixaAki.Droid.Resource.String.path_password_eye;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.path_password_eye_mask_strike_through = global::QueixaAki.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.path_password_eye_mask_visible = global::QueixaAki.Droid.Resource.String.path_password_eye_mask_visible;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.path_password_strike_through = global::QueixaAki.Droid.Resource.String.path_password_strike_through;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.search_menu_title = global::QueixaAki.Droid.Resource.String.search_menu_title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.String.status_bar_notification_info_overflow = global::QueixaAki.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.AlertDialog_AppCompat = global::QueixaAki.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.AlertDialog_AppCompat_Light = global::QueixaAki.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Animation_AppCompat_Dialog = global::QueixaAki.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::QueixaAki.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Animation_AppCompat_Tooltip = global::QueixaAki.Droid.Resource.Style.Animation_AppCompat_Tooltip;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::QueixaAki.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_AlertDialog_AppCompat = global::QueixaAki.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::QueixaAki.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::QueixaAki.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::QueixaAki.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Animation_AppCompat_Tooltip = global::QueixaAki.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_CardView = global::QueixaAki.Droid.Resource.Style.Base_CardView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::QueixaAki.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::QueixaAki.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::QueixaAki.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat = global::QueixaAki.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::QueixaAki.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::QueixaAki.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::QueixaAki.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::QueixaAki.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::QueixaAki.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::QueixaAki.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light = global::QueixaAki.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::QueixaAki.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::QueixaAki.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::QueixaAki.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::QueixaAki.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::QueixaAki.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::QueixaAki.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::QueixaAki.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::QueixaAki.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::QueixaAki.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::QueixaAki.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::QueixaAki.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::QueixaAki.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::QueixaAki.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V21_Theme_AppCompat = global::QueixaAki.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::QueixaAki.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::QueixaAki.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::QueixaAki.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::QueixaAki.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V22_Theme_AppCompat = global::QueixaAki.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::QueixaAki.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V23_Theme_AppCompat = global::QueixaAki.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::QueixaAki.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V26_Theme_AppCompat = global::QueixaAki.Droid.Resource.Style.Base_V26_Theme_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V26_Theme_AppCompat_Light = global::QueixaAki.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::QueixaAki.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Theme_AppCompat = global::QueixaAki.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::QueixaAki.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::QueixaAki.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::QueixaAki.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::QueixaAki.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::QueixaAki.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::QueixaAki.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::QueixaAki.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::QueixaAki.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_Design_TabLayout = global::QueixaAki.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.CardView = global::QueixaAki.Droid.Resource.Style.CardView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.CardView_Dark = global::QueixaAki.Droid.Resource.Style.CardView_Dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.CardView_Light = global::QueixaAki.Droid.Resource.Style.CardView_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_AppCompat = global::QueixaAki.Droid.Resource.Style.Platform_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_AppCompat_Light = global::QueixaAki.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::QueixaAki.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::QueixaAki.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::QueixaAki.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_V21_AppCompat = global::QueixaAki.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_V21_AppCompat_Light = global::QueixaAki.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_V25_AppCompat = global::QueixaAki.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_V25_AppCompat_Light = global::QueixaAki.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::QueixaAki.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::QueixaAki.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::QueixaAki.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::QueixaAki.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::QueixaAki.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::QueixaAki.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::QueixaAki.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::QueixaAki.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::QueixaAki.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::QueixaAki.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::QueixaAki.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::QueixaAki.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::QueixaAki.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::QueixaAki.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::QueixaAki.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Button = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Large = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Small = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Title = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Tooltip = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::QueixaAki.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification = global::QueixaAki.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::QueixaAki.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::QueixaAki.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::QueixaAki.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::QueixaAki.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::QueixaAki.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::QueixaAki.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::QueixaAki.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::QueixaAki.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::QueixaAki.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::QueixaAki.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Counter = global::QueixaAki.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::QueixaAki.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Error = global::QueixaAki.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Hint = global::QueixaAki.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::QueixaAki.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Tab = global::QueixaAki.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::QueixaAki.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::QueixaAki.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::QueixaAki.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Dialog = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::QueixaAki.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design = global::QueixaAki.Droid.Resource.Style.Theme_Design;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::QueixaAki.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design_Light = global::QueixaAki.Droid.Resource.Style.Theme_Design_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::QueixaAki.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::QueixaAki.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design_NoActionBar = global::QueixaAki.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat = global::QueixaAki.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::QueixaAki.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::QueixaAki.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::QueixaAki.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::QueixaAki.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::QueixaAki.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::QueixaAki.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionBar = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionButton = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionMode = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button_Small = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_EditText = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ImageButton = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ListView = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_RatingBar = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_SearchView = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_SeekBar = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Spinner = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Toolbar = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::QueixaAki.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::QueixaAki.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Compat_NotificationActionText = global::QueixaAki.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_AppBarLayout = global::QueixaAki.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_BottomNavigationView = global::QueixaAki.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::QueixaAki.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::QueixaAki.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_FloatingActionButton = global::QueixaAki.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_NavigationView = global::QueixaAki.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::QueixaAki.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_Snackbar = global::QueixaAki.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_TabLayout = global::QueixaAki.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_TextInputLayout = global::QueixaAki.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar = global::QueixaAki.Droid.Resource.Styleable.ActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_background = global::QueixaAki.Droid.Resource.Styleable.ActionBar_background;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_backgroundSplit = global::QueixaAki.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_backgroundStacked = global::QueixaAki.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::QueixaAki.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::QueixaAki.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::QueixaAki.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetRight = global::QueixaAki.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetStart = global::QueixaAki.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::QueixaAki.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::QueixaAki.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_displayOptions = global::QueixaAki.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_divider = global::QueixaAki.Droid.Resource.Styleable.ActionBar_divider;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_elevation = global::QueixaAki.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_height = global::QueixaAki.Droid.Resource.Styleable.ActionBar_height;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::QueixaAki.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::QueixaAki.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_homeLayout = global::QueixaAki.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_icon = global::QueixaAki.Droid.Resource.Styleable.ActionBar_icon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::QueixaAki.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_itemPadding = global::QueixaAki.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_logo = global::QueixaAki.Droid.Resource.Styleable.ActionBar_logo;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_navigationMode = global::QueixaAki.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_popupTheme = global::QueixaAki.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_progressBarPadding = global::QueixaAki.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_progressBarStyle = global::QueixaAki.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_subtitle = global::QueixaAki.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::QueixaAki.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_title = global::QueixaAki.Droid.Resource.Styleable.ActionBar_title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_titleTextStyle = global::QueixaAki.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBarLayout = global::QueixaAki.Droid.Resource.Styleable.ActionBarLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::QueixaAki.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMenuItemView = global::QueixaAki.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::QueixaAki.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMenuView = global::QueixaAki.Droid.Resource.Styleable.ActionMenuView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode = global::QueixaAki.Droid.Resource.Styleable.ActionMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_background = global::QueixaAki.Droid.Resource.Styleable.ActionMode_background;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_backgroundSplit = global::QueixaAki.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_closeItemLayout = global::QueixaAki.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_height = global::QueixaAki.Droid.Resource.Styleable.ActionMode_height;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::QueixaAki.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_titleTextStyle = global::QueixaAki.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActivityChooserView = global::QueixaAki.Droid.Resource.Styleable.ActivityChooserView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::QueixaAki.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::QueixaAki.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog = global::QueixaAki.Droid.Resource.Styleable.AlertDialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_android_layout = global::QueixaAki.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::QueixaAki.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_listItemLayout = global::QueixaAki.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_listLayout = global::QueixaAki.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::QueixaAki.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_showTitle = global::QueixaAki.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::QueixaAki.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout = global::QueixaAki.Droid.Resource.Styleable.AppBarLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_android_background = global::QueixaAki.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::QueixaAki.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::QueixaAki.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_elevation = global::QueixaAki.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_expanded = global::QueixaAki.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayoutStates = global::QueixaAki.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::QueixaAki.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::QueixaAki.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_Layout = global::QueixaAki.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::QueixaAki.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::QueixaAki.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatImageView = global::QueixaAki.Droid.Resource.Styleable.AppCompatImageView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatImageView_android_src = global::QueixaAki.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::QueixaAki.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatImageView_tint = global::QueixaAki.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatImageView_tintMode = global::QueixaAki.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatSeekBar = global::QueixaAki.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::QueixaAki.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::QueixaAki.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::QueixaAki.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::QueixaAki.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::QueixaAki.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorError = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_colorError;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::QueixaAki.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomNavigationView = global::QueixaAki.Droid.Resource.Styleable.BottomNavigationView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomNavigationView_elevation = global::QueixaAki.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::QueixaAki.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::QueixaAki.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::QueixaAki.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomNavigationView_menu = global::QueixaAki.Droid.Resource.Styleable.BottomNavigationView_menu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::QueixaAki.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::QueixaAki.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::QueixaAki.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::QueixaAki.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ButtonBarLayout = global::QueixaAki.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::QueixaAki.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView = global::QueixaAki.Droid.Resource.Styleable.CardView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_android_minHeight = global::QueixaAki.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_android_minWidth = global::QueixaAki.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardBackgroundColor = global::QueixaAki.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardCornerRadius = global::QueixaAki.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardElevation = global::QueixaAki.Droid.Resource.Styleable.CardView_cardElevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardMaxElevation = global::QueixaAki.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::QueixaAki.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::QueixaAki.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_contentPadding = global::QueixaAki.Droid.Resource.Styleable.CardView_contentPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_contentPaddingBottom = global::QueixaAki.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_contentPaddingLeft = global::QueixaAki.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_contentPaddingRight = global::QueixaAki.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_contentPaddingTop = global::QueixaAki.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::QueixaAki.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ColorStateListItem = global::QueixaAki.Droid.Resource.Styleable.ColorStateListItem;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ColorStateListItem_alpha = global::QueixaAki.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::QueixaAki.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ColorStateListItem_android_color = global::QueixaAki.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CompoundButton = global::QueixaAki.Droid.Resource.Styleable.CompoundButton;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CompoundButton_android_button = global::QueixaAki.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CompoundButton_buttonTint = global::QueixaAki.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::QueixaAki.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout = global::QueixaAki.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_keylines = global::QueixaAki.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::QueixaAki.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout = global::QueixaAki.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::QueixaAki.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::QueixaAki.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::QueixaAki.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::QueixaAki.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::QueixaAki.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::QueixaAki.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::QueixaAki.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DesignTheme = global::QueixaAki.Droid.Resource.Styleable.DesignTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::QueixaAki.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::QueixaAki.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle = global::QueixaAki.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::QueixaAki.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::QueixaAki.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::QueixaAki.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_color = global::QueixaAki.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::QueixaAki.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::QueixaAki.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::QueixaAki.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::QueixaAki.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton = global::QueixaAki.Droid.Resource.Styleable.FloatingActionButton;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::QueixaAki.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::QueixaAki.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::QueixaAki.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_elevation = global::QueixaAki.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_fabSize = global::QueixaAki.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::QueixaAki.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::QueixaAki.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::QueixaAki.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::QueixaAki.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::QueixaAki.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily = global::QueixaAki.Droid.Resource.Styleable.FontFamily;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::QueixaAki.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::QueixaAki.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::QueixaAki.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::QueixaAki.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::QueixaAki.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::QueixaAki.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont = global::QueixaAki.Droid.Resource.Styleable.FontFamilyFont;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_android_font = global::QueixaAki.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_android_fontStyle = global::QueixaAki.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_android_fontWeight = global::QueixaAki.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_font = global::QueixaAki.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::QueixaAki.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::QueixaAki.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ForegroundLinearLayout = global::QueixaAki.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::QueixaAki.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::QueixaAki.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::QueixaAki.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat = global::QueixaAki.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::QueixaAki.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::QueixaAki.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::QueixaAki.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::QueixaAki.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::QueixaAki.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_divider = global::QueixaAki.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::QueixaAki.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::QueixaAki.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::QueixaAki.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::QueixaAki.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::QueixaAki.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::QueixaAki.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::QueixaAki.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::QueixaAki.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ListPopupWindow = global::QueixaAki.Droid.Resource.Styleable.ListPopupWindow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::QueixaAki.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::QueixaAki.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup = global::QueixaAki.Droid.Resource.Styleable.MenuGroup;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::QueixaAki.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_enabled = global::QueixaAki.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_id = global::QueixaAki.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::QueixaAki.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::QueixaAki.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_visible = global::QueixaAki.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem = global::QueixaAki.Droid.Resource.Styleable.MenuItem;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_actionLayout = global::QueixaAki.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_actionProviderClass = global::QueixaAki.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_actionViewClass = global::QueixaAki.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_alphabeticModifiers = global::QueixaAki.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::QueixaAki.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_checkable = global::QueixaAki.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_checked = global::QueixaAki.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_enabled = global::QueixaAki.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_icon = global::QueixaAki.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_id = global::QueixaAki.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_menuCategory = global::QueixaAki.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::QueixaAki.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_onClick = global::QueixaAki.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::QueixaAki.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_title = global::QueixaAki.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::QueixaAki.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_visible = global::QueixaAki.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_contentDescription = global::QueixaAki.Droid.Resource.Styleable.MenuItem_contentDescription;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_iconTint = global::QueixaAki.Droid.Resource.Styleable.MenuItem_iconTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_iconTintMode = global::QueixaAki.Droid.Resource.Styleable.MenuItem_iconTintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_numericModifiers = global::QueixaAki.Droid.Resource.Styleable.MenuItem_numericModifiers;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_showAsAction = global::QueixaAki.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_tooltipText = global::QueixaAki.Droid.Resource.Styleable.MenuItem_tooltipText;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView = global::QueixaAki.Droid.Resource.Styleable.MenuView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_headerBackground = global::QueixaAki.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::QueixaAki.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_itemBackground = global::QueixaAki.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::QueixaAki.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::QueixaAki.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_verticalDivider = global::QueixaAki.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::QueixaAki.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::QueixaAki.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_subMenuArrow = global::QueixaAki.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView = global::QueixaAki.Droid.Resource.Styleable.NavigationView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_android_background = global::QueixaAki.Droid.Resource.Styleable.NavigationView_android_background;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::QueixaAki.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_android_maxWidth = global::QueixaAki.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_elevation = global::QueixaAki.Droid.Resource.Styleable.NavigationView_elevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_headerLayout = global::QueixaAki.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_itemBackground = global::QueixaAki.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_itemIconTint = global::QueixaAki.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::QueixaAki.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_itemTextColor = global::QueixaAki.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_menu = global::QueixaAki.Droid.Resource.Styleable.NavigationView_menu;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindow = global::QueixaAki.Droid.Resource.Styleable.PopupWindow;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::QueixaAki.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::QueixaAki.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::QueixaAki.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindowBackgroundState = global::QueixaAki.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::QueixaAki.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecycleListView = global::QueixaAki.Droid.Resource.Styleable.RecycleListView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::QueixaAki.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::QueixaAki.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView = global::QueixaAki.Droid.Resource.Styleable.RecyclerView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::QueixaAki.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_android_orientation = global::QueixaAki.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::QueixaAki.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::QueixaAki.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::QueixaAki.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::QueixaAki.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::QueixaAki.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_layoutManager = global::QueixaAki.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_reverseLayout = global::QueixaAki.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_spanCount = global::QueixaAki.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::QueixaAki.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::QueixaAki.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::QueixaAki.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::QueixaAki.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::QueixaAki.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView = global::QueixaAki.Droid.Resource.Styleable.SearchView;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_android_focusable = global::QueixaAki.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_android_imeOptions = global::QueixaAki.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_android_inputType = global::QueixaAki.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_android_maxWidth = global::QueixaAki.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_closeIcon = global::QueixaAki.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_commitIcon = global::QueixaAki.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_defaultQueryHint = global::QueixaAki.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_goIcon = global::QueixaAki.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::QueixaAki.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_layout = global::QueixaAki.Droid.Resource.Styleable.SearchView_layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_queryBackground = global::QueixaAki.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_queryHint = global::QueixaAki.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_searchHintIcon = global::QueixaAki.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_searchIcon = global::QueixaAki.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_submitBackground = global::QueixaAki.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::QueixaAki.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_voiceIcon = global::QueixaAki.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SnackbarLayout = global::QueixaAki.Droid.Resource.Styleable.SnackbarLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::QueixaAki.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SnackbarLayout_elevation = global::QueixaAki.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::QueixaAki.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner = global::QueixaAki.Droid.Resource.Styleable.Spinner;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::QueixaAki.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner_android_entries = global::QueixaAki.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner_android_popupBackground = global::QueixaAki.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner_android_prompt = global::QueixaAki.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner_popupTheme = global::QueixaAki.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat = global::QueixaAki.Droid.Resource.Styleable.SwitchCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_android_textOff = global::QueixaAki.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_android_textOn = global::QueixaAki.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_android_thumb = global::QueixaAki.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_showText = global::QueixaAki.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_splitTrack = global::QueixaAki.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::QueixaAki.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_switchPadding = global::QueixaAki.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::QueixaAki.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::QueixaAki.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_thumbTint = global::QueixaAki.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::QueixaAki.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_track = global::QueixaAki.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_trackTint = global::QueixaAki.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::QueixaAki.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabItem = global::QueixaAki.Droid.Resource.Styleable.TabItem;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabItem_android_icon = global::QueixaAki.Droid.Resource.Styleable.TabItem_android_icon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabItem_android_layout = global::QueixaAki.Droid.Resource.Styleable.TabItem_android_layout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabItem_android_text = global::QueixaAki.Droid.Resource.Styleable.TabItem_android_text;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout = global::QueixaAki.Droid.Resource.Styleable.TabLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabBackground = global::QueixaAki.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabContentStart = global::QueixaAki.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabGravity = global::QueixaAki.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::QueixaAki.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::QueixaAki.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::QueixaAki.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabMinWidth = global::QueixaAki.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabMode = global::QueixaAki.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabPadding = global::QueixaAki.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::QueixaAki.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::QueixaAki.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::QueixaAki.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::QueixaAki.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::QueixaAki.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::QueixaAki.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabTextColor = global::QueixaAki.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance = global::QueixaAki.Droid.Resource.Styleable.TextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::QueixaAki.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::QueixaAki.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::QueixaAki.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::QueixaAki.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::QueixaAki.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_textColor = global::QueixaAki.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::QueixaAki.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::QueixaAki.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_textSize = global::QueixaAki.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_textStyle = global::QueixaAki.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_typeface = global::QueixaAki.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_fontFamily = global::QueixaAki.Droid.Resource.Styleable.TextAppearance_fontFamily;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_textAllCaps = global::QueixaAki.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_android_hint = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::QueixaAki.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar = global::QueixaAki.Droid.Resource.Styleable.Toolbar;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_android_gravity = global::QueixaAki.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_android_minHeight = global::QueixaAki.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_buttonGravity = global::QueixaAki.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::QueixaAki.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_collapseIcon = global::QueixaAki.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::QueixaAki.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::QueixaAki.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::QueixaAki.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetRight = global::QueixaAki.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetStart = global::QueixaAki.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::QueixaAki.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_logo = global::QueixaAki.Droid.Resource.Styleable.Toolbar_logo;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_logoDescription = global::QueixaAki.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::QueixaAki.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::QueixaAki.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_navigationIcon = global::QueixaAki.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_popupTheme = global::QueixaAki.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_subtitle = global::QueixaAki.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::QueixaAki.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::QueixaAki.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_title = global::QueixaAki.Droid.Resource.Styleable.Toolbar_title;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMargin = global::QueixaAki.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::QueixaAki.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::QueixaAki.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMarginStart = global::QueixaAki.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMarginTop = global::QueixaAki.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMargins = global::QueixaAki.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::QueixaAki.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleTextColor = global::QueixaAki.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View = global::QueixaAki.Droid.Resource.Styleable.View;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View_android_focusable = global::QueixaAki.Droid.Resource.Styleable.View_android_focusable;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View_android_theme = global::QueixaAki.Droid.Resource.Styleable.View_android_theme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View_paddingEnd = global::QueixaAki.Droid.Resource.Styleable.View_paddingEnd;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View_paddingStart = global::QueixaAki.Droid.Resource.Styleable.View_paddingStart;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View_theme = global::QueixaAki.Droid.Resource.Styleable.View_theme;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewBackgroundHelper = global::QueixaAki.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::QueixaAki.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::QueixaAki.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::QueixaAki.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewStubCompat = global::QueixaAki.Droid.Resource.Styleable.ViewStubCompat;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewStubCompat_android_id = global::QueixaAki.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::QueixaAki.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewStubCompat_android_layout = global::QueixaAki.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::QueixaAki.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::QueixaAki.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::QueixaAki.Droid.Resource.Attribute.font;
@@ -13643,661 +11677,655 @@ namespace QueixaAki.Droid
 			public const int ic_dialog_close_light = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int ic_fullscreen = 2131165313;
+			public const int ic_group_collapse_00 = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int ic_fullscreen_exit = 2131165314;
+			public const int ic_group_collapse_01 = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int ic_group_collapse_00 = 2131165315;
+			public const int ic_group_collapse_02 = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int ic_group_collapse_01 = 2131165316;
+			public const int ic_group_collapse_03 = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int ic_group_collapse_02 = 2131165317;
+			public const int ic_group_collapse_04 = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int ic_group_collapse_03 = 2131165318;
+			public const int ic_group_collapse_05 = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int ic_group_collapse_04 = 2131165319;
+			public const int ic_group_collapse_06 = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int ic_group_collapse_05 = 2131165320;
+			public const int ic_group_collapse_07 = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int ic_group_collapse_06 = 2131165321;
+			public const int ic_group_collapse_08 = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int ic_group_collapse_07 = 2131165322;
+			public const int ic_group_collapse_09 = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int ic_group_collapse_08 = 2131165323;
+			public const int ic_group_collapse_10 = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int ic_group_collapse_09 = 2131165324;
+			public const int ic_group_collapse_11 = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int ic_group_collapse_10 = 2131165325;
+			public const int ic_group_collapse_12 = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int ic_group_collapse_11 = 2131165326;
+			public const int ic_group_collapse_13 = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int ic_group_collapse_12 = 2131165327;
+			public const int ic_group_collapse_14 = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int ic_group_collapse_13 = 2131165328;
+			public const int ic_group_collapse_15 = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int ic_group_collapse_14 = 2131165329;
+			public const int ic_group_expand_00 = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int ic_group_collapse_15 = 2131165330;
+			public const int ic_group_expand_01 = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int ic_group_expand_00 = 2131165331;
+			public const int ic_group_expand_02 = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int ic_group_expand_01 = 2131165332;
+			public const int ic_group_expand_03 = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int ic_group_expand_02 = 2131165333;
+			public const int ic_group_expand_04 = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int ic_group_expand_03 = 2131165334;
+			public const int ic_group_expand_05 = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int ic_group_expand_04 = 2131165335;
+			public const int ic_group_expand_06 = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int ic_group_expand_05 = 2131165336;
+			public const int ic_group_expand_07 = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int ic_group_expand_06 = 2131165337;
+			public const int ic_group_expand_08 = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int ic_group_expand_07 = 2131165338;
+			public const int ic_group_expand_09 = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int ic_group_expand_08 = 2131165339;
+			public const int ic_group_expand_10 = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int ic_group_expand_09 = 2131165340;
+			public const int ic_group_expand_11 = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int ic_group_expand_10 = 2131165341;
+			public const int ic_group_expand_12 = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int ic_group_expand_11 = 2131165342;
+			public const int ic_group_expand_13 = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int ic_group_expand_12 = 2131165343;
+			public const int ic_group_expand_14 = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int ic_group_expand_13 = 2131165344;
+			public const int ic_group_expand_15 = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int ic_group_expand_14 = 2131165345;
+			public const int ic_media_pause_dark = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int ic_group_expand_15 = 2131165346;
+			public const int ic_media_pause_light = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int ic_media_pause_dark = 2131165347;
+			public const int ic_media_play_dark = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int ic_media_pause_light = 2131165348;
+			public const int ic_media_play_light = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int ic_media_play_dark = 2131165349;
+			public const int ic_media_stop_dark = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int ic_media_play_light = 2131165350;
+			public const int ic_media_stop_light = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int ic_media_stop_dark = 2131165351;
+			public const int ic_mr_button_connected_00_dark = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int ic_media_stop_light = 2131165352;
+			public const int ic_mr_button_connected_00_light = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int ic_mr_button_connected_00_dark = 2131165353;
+			public const int ic_mr_button_connected_01_dark = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int ic_mr_button_connected_00_light = 2131165354;
+			public const int ic_mr_button_connected_01_light = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int ic_mr_button_connected_01_dark = 2131165355;
+			public const int ic_mr_button_connected_02_dark = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int ic_mr_button_connected_01_light = 2131165356;
+			public const int ic_mr_button_connected_02_light = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int ic_mr_button_connected_02_dark = 2131165357;
+			public const int ic_mr_button_connected_03_dark = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int ic_mr_button_connected_02_light = 2131165358;
+			public const int ic_mr_button_connected_03_light = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int ic_mr_button_connected_03_dark = 2131165359;
+			public const int ic_mr_button_connected_04_dark = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int ic_mr_button_connected_03_light = 2131165360;
+			public const int ic_mr_button_connected_04_light = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int ic_mr_button_connected_04_dark = 2131165361;
+			public const int ic_mr_button_connected_05_dark = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int ic_mr_button_connected_04_light = 2131165362;
+			public const int ic_mr_button_connected_05_light = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int ic_mr_button_connected_05_dark = 2131165363;
+			public const int ic_mr_button_connected_06_dark = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int ic_mr_button_connected_05_light = 2131165364;
+			public const int ic_mr_button_connected_06_light = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int ic_mr_button_connected_06_dark = 2131165365;
+			public const int ic_mr_button_connected_07_dark = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int ic_mr_button_connected_06_light = 2131165366;
+			public const int ic_mr_button_connected_07_light = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int ic_mr_button_connected_07_dark = 2131165367;
+			public const int ic_mr_button_connected_08_dark = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int ic_mr_button_connected_07_light = 2131165368;
+			public const int ic_mr_button_connected_08_light = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int ic_mr_button_connected_08_dark = 2131165369;
+			public const int ic_mr_button_connected_09_dark = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int ic_mr_button_connected_08_light = 2131165370;
+			public const int ic_mr_button_connected_09_light = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int ic_mr_button_connected_09_dark = 2131165371;
+			public const int ic_mr_button_connected_10_dark = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int ic_mr_button_connected_09_light = 2131165372;
+			public const int ic_mr_button_connected_10_light = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int ic_mr_button_connected_10_dark = 2131165373;
+			public const int ic_mr_button_connected_11_dark = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int ic_mr_button_connected_10_light = 2131165374;
+			public const int ic_mr_button_connected_11_light = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int ic_mr_button_connected_11_dark = 2131165375;
+			public const int ic_mr_button_connected_12_dark = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int ic_mr_button_connected_11_light = 2131165376;
+			public const int ic_mr_button_connected_12_light = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int ic_mr_button_connected_12_dark = 2131165377;
+			public const int ic_mr_button_connected_13_dark = 2131165377;
 			
 			// aapt resource value: 0x7F0700C2
-			public const int ic_mr_button_connected_12_light = 2131165378;
+			public const int ic_mr_button_connected_13_light = 2131165378;
 			
 			// aapt resource value: 0x7F0700C3
-			public const int ic_mr_button_connected_13_dark = 2131165379;
+			public const int ic_mr_button_connected_14_dark = 2131165379;
 			
 			// aapt resource value: 0x7F0700C4
-			public const int ic_mr_button_connected_13_light = 2131165380;
+			public const int ic_mr_button_connected_14_light = 2131165380;
 			
 			// aapt resource value: 0x7F0700C5
-			public const int ic_mr_button_connected_14_dark = 2131165381;
+			public const int ic_mr_button_connected_15_dark = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int ic_mr_button_connected_14_light = 2131165382;
+			public const int ic_mr_button_connected_15_light = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int ic_mr_button_connected_15_dark = 2131165383;
+			public const int ic_mr_button_connected_16_dark = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int ic_mr_button_connected_15_light = 2131165384;
+			public const int ic_mr_button_connected_16_light = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int ic_mr_button_connected_16_dark = 2131165385;
+			public const int ic_mr_button_connected_17_dark = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int ic_mr_button_connected_16_light = 2131165386;
+			public const int ic_mr_button_connected_17_light = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int ic_mr_button_connected_17_dark = 2131165387;
+			public const int ic_mr_button_connected_18_dark = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int ic_mr_button_connected_17_light = 2131165388;
+			public const int ic_mr_button_connected_18_light = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int ic_mr_button_connected_18_dark = 2131165389;
+			public const int ic_mr_button_connected_19_dark = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int ic_mr_button_connected_18_light = 2131165390;
+			public const int ic_mr_button_connected_19_light = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int ic_mr_button_connected_19_dark = 2131165391;
+			public const int ic_mr_button_connected_20_dark = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int ic_mr_button_connected_19_light = 2131165392;
+			public const int ic_mr_button_connected_20_light = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int ic_mr_button_connected_20_dark = 2131165393;
+			public const int ic_mr_button_connected_21_dark = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int ic_mr_button_connected_20_light = 2131165394;
+			public const int ic_mr_button_connected_21_light = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int ic_mr_button_connected_21_dark = 2131165395;
+			public const int ic_mr_button_connected_22_dark = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int ic_mr_button_connected_21_light = 2131165396;
+			public const int ic_mr_button_connected_22_light = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int ic_mr_button_connected_22_dark = 2131165397;
+			public const int ic_mr_button_connected_23_dark = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int ic_mr_button_connected_22_light = 2131165398;
+			public const int ic_mr_button_connected_23_light = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int ic_mr_button_connected_23_dark = 2131165399;
+			public const int ic_mr_button_connected_24_dark = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int ic_mr_button_connected_23_light = 2131165400;
+			public const int ic_mr_button_connected_24_light = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int ic_mr_button_connected_24_dark = 2131165401;
+			public const int ic_mr_button_connected_25_dark = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int ic_mr_button_connected_24_light = 2131165402;
+			public const int ic_mr_button_connected_25_light = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int ic_mr_button_connected_25_dark = 2131165403;
+			public const int ic_mr_button_connected_26_dark = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int ic_mr_button_connected_25_light = 2131165404;
+			public const int ic_mr_button_connected_26_light = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int ic_mr_button_connected_26_dark = 2131165405;
+			public const int ic_mr_button_connected_27_dark = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int ic_mr_button_connected_26_light = 2131165406;
+			public const int ic_mr_button_connected_27_light = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int ic_mr_button_connected_27_dark = 2131165407;
+			public const int ic_mr_button_connected_28_dark = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int ic_mr_button_connected_27_light = 2131165408;
+			public const int ic_mr_button_connected_28_light = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int ic_mr_button_connected_28_dark = 2131165409;
+			public const int ic_mr_button_connected_29_dark = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int ic_mr_button_connected_28_light = 2131165410;
+			public const int ic_mr_button_connected_29_light = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int ic_mr_button_connected_29_dark = 2131165411;
+			public const int ic_mr_button_connected_30_dark = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int ic_mr_button_connected_29_light = 2131165412;
+			public const int ic_mr_button_connected_30_light = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int ic_mr_button_connected_30_dark = 2131165413;
+			public const int ic_mr_button_connecting_00_dark = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int ic_mr_button_connected_30_light = 2131165414;
+			public const int ic_mr_button_connecting_00_light = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int ic_mr_button_connecting_00_dark = 2131165415;
+			public const int ic_mr_button_connecting_01_dark = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int ic_mr_button_connecting_00_light = 2131165416;
+			public const int ic_mr_button_connecting_01_light = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int ic_mr_button_connecting_01_dark = 2131165417;
+			public const int ic_mr_button_connecting_02_dark = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int ic_mr_button_connecting_01_light = 2131165418;
+			public const int ic_mr_button_connecting_02_light = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int ic_mr_button_connecting_02_dark = 2131165419;
+			public const int ic_mr_button_connecting_03_dark = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int ic_mr_button_connecting_02_light = 2131165420;
+			public const int ic_mr_button_connecting_03_light = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int ic_mr_button_connecting_03_dark = 2131165421;
+			public const int ic_mr_button_connecting_04_dark = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int ic_mr_button_connecting_03_light = 2131165422;
+			public const int ic_mr_button_connecting_04_light = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int ic_mr_button_connecting_04_dark = 2131165423;
+			public const int ic_mr_button_connecting_05_dark = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int ic_mr_button_connecting_04_light = 2131165424;
+			public const int ic_mr_button_connecting_05_light = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int ic_mr_button_connecting_05_dark = 2131165425;
+			public const int ic_mr_button_connecting_06_dark = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int ic_mr_button_connecting_05_light = 2131165426;
+			public const int ic_mr_button_connecting_06_light = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int ic_mr_button_connecting_06_dark = 2131165427;
+			public const int ic_mr_button_connecting_07_dark = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int ic_mr_button_connecting_06_light = 2131165428;
+			public const int ic_mr_button_connecting_07_light = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int ic_mr_button_connecting_07_dark = 2131165429;
+			public const int ic_mr_button_connecting_08_dark = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int ic_mr_button_connecting_07_light = 2131165430;
+			public const int ic_mr_button_connecting_08_light = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int ic_mr_button_connecting_08_dark = 2131165431;
+			public const int ic_mr_button_connecting_09_dark = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int ic_mr_button_connecting_08_light = 2131165432;
+			public const int ic_mr_button_connecting_09_light = 2131165432;
 			
 			// aapt resource value: 0x7F0700F9
-			public const int ic_mr_button_connecting_09_dark = 2131165433;
+			public const int ic_mr_button_connecting_10_dark = 2131165433;
 			
 			// aapt resource value: 0x7F0700FA
-			public const int ic_mr_button_connecting_09_light = 2131165434;
+			public const int ic_mr_button_connecting_10_light = 2131165434;
 			
 			// aapt resource value: 0x7F0700FB
-			public const int ic_mr_button_connecting_10_dark = 2131165435;
+			public const int ic_mr_button_connecting_11_dark = 2131165435;
 			
 			// aapt resource value: 0x7F0700FC
-			public const int ic_mr_button_connecting_10_light = 2131165436;
+			public const int ic_mr_button_connecting_11_light = 2131165436;
 			
 			// aapt resource value: 0x7F0700FD
-			public const int ic_mr_button_connecting_11_dark = 2131165437;
+			public const int ic_mr_button_connecting_12_dark = 2131165437;
 			
 			// aapt resource value: 0x7F0700FE
-			public const int ic_mr_button_connecting_11_light = 2131165438;
+			public const int ic_mr_button_connecting_12_light = 2131165438;
 			
 			// aapt resource value: 0x7F0700FF
-			public const int ic_mr_button_connecting_12_dark = 2131165439;
+			public const int ic_mr_button_connecting_13_dark = 2131165439;
 			
 			// aapt resource value: 0x7F070100
-			public const int ic_mr_button_connecting_12_light = 2131165440;
+			public const int ic_mr_button_connecting_13_light = 2131165440;
 			
 			// aapt resource value: 0x7F070101
-			public const int ic_mr_button_connecting_13_dark = 2131165441;
+			public const int ic_mr_button_connecting_14_dark = 2131165441;
 			
 			// aapt resource value: 0x7F070102
-			public const int ic_mr_button_connecting_13_light = 2131165442;
+			public const int ic_mr_button_connecting_14_light = 2131165442;
 			
 			// aapt resource value: 0x7F070103
-			public const int ic_mr_button_connecting_14_dark = 2131165443;
+			public const int ic_mr_button_connecting_15_dark = 2131165443;
 			
 			// aapt resource value: 0x7F070104
-			public const int ic_mr_button_connecting_14_light = 2131165444;
+			public const int ic_mr_button_connecting_15_light = 2131165444;
 			
 			// aapt resource value: 0x7F070105
-			public const int ic_mr_button_connecting_15_dark = 2131165445;
+			public const int ic_mr_button_connecting_16_dark = 2131165445;
 			
 			// aapt resource value: 0x7F070106
-			public const int ic_mr_button_connecting_15_light = 2131165446;
+			public const int ic_mr_button_connecting_16_light = 2131165446;
 			
 			// aapt resource value: 0x7F070107
-			public const int ic_mr_button_connecting_16_dark = 2131165447;
+			public const int ic_mr_button_connecting_17_dark = 2131165447;
 			
 			// aapt resource value: 0x7F070108
-			public const int ic_mr_button_connecting_16_light = 2131165448;
+			public const int ic_mr_button_connecting_17_light = 2131165448;
 			
 			// aapt resource value: 0x7F070109
-			public const int ic_mr_button_connecting_17_dark = 2131165449;
+			public const int ic_mr_button_connecting_18_dark = 2131165449;
 			
 			// aapt resource value: 0x7F07010A
-			public const int ic_mr_button_connecting_17_light = 2131165450;
+			public const int ic_mr_button_connecting_18_light = 2131165450;
 			
 			// aapt resource value: 0x7F07010B
-			public const int ic_mr_button_connecting_18_dark = 2131165451;
+			public const int ic_mr_button_connecting_19_dark = 2131165451;
 			
 			// aapt resource value: 0x7F07010C
-			public const int ic_mr_button_connecting_18_light = 2131165452;
+			public const int ic_mr_button_connecting_19_light = 2131165452;
 			
 			// aapt resource value: 0x7F07010D
-			public const int ic_mr_button_connecting_19_dark = 2131165453;
+			public const int ic_mr_button_connecting_20_dark = 2131165453;
 			
 			// aapt resource value: 0x7F07010E
-			public const int ic_mr_button_connecting_19_light = 2131165454;
+			public const int ic_mr_button_connecting_20_light = 2131165454;
 			
 			// aapt resource value: 0x7F07010F
-			public const int ic_mr_button_connecting_20_dark = 2131165455;
+			public const int ic_mr_button_connecting_21_dark = 2131165455;
 			
 			// aapt resource value: 0x7F070110
-			public const int ic_mr_button_connecting_20_light = 2131165456;
+			public const int ic_mr_button_connecting_21_light = 2131165456;
 			
 			// aapt resource value: 0x7F070111
-			public const int ic_mr_button_connecting_21_dark = 2131165457;
+			public const int ic_mr_button_connecting_22_dark = 2131165457;
 			
 			// aapt resource value: 0x7F070112
-			public const int ic_mr_button_connecting_21_light = 2131165458;
+			public const int ic_mr_button_connecting_22_light = 2131165458;
 			
 			// aapt resource value: 0x7F070113
-			public const int ic_mr_button_connecting_22_dark = 2131165459;
+			public const int ic_mr_button_connecting_23_dark = 2131165459;
 			
 			// aapt resource value: 0x7F070114
-			public const int ic_mr_button_connecting_22_light = 2131165460;
+			public const int ic_mr_button_connecting_23_light = 2131165460;
 			
 			// aapt resource value: 0x7F070115
-			public const int ic_mr_button_connecting_23_dark = 2131165461;
+			public const int ic_mr_button_connecting_24_dark = 2131165461;
 			
 			// aapt resource value: 0x7F070116
-			public const int ic_mr_button_connecting_23_light = 2131165462;
+			public const int ic_mr_button_connecting_24_light = 2131165462;
 			
 			// aapt resource value: 0x7F070117
-			public const int ic_mr_button_connecting_24_dark = 2131165463;
+			public const int ic_mr_button_connecting_25_dark = 2131165463;
 			
 			// aapt resource value: 0x7F070118
-			public const int ic_mr_button_connecting_24_light = 2131165464;
+			public const int ic_mr_button_connecting_25_light = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public const int ic_mr_button_connecting_25_dark = 2131165465;
+			public const int ic_mr_button_connecting_26_dark = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public const int ic_mr_button_connecting_25_light = 2131165466;
+			public const int ic_mr_button_connecting_26_light = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int ic_mr_button_connecting_26_dark = 2131165467;
+			public const int ic_mr_button_connecting_27_dark = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int ic_mr_button_connecting_26_light = 2131165468;
+			public const int ic_mr_button_connecting_27_light = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int ic_mr_button_connecting_27_dark = 2131165469;
+			public const int ic_mr_button_connecting_28_dark = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int ic_mr_button_connecting_27_light = 2131165470;
+			public const int ic_mr_button_connecting_28_light = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int ic_mr_button_connecting_28_dark = 2131165471;
+			public const int ic_mr_button_connecting_29_dark = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int ic_mr_button_connecting_28_light = 2131165472;
+			public const int ic_mr_button_connecting_29_light = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int ic_mr_button_connecting_29_dark = 2131165473;
+			public const int ic_mr_button_connecting_30_dark = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int ic_mr_button_connecting_29_light = 2131165474;
+			public const int ic_mr_button_connecting_30_light = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int ic_mr_button_connecting_30_dark = 2131165475;
+			public const int ic_mr_button_disabled_dark = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int ic_mr_button_connecting_30_light = 2131165476;
+			public const int ic_mr_button_disabled_light = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int ic_mr_button_disabled_dark = 2131165477;
+			public const int ic_mr_button_disconnected_dark = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int ic_mr_button_disabled_light = 2131165478;
+			public const int ic_mr_button_disconnected_light = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int ic_mr_button_disconnected_dark = 2131165479;
+			public const int ic_mr_button_grey = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int ic_mr_button_disconnected_light = 2131165480;
+			public const int ic_mtrl_chip_checked_black = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int ic_mr_button_grey = 2131165481;
+			public const int ic_mtrl_chip_checked_circle = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int ic_mtrl_chip_checked_black = 2131165482;
+			public const int ic_mtrl_chip_close_circle = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int ic_mtrl_chip_checked_circle = 2131165483;
+			public const int ic_vol_type_speaker_dark = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int ic_mtrl_chip_close_circle = 2131165484;
+			public const int ic_vol_type_speaker_group_dark = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int ic_vol_type_speaker_dark = 2131165485;
+			public const int ic_vol_type_speaker_group_light = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int ic_vol_type_speaker_group_dark = 2131165486;
+			public const int ic_vol_type_speaker_light = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int ic_vol_type_speaker_group_light = 2131165487;
+			public const int ic_vol_type_tv_dark = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int ic_vol_type_speaker_light = 2131165488;
+			public const int ic_vol_type_tv_light = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int ic_vol_type_tv_dark = 2131165489;
+			public const int list = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int ic_vol_type_tv_light = 2131165490;
+			public const int mr_button_connected_dark = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int list = 2131165491;
+			public const int mr_button_connected_light = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int mr_button_connected_dark = 2131165492;
+			public const int mr_button_connecting_dark = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int mr_button_connected_light = 2131165493;
+			public const int mr_button_connecting_light = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int mr_button_connecting_dark = 2131165494;
+			public const int mr_button_dark = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int mr_button_connecting_light = 2131165495;
+			public const int mr_button_light = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int mr_button_dark = 2131165496;
+			public const int mr_dialog_close_dark = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int mr_button_light = 2131165497;
+			public const int mr_dialog_close_light = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int mr_dialog_close_dark = 2131165498;
+			public const int mr_dialog_material_background_dark = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int mr_dialog_close_light = 2131165499;
+			public const int mr_dialog_material_background_light = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int mr_dialog_material_background_dark = 2131165500;
+			public const int mr_group_collapse = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int mr_dialog_material_background_light = 2131165501;
+			public const int mr_group_expand = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int mr_group_collapse = 2131165502;
+			public const int mr_media_pause_dark = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int mr_group_expand = 2131165503;
+			public const int mr_media_pause_light = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int mr_media_pause_dark = 2131165504;
+			public const int mr_media_play_dark = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int mr_media_pause_light = 2131165505;
+			public const int mr_media_play_light = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int mr_media_play_dark = 2131165506;
+			public const int mr_media_stop_dark = 2131165506;
 			
 			// aapt resource value: 0x7F070143
-			public const int mr_media_play_light = 2131165507;
+			public const int mr_media_stop_light = 2131165507;
 			
 			// aapt resource value: 0x7F070144
-			public const int mr_media_stop_dark = 2131165508;
+			public const int mr_vol_type_audiotrack_dark = 2131165508;
 			
 			// aapt resource value: 0x7F070145
-			public const int mr_media_stop_light = 2131165509;
+			public const int mr_vol_type_audiotrack_light = 2131165509;
 			
 			// aapt resource value: 0x7F070146
-			public const int mr_vol_type_audiotrack_dark = 2131165510;
+			public const int mtrl_snackbar_background = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int mr_vol_type_audiotrack_light = 2131165511;
+			public const int mtrl_tabs_default_indicator = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int mtrl_snackbar_background = 2131165512;
+			public const int navigation_empty_icon = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int mtrl_tabs_default_indicator = 2131165513;
+			public const int notification_action_background = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int navigation_empty_icon = 2131165514;
+			public const int notification_bg = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int notification_action_background = 2131165515;
+			public const int notification_bg_low = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int notification_bg = 2131165516;
+			public const int notification_bg_low_normal = 2131165516;
 			
 			// aapt resource value: 0x7F07014D
-			public const int notification_bg_low = 2131165517;
+			public const int notification_bg_low_pressed = 2131165517;
 			
 			// aapt resource value: 0x7F07014E
-			public const int notification_bg_low_normal = 2131165518;
+			public const int notification_bg_normal = 2131165518;
 			
 			// aapt resource value: 0x7F07014F
-			public const int notification_bg_low_pressed = 2131165519;
+			public const int notification_bg_normal_pressed = 2131165519;
 			
 			// aapt resource value: 0x7F070150
-			public const int notification_bg_normal = 2131165520;
+			public const int notification_icon_background = 2131165520;
 			
 			// aapt resource value: 0x7F070151
-			public const int notification_bg_normal_pressed = 2131165521;
+			public const int notification_template_icon_bg = 2131165521;
 			
 			// aapt resource value: 0x7F070152
-			public const int notification_icon_background = 2131165522;
+			public const int notification_template_icon_low_bg = 2131165522;
 			
 			// aapt resource value: 0x7F070153
-			public const int notification_template_icon_bg = 2131165523;
+			public const int notification_tile_bg = 2131165523;
 			
 			// aapt resource value: 0x7F070154
-			public const int notification_template_icon_low_bg = 2131165524;
+			public const int notify_panel_notification_icon_bg = 2131165524;
 			
 			// aapt resource value: 0x7F070155
-			public const int notification_tile_bg = 2131165525;
+			public const int paper_clip = 2131165525;
 			
 			// aapt resource value: 0x7F070156
-			public const int notify_panel_notification_icon_bg = 2131165526;
+			public const int send = 2131165526;
 			
 			// aapt resource value: 0x7F070157
-			public const int paper_clip = 2131165527;
+			public const int settings = 2131165527;
 			
 			// aapt resource value: 0x7F070158
-			public const int send = 2131165528;
+			public const int tooltip_frame_dark = 2131165528;
 			
 			// aapt resource value: 0x7F070159
-			public const int settings = 2131165529;
-			
-			// aapt resource value: 0x7F07015A
-			public const int tooltip_frame_dark = 2131165530;
-			
-			// aapt resource value: 0x7F07015B
-			public const int tooltip_frame_light = 2131165531;
+			public const int tooltip_frame_light = 2131165529;
 			
 			static Drawable()
 			{
@@ -15655,191 +13683,185 @@ namespace QueixaAki.Droid
 			// aapt resource value: 0x7F0D0028
 			public const int abc_toolbar_collapse_description = 2131558440;
 			
-			// aapt resource value: 0x7F0D002A
-			public const int appbar_scrolling_view_behavior = 2131558442;
+			// aapt resource value: 0x7F0D0029
+			public const int appbar_scrolling_view_behavior = 2131558441;
 			
 			// aapt resource value: 0x7F0D0000
 			public const int ApplicationName = 2131558400;
 			
-			// aapt resource value: 0x7F0D0029
-			public const int app_name = 2131558441;
+			// aapt resource value: 0x7F0D002A
+			public const int bottom_sheet_behavior = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int bottom_sheet_behavior = 2131558443;
+			public const int character_counter_content_description = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int character_counter_content_description = 2131558444;
+			public const int character_counter_pattern = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int character_counter_pattern = 2131558445;
+			public const int common_google_play_services_enable_button = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int common_google_play_services_enable_button = 2131558446;
+			public const int common_google_play_services_enable_text = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int common_google_play_services_enable_text = 2131558447;
+			public const int common_google_play_services_enable_title = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int common_google_play_services_enable_title = 2131558448;
+			public const int common_google_play_services_install_button = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int common_google_play_services_install_button = 2131558449;
+			public const int common_google_play_services_install_text = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int common_google_play_services_install_text = 2131558450;
+			public const int common_google_play_services_install_title = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int common_google_play_services_install_title = 2131558451;
+			public const int common_google_play_services_notification_channel_name = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int common_google_play_services_notification_channel_name = 2131558452;
+			public const int common_google_play_services_notification_ticker = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int common_google_play_services_notification_ticker = 2131558453;
+			public const int common_google_play_services_unknown_issue = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int common_google_play_services_unknown_issue = 2131558454;
+			public const int common_google_play_services_unsupported_text = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int common_google_play_services_unsupported_text = 2131558455;
+			public const int common_google_play_services_update_button = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
-			public const int common_google_play_services_update_button = 2131558456;
+			public const int common_google_play_services_update_text = 2131558456;
 			
 			// aapt resource value: 0x7F0D0039
-			public const int common_google_play_services_update_text = 2131558457;
+			public const int common_google_play_services_update_title = 2131558457;
 			
 			// aapt resource value: 0x7F0D003A
-			public const int common_google_play_services_update_title = 2131558458;
+			public const int common_google_play_services_updating_text = 2131558458;
 			
 			// aapt resource value: 0x7F0D003B
-			public const int common_google_play_services_updating_text = 2131558459;
+			public const int common_google_play_services_wear_update_text = 2131558459;
 			
 			// aapt resource value: 0x7F0D003C
-			public const int common_google_play_services_wear_update_text = 2131558460;
+			public const int common_open_on_phone = 2131558460;
 			
 			// aapt resource value: 0x7F0D003D
-			public const int common_open_on_phone = 2131558461;
+			public const int common_signin_button_text = 2131558461;
 			
 			// aapt resource value: 0x7F0D003E
-			public const int common_signin_button_text = 2131558462;
+			public const int common_signin_button_text_long = 2131558462;
 			
 			// aapt resource value: 0x7F0D003F
-			public const int common_signin_button_text_long = 2131558463;
+			public const int fab_transformation_scrim_behavior = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int fab_transformation_scrim_behavior = 2131558464;
-			
-			// aapt resource value: 0x7F0D0041
-			public const int fab_transformation_sheet_behavior = 2131558465;
-			
-			// aapt resource value: 0x7F0D0042
-			public const int hello = 2131558466;
+			public const int fab_transformation_sheet_behavior = 2131558464;
 			
 			// aapt resource value: 0x7F0D0001
 			public const int Hello = 2131558401;
 			
+			// aapt resource value: 0x7F0D0041
+			public const int hide_bottom_view_on_scroll_behavior = 2131558465;
+			
+			// aapt resource value: 0x7F0D0042
+			public const int mr_button_content_description = 2131558466;
+			
 			// aapt resource value: 0x7F0D0043
-			public const int hide_bottom_view_on_scroll_behavior = 2131558467;
+			public const int mr_cast_button_connected = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int mr_button_content_description = 2131558468;
+			public const int mr_cast_button_connecting = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int mr_cast_button_connected = 2131558469;
+			public const int mr_cast_button_disconnected = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int mr_cast_button_connecting = 2131558470;
+			public const int mr_cast_dialog_title_view_placeholder = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int mr_cast_button_disconnected = 2131558471;
+			public const int mr_chooser_searching = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int mr_cast_dialog_title_view_placeholder = 2131558472;
+			public const int mr_chooser_title = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int mr_chooser_searching = 2131558473;
+			public const int mr_controller_album_art = 2131558473;
 			
 			// aapt resource value: 0x7F0D004A
-			public const int mr_chooser_title = 2131558474;
+			public const int mr_controller_casting_screen = 2131558474;
 			
 			// aapt resource value: 0x7F0D004B
-			public const int mr_controller_album_art = 2131558475;
+			public const int mr_controller_close_description = 2131558475;
 			
 			// aapt resource value: 0x7F0D004C
-			public const int mr_controller_casting_screen = 2131558476;
+			public const int mr_controller_collapse_group = 2131558476;
 			
 			// aapt resource value: 0x7F0D004D
-			public const int mr_controller_close_description = 2131558477;
+			public const int mr_controller_disconnect = 2131558477;
 			
 			// aapt resource value: 0x7F0D004E
-			public const int mr_controller_collapse_group = 2131558478;
+			public const int mr_controller_expand_group = 2131558478;
 			
 			// aapt resource value: 0x7F0D004F
-			public const int mr_controller_disconnect = 2131558479;
+			public const int mr_controller_no_info_available = 2131558479;
 			
 			// aapt resource value: 0x7F0D0050
-			public const int mr_controller_expand_group = 2131558480;
+			public const int mr_controller_no_media_selected = 2131558480;
 			
 			// aapt resource value: 0x7F0D0051
-			public const int mr_controller_no_info_available = 2131558481;
+			public const int mr_controller_pause = 2131558481;
 			
 			// aapt resource value: 0x7F0D0052
-			public const int mr_controller_no_media_selected = 2131558482;
+			public const int mr_controller_play = 2131558482;
 			
 			// aapt resource value: 0x7F0D0053
-			public const int mr_controller_pause = 2131558483;
+			public const int mr_controller_stop = 2131558483;
 			
 			// aapt resource value: 0x7F0D0054
-			public const int mr_controller_play = 2131558484;
+			public const int mr_controller_stop_casting = 2131558484;
 			
 			// aapt resource value: 0x7F0D0055
-			public const int mr_controller_stop = 2131558485;
+			public const int mr_controller_volume_slider = 2131558485;
 			
 			// aapt resource value: 0x7F0D0056
-			public const int mr_controller_stop_casting = 2131558486;
+			public const int mr_dialog_device_header = 2131558486;
 			
 			// aapt resource value: 0x7F0D0057
-			public const int mr_controller_volume_slider = 2131558487;
+			public const int mr_dialog_route_header = 2131558487;
 			
 			// aapt resource value: 0x7F0D0058
-			public const int mr_dialog_device_header = 2131558488;
+			public const int mr_system_route_name = 2131558488;
 			
 			// aapt resource value: 0x7F0D0059
-			public const int mr_dialog_route_header = 2131558489;
+			public const int mr_user_route_category_name = 2131558489;
 			
 			// aapt resource value: 0x7F0D005A
-			public const int mr_system_route_name = 2131558490;
+			public const int mtrl_chip_close_icon_content_description = 2131558490;
 			
 			// aapt resource value: 0x7F0D005B
-			public const int mr_user_route_category_name = 2131558491;
+			public const int overflow_tab_title = 2131558491;
 			
 			// aapt resource value: 0x7F0D005C
-			public const int mtrl_chip_close_icon_content_description = 2131558492;
+			public const int password_toggle_content_description = 2131558492;
 			
 			// aapt resource value: 0x7F0D005D
-			public const int overflow_tab_title = 2131558493;
+			public const int path_password_eye = 2131558493;
 			
 			// aapt resource value: 0x7F0D005E
-			public const int password_toggle_content_description = 2131558494;
+			public const int path_password_eye_mask_strike_through = 2131558494;
 			
 			// aapt resource value: 0x7F0D005F
-			public const int path_password_eye = 2131558495;
+			public const int path_password_eye_mask_visible = 2131558495;
 			
 			// aapt resource value: 0x7F0D0060
-			public const int path_password_eye_mask_strike_through = 2131558496;
+			public const int path_password_strike_through = 2131558496;
 			
 			// aapt resource value: 0x7F0D0061
-			public const int path_password_eye_mask_visible = 2131558497;
+			public const int search_menu_title = 2131558497;
 			
 			// aapt resource value: 0x7F0D0062
-			public const int path_password_strike_through = 2131558498;
-			
-			// aapt resource value: 0x7F0D0063
-			public const int search_menu_title = 2131558499;
-			
-			// aapt resource value: 0x7F0D0064
-			public const int status_bar_notification_info_overflow = 2131558500;
+			public const int status_bar_notification_info_overflow = 2131558498;
 			
 			static String()
 			{

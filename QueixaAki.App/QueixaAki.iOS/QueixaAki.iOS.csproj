@@ -131,9 +131,6 @@
     <PackageReference Include="Plugin.Permissions">
       <Version>6.0.1</Version>
     </PackageReference>
-    <PackageReference Include="Xam.Forms.VideoPlayer">
-      <Version>1.0.8</Version>
-    </PackageReference>
     <PackageReference Include="Xam.Plugin.Iconize">
       <Version>3.5.0.129</Version>
     </PackageReference>
