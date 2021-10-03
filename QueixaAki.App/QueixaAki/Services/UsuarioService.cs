@@ -23,7 +23,7 @@ namespace QueixaAki.Services
                         {
                             sqlCommand.Transaction = connection.BeginTransaction();
                             sqlCommand.CommandText = "INSERT INTO UsuarioApp (Nome,Sobrenome,RG,CPF,DataNascimento,EMail,Senha,Telefone1,Telefone2,Cep,Rua,Numero,Complemento,Bairro,Cidade,Estado,IdConexao,DataCriacao,Excluido) " +
-                                    "VALUES (@Nome,@Sobrenome,@RG,@CPF,@DataNascimento,@EMail,@Senha,@Telefone1,@Telefone2,@Cep,@Rua,@Numero,@Complemento,@Bairro,@Cidade,@Estado,@IdConexao,@DataCriacao,@Excluido);";
+                                                     "VALUES (@Nome,@Sobrenome,@RG,@CPF,@DataNascimento,@EMail,@Senha,@Telefone1,@Telefone2,@Cep,@Rua,@Numero,@Complemento,@Bairro,@Cidade,@Estado,@IdConexao,@DataCriacao,@Excluido);";
 
                             sqlCommand.Parameters.AddWithValue("@Nome", usuario.Nome);
                             sqlCommand.Parameters.AddWithValue("@Sobrenome", usuario.Sobrenome);
@@ -61,20 +61,23 @@ namespace QueixaAki.Services
             });
         }
 
-        public async Task<Tuple<List<Usuario>, string>> BuscarTodos()
+        public async Task<Tuple<List<Usuario>, string>> BuscarUsuariosExistentes(string email, string cpf = "", string rg = "")
         {
             return await Task.Run(() =>
             {
                 try
                 {
                     var usuarios = new DataTable();
+                    var condicoes = !string.IsNullOrEmpty(email) ? $"Email = '{email}' AND" :
+                        !string.IsNullOrEmpty(cpf) ? $"cpf = '{cpf}' AND" :
+                        !string.IsNullOrEmpty(rg) ? $"rg = '{rg}' AND" : "";
 
                     using (var connection = new SqlConnection(App.ConnectionQueixaAki))
                     {
                         connection.Open();
                         using (var sqlCommand = connection.CreateCommand())
                         {
-                            sqlCommand.CommandText = "SELECT Id, RG, CPF, EMail FROM UsuarioApp WHERE Excluido = 0;";
+                            sqlCommand.CommandText = $"SELECT Id, RG, CPF, EMail FROM UsuarioApp WHERE {condicoes} Excluido = 0;";
                             using (var dataAdapter = new SqlDataAdapter())
                             {
                                 dataAdapter.SelectCommand = sqlCommand;
@@ -112,7 +115,9 @@ namespace QueixaAki.Services
                         connection.Open();
                         using (var sqlCommand = connection.CreateCommand())
                         {
-                            sqlCommand.CommandText = "SELECT u.Id AS IdUsuario, u.EMail, u.Senha, c.* FROM UsuarioApp u INNER JOIN Conexao c ON u.IdConexao = c.Id WHERE u.Excluido = 0 AND c.Excluido = 0;";
+                            sqlCommand.CommandText = "SELECT u.Id AS IdUsuario, u.EMail, u.Senha, c.* \n" +
+                                                     "FROM UsuarioApp u INNER JOIN Conexao c ON u.IdConexao = c.Id \n" +
+                                                    $"WHERE u.Email = {email} AND u.Excluido = 0 AND c.Excluido = 0;";
                             using (var dataAdapter = new SqlDataAdapter())
                             {
                                 dataAdapter.SelectCommand = sqlCommand;
@@ -123,7 +128,7 @@ namespace QueixaAki.Services
                     }
 
                     return new Tuple<Usuario, string>(usuarios.AsEnumerable().ToList()
-                        .Where(x => x.Field<string>("Email") == email && x.Field<string>("Senha") == senha).Select(x =>
+                        .Where(x => x.Field<string>("Senha") == senha).Select(x =>
                             new Usuario
                             {
                                 Id = x.Field<long>("IdUsuario"),

@@ -68,7 +68,7 @@ namespace QueixaAki.ViewModels
 
             #region LOGIN
 
-            if (string.IsNullOrEmpty(Usuario.Email))
+            /*if (string.IsNullOrEmpty(Usuario.Email))
                 campos += string.IsNullOrEmpty(campos) ? "E-Mail" : ", E-Mail";
 
             if (string.IsNullOrEmpty(Usuario.Senha))
@@ -135,8 +135,6 @@ namespace QueixaAki.ViewModels
 
             #region VALIDAR CAMPOS
 
-            var usuarios = await _usuarioService.BuscarTodos();
-
             #region LOGIN
 
             if (!Usuario.Email.ValidarEMail())
@@ -147,9 +145,10 @@ namespace QueixaAki.ViewModels
                     MessageText = "E-Mail não é válido!"
                 }, "Message");
                 return false;
-            }
+            }*/
 
-            if (usuarios.Item1.Any(x => x.Email == Usuario.Email))
+            var usuariosEmail = await _usuarioService.BuscarUsuariosExistentes(Usuario.Email);
+            if (usuariosEmail.Item1.Any(x => x.Email == Usuario.Email))
             {
                 MessagingCenter.Send(new Message
                 {
@@ -213,14 +212,18 @@ namespace QueixaAki.ViewModels
                 return false;
             }
 
-            if (!string.IsNullOrEmpty(Usuario.RG) && usuarios.Item1.Any(x => x.RG == Usuario.RG))
+            if (!string.IsNullOrEmpty(Usuario.RG))
             {
-                MessagingCenter.Send(new Message
+                var usuariosRG = await _usuarioService.BuscarUsuariosExistentes(Usuario.RG);
+                if (usuariosRG.Item1.Any(x => x.RG == Usuario.RG))
                 {
-                    Title = "RG",
-                    MessageText = "RG já cadastrado!"
-                }, "Message");
-                return false;
+                    MessagingCenter.Send(new Message
+                    {
+                        Title = "RG",
+                        MessageText = "RG já cadastrado!"
+                    }, "Message");
+                    return false;
+                }
             }
 
             if (!Usuario.CPF.ValidarCPF())
@@ -233,7 +236,8 @@ namespace QueixaAki.ViewModels
                 return false;
             }
 
-            if (usuarios.Item1.Any(x => x.CPF == Usuario.CPF))
+            var usuariosCPF = await _usuarioService.BuscarUsuariosExistentes(Usuario.CPF);
+            if (usuariosCPF.Item1.Any(x => x.CPF == Usuario.CPF))
             {
                 MessagingCenter.Send(new Message
                 {

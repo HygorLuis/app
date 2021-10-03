@@ -11,7 +11,8 @@ namespace QueixaAki
 
         //public static string ConnectionString = "Server=10.0.2.2; Initial Catalog=QueixaAki; User ID=queixaaki; Password=3ky09p005";
         //public static string ConnectionString = "Server=queixaqui.database.windows.net; Initial Catalog=QueixaAki; User ID=queixaki; Password=/3XpLO5@*+57690/";
-        public static string ConnectionQueixaAki = "Server=queixaaki.database.windows.net; Initial Catalog=QueixaAki; User ID=queixaaki; Password=/3XpLO5@*+57690/";
+        //public static string ConnectionQueixaAki = "Server=queixaaki.database.windows.net; Initial Catalog=QueixaAki; User ID=queixaaki; Password=/3XpLO5@*+57690/";
+        public static string ConnectionQueixaAki = "Server=localhost; Initial Catalog=QueixaAki; User ID=queixaaki; Password=/3XpLO5@*+57690/; Trusted_Connection=true";
         public static string ConnectionBanco { get; set; }
         public static long IdUsuario { get; set; }
         public static long IdConexao { get; set; }
